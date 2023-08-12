@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "JSON": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.15"
+  }
+}
