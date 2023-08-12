@@ -1,7 +1,7 @@
 
 import axios from "axios";
 import {BaseApi42} from "./base_api42";
-import { Api42 } from "./Api42";
+import { Api42 } from "./api42";
 import { writeFileSync } from "fs";
 //"filter[campus_id]" : campus_id.toString()
 const api : {client_id: string, client_secret: string, grant_type: string}=  require('./api.json');
