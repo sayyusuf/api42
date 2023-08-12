@@ -1,5 +1,5 @@
 import {BaseApi42} from "./base_api42";
-
+import  {User} from "./type42"
 export class Api42 {
     private base: BaseApi42;
 
@@ -16,7 +16,7 @@ export class Api42 {
 
 
 
-    public async users_id(user_id): Promise<any>{
+    public async users_id(user_id): Promise<User>{
         return await this.base.get("/v2/users/" + user_id);
 
     }
