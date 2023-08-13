@@ -1,12 +1,16 @@
-import { BaseApi42 } from "../BaseApi42";
-import { UsersApi } from "../sub_classes/UsersApi/UsersApi";
+import { BaseApi42 } from "./base/BaseApi42";
+import { UsersApi } from "./api/users/users.api"
 
 class IntraApi{
 	private base: BaseApi42
 	public users: UsersApi
-	public async new(clientId: string, clientSecret: string, grantType = "client_credentials"){
-		this.base = await BaseApi42.new(clientId, clientSecret, grantType);
-		this.users = new UsersApi(this.base)
+	static async new(clientId: string, clientSecret: string, grantType = "client_credentials") : Promise<IntraApi>{
+		const base = await BaseApi42.new(clientId, clientSecret, grantType);
+		return new IntraApi(base)
 	}
-	private constructor(){}
+	private constructor(baseApi: BaseApi42){
+		this.base = baseApi
+		this.users = new UsersApi(this.base)
+		// this.achievements = new AchievementsApi(this.base)
+	}
 }
