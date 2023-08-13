@@ -1,6 +1,6 @@
 import {BaseApi42} from "./BaseApi42";
 import  {User} from "./Type42"
-import { UsersApi } from "./UsersApi";
+import { UsersApi } from "./sub_classes/UsersApi/UsersApi";
 
 export class Api42 {
     private base: BaseApi42;

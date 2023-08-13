@@ -18,7 +18,6 @@ type ApiData = {
 	client_secret	: string
 };
 
-
 export class BaseApi42
 {
 	private auth	: Auth42;
