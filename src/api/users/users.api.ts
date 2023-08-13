@@ -11,7 +11,7 @@ export class UsersApi {
 
 
     //Get a user
-    public async users_id(user_id): Promise<User>{
+    public async users_id(user_id: string): Promise<User>{
         return await this.base.get("/v2/users/" + user_id, {});
     }
 }
