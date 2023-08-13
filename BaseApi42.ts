@@ -33,6 +33,8 @@ export class BaseApi42
 		};
 
 		const auth : Auth42 = await BaseApi42.new_auth(clientId, clientSecret, grantType);
+		if (!auth)
+			throw "bad auth, refresh your api"
 		return new BaseApi42(auth, prvData);
 	}
 

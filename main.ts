@@ -1,7 +1,7 @@
 
 import axios from "axios";
-import {BaseApi42} from "./base_api42";
-import { Api42 } from "./api42";
+import {BaseApi42} from "./BaseApi42";
+import { Api42 } from "./Api42";
 import { writeFileSync } from "fs";
 //"filter[campus_id]" : campus_id.toString()
 const api : {client_id: string, client_secret: string, grant_type: string}=  require('./api.json');
@@ -18,7 +18,7 @@ const api : {client_id: string, client_secret: string, grant_type: string}=  req
 		//console.log(data)
 		//data = await Bapi.get("/v2/cursus/" + cursus_id + "/cursus_users",  {"sort": "-level", "range[blackholed_at]" : "2022-01-21T06:42, 2022-11-30T06:42", "filter[campus_id]" : campus_id.toString()});
 		
-		data = await api42.users_id("akarahan");
+		data = await api42.users.users_id("akarahan");
 		writeFileSync("./res.json", JSON.stringify(data));
 	})() 
 
