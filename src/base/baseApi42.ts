@@ -2,6 +2,7 @@
 import axios from "axios";
 import { trace } from "console";
 import { AnyTxtRecord } from "dns";
+import { ApiData } from "./types";
 
 type Auth42 = {
 	access_token		: string,
@@ -12,49 +13,34 @@ type Auth42 = {
 	secret_valid_until	: number
 }
 
-type ApiData = {
-	grant_type		: string,
-	client_id 		: string,
-	client_secret	: string
-};
 
 export class BaseApi42
 {
 	private auth	: Auth42;
 	private	prvData	: ApiData;
 
-	static async new(clientId: string, clientSecret: string, grantType = "client_credentials"): Promise<BaseApi42> {		
+	static async new(apiData: ApiData): Promise<BaseApi42> {		
 		
-		const prvData = {
-			grant_type: grantType,
-			client_id : clientId,
-			client_secret : clientSecret
-		};
+		const auth : Auth42 = await BaseApi42.new_auth(apiData);
 
-		const auth : Auth42 = await BaseApi42.new_auth(clientId, clientSecret, grantType);
 		if (!auth)
 			throw "bad auth, refresh your api"
-		return new BaseApi42(auth, prvData);
+		return new BaseApi42(auth, apiData);
 	}
 
-	static async new_auth(clientId: string, clientSecret: string, grant_type = "client_credentials"): Promise<Auth42>{		
-		const prvData = {
-			grant_type		: grant_type,
-			client_id		: clientId,
-			client_secret	: clientSecret
-		}
+	static async new_auth(apiData: ApiData): Promise<Auth42>{		
 		const pack : any = {
 			url:   "/oauth/token",
 			method: 'post',
 			baseURL: 'https://api.intra.42.fr',
-			data: prvData,
+			data: apiData,
 			responseType: 'json',
 			responseEncoding: 'utf8',
 		};
 		try{
 			return (await (await axios(pack)).data);
-		}catch{
-			throw "BaseApi42 -> bad api" 
+		}catch (e){
+			throw e
 		}
 	}
 
@@ -90,7 +76,7 @@ export class BaseApi42
 				if (!(err === undefined )&& err.response.status == 401 || err.response.status == 429)
 				{
 					if (err.response.status == 401)
-						this.auth = await BaseApi42.new_auth(this.prvData.client_id, this.prvData.client_secret, this.prvData.grant_type);
+						this.auth = await BaseApi42.new_auth(this.prvData);
 					continue ;
 				}
 				else throw err;
