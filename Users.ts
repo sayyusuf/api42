@@ -15,9 +15,19 @@ export class Api42 {
 
 
 
-
+    //Get a user
     public async users_id(user_id): Promise<User>{
         return await this.base.get("/v2/users/" + user_id);
-
     }
+
+    //Show the current resource owner
+    public async me(): Promise<User>{
+        return await this.base.get("/v2/me");
+    }
+
+    //Return all the users of the given Group
+    public async me(group_id, user_id): Promise<User>{
+        return await this.base.get("/v2/groups/" + group_id + "/" + user_id);
+    }
+	
 }
