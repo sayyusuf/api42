@@ -1,6 +1,6 @@
 import { AnyTxtRecord } from "dns";
-import {BaseApi42} from "../../BaseApi42";
-import  {User} from "../../Type42"
+import {BaseApi42} from "../../base/baseApi42";
+import  {User} from "./users.types"
 
 export class UsersApi {
     private base: BaseApi42;

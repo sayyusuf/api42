@@ -1,7 +1,7 @@
-import { BaseApi42 } from "./base/BaseApi42";
+import { BaseApi42 } from "./base/baseApi42";
 import { UsersApi } from "./api/users/users.api"
 
-class IntraApi{
+export class IntraApi{
 	private base: BaseApi42
 	public users: UsersApi
 	static async new(clientId: string, clientSecret: string, grantType = "client_credentials") : Promise<IntraApi>{

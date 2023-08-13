@@ -1,7 +1,7 @@
 
 import axios from "axios";
-import {BaseApi42} from "./BaseApi42";
-import { Api42 } from "./Api42";
+import {BaseApi42} from "../base/baseApi42";
+import { IntraApi} from "../intrapi"
 import { writeFileSync } from "fs";
 //"filter[campus_id]" : campus_id.toString()
 const api : {client_id: string, client_secret: string, grant_type: string}=  require('./api.json');
@@ -11,7 +11,7 @@ const api : {client_id: string, client_secret: string, grant_type: string}=  req
 	let data :any;
 	(async function () {
 		
-		const api42 = await Api42.new(api.client_id, api.client_secret, api.grant_type);
+		const api42 = await IntraApi.new(api.client_id, api.client_secret, api.grant_type);
 		const Bapi = await BaseApi42.new(api.client_id, api.client_secret, api.grant_type);
 	 	
 		//data = await Bapi.get("/v2/users/ysay");
