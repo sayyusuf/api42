@@ -22,32 +22,22 @@ export class BaseApi42
 {
 	private auth	: Auth42;
 	private	prvData	: ApiData;
-	constructor(clientId: string, clientSecret: string, grantType = "client_credentials"){
+
+	static async new(clientId: string, clientSecret: string, grantType = "client_credentials"): Promise<BaseApi42> {		
+		
 		const prvData = {
 			grant_type: grantType,
 			client_id : clientId,
 			client_secret : clientSecret
 		};
-		this.prvData = prvData
-		this.new_auth(clientId, clientSecret, grantType)
-			.then(auth => this.auth = auth)
-			.catch(error => {throw "bad auth, refresh your api"})		
+
+		const auth : Auth42 = await BaseApi42.new_auth(clientId, clientSecret, grantType);
+		if (!auth)
+			throw "bad auth, refresh your api"
+		return new BaseApi42(auth, prvData);
 	}
-	// static async new(clientId: string, clientSecret: string, grantType = "client_credentials"): Promise<BaseApi42> {		
-		
-	// 	const prvData = {
-	// 		grant_type: grantType,
-	// 		client_id : clientId,
-	// 		client_secret : clientSecret
-	// 	};
 
-	// 	const auth : Auth42 = await BaseApi42.new_auth(clientId, clientSecret, grantType);
-	// 	if (!auth)
-	// 		throw "bad auth, refresh your api"
-	// 	return new BaseApi42(auth, prvData);
-	// }
-
-	private async new_auth(clientId: string, clientSecret: string, grant_type = "client_credentials"): Promise<Auth42>{		
+	static async new_auth(clientId: string, clientSecret: string, grant_type = "client_credentials"): Promise<Auth42>{		
 		const prvData = {
 			grant_type		: grant_type,
 			client_id		: clientId,
@@ -68,11 +58,11 @@ export class BaseApi42
 		}
 	}
 
-	// constructor (auth: Auth42, prvData: ApiData)
-	// {
-	// 	this.auth = auth;
-	// 	this.prvData = prvData;
-	// }
+	private constructor (auth: Auth42, prvData: ApiData)
+	{
+		this.auth = auth;
+		this.prvData = prvData;
+	}
 
 	public async get(url: string , params: any = {}) : Promise<any> {
 		const data: any = [] ;
@@ -100,7 +90,7 @@ export class BaseApi42
 				if (!(err === undefined )&& err.response.status == 401 || err.response.status == 429)
 				{
 					if (err.response.status == 401)
-						this.auth = await this.new_auth(this.prvData.client_id, this.prvData.client_secret, this.prvData.grant_type);
+						this.auth = await BaseApi42.new_auth(this.prvData.client_id, this.prvData.client_secret, this.prvData.grant_type);
 					continue ;
 				}
 				else throw err;
