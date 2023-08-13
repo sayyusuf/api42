@@ -1,6 +1,6 @@
 import {BaseApi42} from "./base_api42";
 import  {TitlesUser} from "./type42"
-export class Api42 {
+export class TitlesUsers {
     private base: BaseApi42;
 
 	static async new(clientId: string, clientSecret: string, grantType = "client_credentials"): Promise<Api42> {		
