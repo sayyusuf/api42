@@ -1,6 +1,7 @@
 import { promises } from "dns";
 import {BaseApi42} from "../../base/baseApi42";
 import { Accreditation } from "./accreditations.type"
+import { AccreditationParams } from "./accreditations.params.type";
 
 
 export class Accreditations {
@@ -14,7 +15,7 @@ export class Accreditations {
      * @param params any object or default {}
      * @returns Accreditation array
      */
-    public async get_accreditations(params: any = {}): Promise<Accreditation>{
+    public async get_accreditations(params: AccreditationParams): Promise<Accreditation>{
         return await this.base.get("/v2/accreditations", params);
     }
 
@@ -24,7 +25,7 @@ export class Accreditations {
      * @param params any object or default {}
      * @returns Accreditation object
      */
-    public async get_accreditations_id(id: string | number ,params: any = {}): Promise<Accreditation>{
-        return await this.base.get("/v2/accreditations/" + id, params);
+    public async get_accreditations_id(id: string | number): Promise<Accreditation>{
+        return await this.base.get("/v2/accreditations/" + id);
     }
 }

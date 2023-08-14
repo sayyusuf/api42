@@ -3,7 +3,7 @@ import {BaseApi42} from "../../../base/baseApi42";
 import { writeFileSync } from "fs";
 import { ApiData } from "../../../base/types";
 import { Accreditations} from "../accreditations.api"
-//"filter[campus_id]" : campus_id.toString()
+
 const api : {client_id: string, client_secret: string, grant_type: string, code?:string|undefined, redirect_uri?:string|undefined}=  require('./api.json');
 
 	const cursus_id =  21; // Ana eğitim;
@@ -22,14 +22,9 @@ const api : {client_id: string, client_secret: string, grant_type: string, code?
 		let ac = new Accreditations(base);
 		//data = await intrapi.users.getMe()
 		//data = await ac.get_accreditations();
-		data = await ac.get_accreditations_id(13);
+		data = await ac.get_accreditations({"range[id]": "1, 10", "filter[id]": [1, 2, 3, 4], sort:"id"});
 		console.log(data)
 		writeFileSync("./res.json", JSON.stringify(data));
 	})() 
-
-
-
-
-
 
 	
