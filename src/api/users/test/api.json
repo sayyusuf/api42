@@ -1,0 +1,5 @@
+{
+    "grant_type":"client_credentials",
+    "client_id" : "u-s4t2ud-0c86fae705be5836d754de72138ba91bf555db331348ae3e94ac376b3f7e9e3f",
+    "client_secret" :"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"
+}
