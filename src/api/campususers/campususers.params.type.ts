@@ -1,5 +1,5 @@
 export type CampusUserParams = {
-	user_id?: string;
+	user_id?: string | number;
 	sort?: ParamStringLiterals;
 	filter?: ParamStringLiterals;
 	range?: ParamStringLiterals;
