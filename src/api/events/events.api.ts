@@ -1,4 +1,5 @@
 import { AnyTxtRecord } from "dns";
+import { EventsParams } from "./events.params.type";
 import {BaseApi42} from "../../base/baseApi42";
 
 export class UsersApi {
@@ -14,7 +15,7 @@ export class UsersApi {
      * @param params any object or default {}
      * @returns Return all the events
      */
-    public async get_events(params: any = {}): Promise<Any>{
+    public async get_events(params: EventsParams): Promise<Any>{
         return await this.base.get("/v2/users/", params);
     }
 
@@ -23,7 +24,7 @@ export class UsersApi {
      * @param user_id
      * @returns Return all the events of the given User
      */
-    public async get_events_with_id(user_id: string, params: any = {}): Promise<Any>{
+    public async get_events_with_id(user_id: string, params: EventsParams): Promise<Any>{
         return await this.base.get("/v2/users/" + user_id, params);
     }
 }
