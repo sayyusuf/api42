@@ -20,6 +20,15 @@ export class UsersApi {
         return await this.base.get("/v2/events/", params);
     }
 
+	/**
+     * api: `GET /v2/events/:id`
+     * @param id
+     * @returns Get an event
+     */
+    public async get_events(id: string, params: EventsParams): Promise<EventsType>{
+        return await this.base.get("/v2/events/" + id, params);
+    }
+
     /**
      * api: `GET /v2/users/:user_id/events  `
      * @param user_id
