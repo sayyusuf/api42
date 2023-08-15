@@ -12,11 +12,11 @@ export class UsersApi {
 
     /**
      * api: `GET /v2/events_users/:id  `
-     * @param user_id
+     * @param id
      * @returns Get an events user
      */
-    public async get_events_users_with_user_id(user_id: string, params: EventsUsersParams): Promise<Any>{
-        return await this.base.get("/v2/events_users/" + user_id, params);
+    public async get_events_users_with_id(id: string, params: EventsUsersParams): Promise<Any>{
+        return await this.base.get("/v2/events_users/" + id, params);
     }
 
   /**
