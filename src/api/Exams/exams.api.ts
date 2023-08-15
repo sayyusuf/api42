@@ -1,5 +1,5 @@
 import { AnyTxtRecord } from "dns";
-import { ExamsParams } from "./exams.params.type";
+import { ExamsParams } from "./exams.params.types";
 import {BaseApi42} from "../../base/baseApi42";
 
 export class UsersApi {
