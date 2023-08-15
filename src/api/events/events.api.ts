@@ -25,7 +25,7 @@ export class UsersApi {
      * @param id
      * @returns Get an event
      */
-    public async get_events(id: string, params: EventsParams): Promise<EventsType>{
+    public async get_events_with_id(id: string, params: EventsParams): Promise<EventsType>{
         return await this.base.get("/v2/events/" + id, params);
     }
 
@@ -34,7 +34,7 @@ export class UsersApi {
      * @param user_id
      * @returns Return all the events of the given User
      */
-    public async get_events_with_id(user_id: string, params: EventsParams): Promise<EventsType>{
+    public async get_events_with_user_id(user_id: string, params: EventsParams): Promise<EventsType>{
         return await this.base.get("/v2/users/" + user_id + "/events", params);
     }
 
