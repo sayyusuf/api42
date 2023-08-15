@@ -1,5 +1,5 @@
 import { AnyTxtRecord } from "dns";
-import { FeedbacksParams } from "./expertisesusers.params.types";
+import { FeedbacksParams } from "./feedbacks.params.types";
 import {BaseApi42} from "../../base/baseApi42";
 
 export class UsersApi {
