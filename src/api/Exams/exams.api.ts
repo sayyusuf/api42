@@ -15,7 +15,7 @@ export class UsersApi {
      * @param id
      * @returns Get an exam
      */
-    public async get_events_users_with_id(id: string, params: EventsUsersParams): Promise<ExamsParams>{
+    public async get_events_users_with_id(id: string, params: ExamsParams): Promise<ExamsParams>{
         return await this.base.get("/v2/exams/" + id, params);
     }
 }
