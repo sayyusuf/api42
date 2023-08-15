@@ -17,7 +17,7 @@ export type Events {
     updated_at:                  string;
 }
 
-export interface Theme {
+export type Theme {
     created_at: string;
     id:         number;
     name:       string;
