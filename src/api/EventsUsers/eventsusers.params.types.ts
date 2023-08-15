@@ -10,4 +10,4 @@ export type EventsUsersParams = {
 	"page[size]"?: number;
 }
 
-type ParamStringLiterals =  "id" | "event_id" | "user_id" | "created_at" | "updated_at" | "campus_id"
+type ParamStringLiterals =  "id" | "event_id" | "user_id" | "created_at" | "updated_at" | "campus_id";
