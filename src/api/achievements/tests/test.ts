@@ -2,10 +2,10 @@
 import {BaseApi42} from "../../../base/baseApi42";
 import { writeFileSync } from "fs";
 import { ApiData } from "../../../base/types";
-import { AccreditationsApi} from "../accreditations.api"
+import { AchievementsApi } from "../achievements.api";
+
 
 const api : {client_id: string, client_secret: string, grant_type: string, code?:string|undefined, redirect_uri?:string|undefined}=  require('./api.json');
-
 	const cursus_id =  21; // Ana eğitim;
 	const campus_id = 49; //istanbul
 	let data :any;
@@ -19,10 +19,10 @@ const api : {client_id: string, client_secret: string, grant_type: string, code?
 		}
 
 		let base = await BaseApi42.new(apiData);
-		let ac = new AccreditationsApi(base);
+		let ac = new AchievementsApi(base);
 		//data = await intrapi.users.getMe()
 		//data = await ac.get_accreditations();
-		data = await ac.get_accreditations({"range[id]": "1, 10", "filter[id]": [1, 2, 3, 4], sort:"id"});
+		data = await ac.get_achievements_id(12);
 		console.log(data)
 		writeFileSync("./res.json", JSON.stringify(data));
 	})() 

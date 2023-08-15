@@ -8,7 +8,7 @@
  * `page` : `number`
  * 
  *  `"page[number]"` : `number`
- 
+ * 
  *  `"page[size]"` : `number`
  */
 
