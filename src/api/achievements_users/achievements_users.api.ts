@@ -1,5 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
-import { AchievementsUsersParams } from "./achievements users.params.type";
+import { AchievementsUsersParams } from "./achievements_users.params.type";
 import { AchievementsUser } from "./achievements_users.type";
 
 export class AchievementsUsersApi {

@@ -21,7 +21,7 @@ export type AchievementsUsersParams  =  {
     "filter[achievement_id]"?:  number[],
     "filter[nbr_of_success]"?:  number[],
     "filter[created_at]"?:      string[],
-    "filter[updated_at]"?:      string[]
+    "filter[updated_at]"?:      string[],
     "filter[rewarded]"?:        boolean[],
 
     "range[id]"?:               string,
