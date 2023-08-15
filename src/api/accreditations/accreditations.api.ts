@@ -13,7 +13,7 @@ export class AccreditationsApi {
      * @param params AccreditationParams
      * @returns Accreditation array
      */
-    public async get_accreditations(params: AccreditationParams): Promise<Accreditation[]>{
+    public async get_accreditations(params?: AccreditationParams): Promise<Accreditation[]>{
         return await this.base.get("/v2/accreditations", params);
     }
 
