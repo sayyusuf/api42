@@ -19,11 +19,10 @@ const api : {client_id: string, client_secret: string, grant_type: string, code?
 
 		let base = await BaseApi42.new(apiData);
 		let ac = new AchievementsUsersApi(base);
-		//data = await ac.get_achievementsUsers({"range[user_id]": "100, 101"})
+		data = await ac.get_achievementsUsers({"range[user_id]": "100, 101"})
 		///data = await ac.get_achievements_achievementId_achievementsUsers(1, {"range[nbr_of_success]": "0, 100"});
 		//data = await ac.get_achievementsUsers_id(196222);
 		console.log(data)
 		writeFileSync("./res.json", JSON.stringify(data));
 	})() 
 
-	
