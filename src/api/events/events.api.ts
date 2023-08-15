@@ -34,7 +34,7 @@ export class UsersApi {
      * @param campus_id, curcus_id
      * @returns Return all the events of the given Cursus, associated with the given Campus
      */
-    public async get_events_with_campus_id(campus_id: string, curcus_id: string, params: EventsParams): Promise<EventsType>{
+    public async get_events_with_campus_curcus_id(campus_id: string, curcus_id: string, params: EventsParams): Promise<EventsType>{
         return await this.base.get("/v2/campus/" + campus_id + "/cursus/" + curcus_id + "/events", params);
     }
 
@@ -52,7 +52,7 @@ export class UsersApi {
      * @param  curcus_id
      * @returns Return all the events of the given Cursus
      */
-    public async get_events_with_campus_id(cursus_id: string, params: EventsParams): Promise<EventsType>{
+    public async get_events_with_curcus_id(cursus_id: string, params: EventsParams): Promise<EventsType>{
         return await this.base.get("/v2/cursus/" + cursus_id + "/events", params);
     }
 }
