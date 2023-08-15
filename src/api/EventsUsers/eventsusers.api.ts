@@ -1,5 +1,5 @@
 import { AnyTxtRecord } from "dns";
-import { EventsUsersParams } from "./eventsusers.params.type";
+import { EventsUsersParams } from "./eventsusers.params.types";
 import {BaseApi42} from "../../base/baseApi42";
 
 export class UsersApi {
