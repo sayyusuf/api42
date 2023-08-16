@@ -2,7 +2,8 @@
 import {BaseApi42} from "../../../base/baseApi42";
 import { writeFileSync } from "fs";
 import { ApiData } from "../../../base/types";
-import { AchievementsUsersApi } from "../achievements_users.api";
+import { AnnouncementsApi } from "../announcements.api";
+
 
 const api : {client_id: string, client_secret: string, grant_type: string, code?:string|undefined, redirect_uri?:string|undefined}=  require('./api.json');
 	const cursus_id =  21; // Ana eğitim;
@@ -18,11 +19,11 @@ const api : {client_id: string, client_secret: string, grant_type: string, code?
 		}
 
 		let base = await BaseApi42.new(apiData);
-		let ac = new AchievementsUsersApi(base);
-		//data = await ac.get_achievementsUsers({"range[user_id]": "100, 101"})
-		///data = await ac.get_achievements_achievementId_achievementsUsers(1, {"range[nbr_of_success]": "0, 100"});
-		//data = await ac.get_achievementsUsers_id(196222);
+		let ac = new AnnouncementsApi(base);
+		//data = await ac.announcements_graph("/on/created_at/by/day");
+		data = await ac.announcements_id(66);
 		console.log(data)
 		writeFileSync("./res.json", JSON.stringify(data));
 	})() 
 
+	
