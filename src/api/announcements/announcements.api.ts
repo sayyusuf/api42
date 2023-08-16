@@ -12,7 +12,7 @@ export class AnnouncementsApi {
     /**
      * ` GET /v2/announcements/graph(/on/:field(/by/:interval))`
      */
-    public async announcements_graph(field: string, params?: AnnouncementsParams) :Promise<any>{
+    public async get_announcements_graph(field: string, params?: AnnouncementsParams) :Promise<any>{
         return await this.base.get("/v2/announcements/graph" + field);
     }
 
@@ -20,7 +20,7 @@ export class AnnouncementsApi {
      * ` GET /v2/announcements/:id`
      * @param id `string | number`
      */
-    public async announcements_id(id: string | number ) :Promise<Announcement>{
+    public async get_announcements_id(id: string | number ) :Promise<Announcement>{
         return await this.base.get("/v2/announcements/" + id);
     }
 }

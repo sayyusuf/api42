@@ -2,7 +2,7 @@
 import {BaseApi42} from "../../../base/baseApi42";
 import { writeFileSync } from "fs";
 import { ApiData } from "../../../base/types";
-import { AnnouncementsApi } from "../announcements.api";
+import { AppsApi } from "../apps.api";
 
 
 const api : {client_id: string, client_secret: string, grant_type: string, code?:string|undefined, redirect_uri?:string|undefined}=  require('./api.json');
@@ -19,9 +19,11 @@ const api : {client_id: string, client_secret: string, grant_type: string, code?
 		}
 
 		let base = await BaseApi42.new(apiData);
-		let ac = new AnnouncementsApi(base);
-		//data = await ac.get_announcements_graph("/on/created_at/by/day");
-		data = await ac.get_announcements_id(66);
+		let ac = new AppsApi(base);
+		//data = await ac.get_apps();
+		//data = await ac.get_apps_id(14431);
+		//data = await ac.get_users_userId_apps(154302)
+		data = await ac.get_apps({"range[id]":"14430, 14448", sort:"id"});
 		console.log(data)
 		writeFileSync("./res.json", JSON.stringify(data));
 	})() 
