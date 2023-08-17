@@ -2,7 +2,7 @@
 import {BaseApi42} from "../../../base/baseApi42";
 import { writeFileSync } from "fs";
 import { ApiData } from "../../../base/types";
-import { AmendmentsApi } from "../amendments.api";
+import { Attachments } from "../attachments.api";
 
 
 const api : {client_id: string, client_secret: string, grant_type: string, code?:string|undefined, redirect_uri?:string|undefined}=  require('./api.json');
@@ -19,10 +19,9 @@ const api : {client_id: string, client_secret: string, grant_type: string, code?
 		}
 
 		let base = await BaseApi42.new(apiData);
-		let ac = new AmendmentsApi(base)
-		//data = await intrapi.users.getMe()
-		//data = await ac.get_accreditations();
-		data = await ac.get_amendments_id(12);
+		let ac = new Attachments(base);
+		data = await ac.get_attachments({"range[id]": "1, 2"});
+		//data = await ac.get_attachments_id(1);
 		console.log(data)
 		writeFileSync("./res.json", JSON.stringify(data));
 	})() 
