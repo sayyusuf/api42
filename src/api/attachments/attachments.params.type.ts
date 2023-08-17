@@ -1,4 +1,11 @@
-
+/**
+ *   `sort`:     ` "id" | "attachable_id" | "attachable_type" | "kind" | "created_at" | "updated_at" | "language_id" | "user_id" | "default" | "up_to_date" | "container_id" | "container_type" | "base_id" | "untranslatable" | "attachments_structure_id"`
+ * 
+ * `"filter[xyz]"`: `[a, b, c]`
+ * 
+ * `"range[xyz]"`: `"a, b"`
+ */ 
+ 
 export type AttachmentsParams = {
     project_session_id?:            string | number,
     project_id?:                    string | number,
