@@ -17,7 +17,7 @@ export class UsersApi {
      * @returns Return all the events
      */
     public async get_events(params: EventsParams): Promise<EventsType>{
-        return await this.base.get("/v2/events/", params);
+        return await this.base.get("/v2/events", params);
     }
 
 	/**
@@ -25,7 +25,7 @@ export class UsersApi {
      * @param id
      * @returns Get an event
      */
-    public async get_events_with_id(id: string, params: EventsParams): Promise<EventsType>{
+    public async get_events_id(id: string, params: EventsParams): Promise<EventsType>{
         return await this.base.get("/v2/events/" + id, params);
     }
 
@@ -34,7 +34,7 @@ export class UsersApi {
      * @param user_id
      * @returns Return all the events of the given User
      */
-    public async get_events_with_user_id(user_id: string, params: EventsParams): Promise<EventsType>{
+    public async get_events_user_id(user_id: string, params: EventsParams): Promise<EventsType>{
         return await this.base.get("/v2/users/" + user_id + "/events", params);
     }
 
@@ -43,7 +43,7 @@ export class UsersApi {
      * @param campus_id, curcus_id
      * @returns Return all the events of the given Cursus, associated with the given Campus
      */
-    public async get_events_with_campus_curcus_id(campus_id: string, curcus_id: string, params: EventsParams): Promise<EventsType>{
+    public async get_events_campus_curcus_id(campus_id: string, curcus_id: string, params: EventsParams): Promise<EventsType>{
         return await this.base.get("/v2/campus/" + campus_id + "/cursus/" + curcus_id + "/events", params);
     }
 
@@ -52,7 +52,7 @@ export class UsersApi {
      * @param campus_id
      * @returns Return all the events of the given Campus
      */
-    public async get_events_with_campus_id(campus_id: string, params: EventsParams): Promise<EventsType>{
+    public async get_events_campus_id(campus_id: string, params: EventsParams): Promise<EventsType>{
         return await this.base.get("/v2/campus/" + campus_id + "/events", params);
     }
 
@@ -61,7 +61,7 @@ export class UsersApi {
      * @param  curcus_id
      * @returns Return all the events of the given Cursus
      */
-    public async get_events_with_curcus_id(cursus_id: string, params: EventsParams): Promise<EventsType>{
+    public async get_events_curcus_id(cursus_id: string, params: EventsParams): Promise<EventsType>{
         return await this.base.get("/v2/cursus/" + cursus_id + "/events", params);
     }
 }
