@@ -2,7 +2,7 @@ import { AnyTxtRecord } from "dns";
 import { FeedbacksParams } from "./feedbacks.params.types";
 import {BaseApi42} from "../../base/baseApi42";
 
-export class UsersApi {
+export class FeedbacksApi {
     private base: BaseApi42;
 	
     constructor (base: BaseApi42){
