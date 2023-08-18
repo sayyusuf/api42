@@ -17,7 +17,7 @@ export class UsersApi {
      * @returns Return all the expertises users
      */
     public async get_expertises_users(params: ExpertisesUsersParams): Promise<ExpertisesUsersTypes>{
-        return await this.base.get("/v2/expertises_users/", params);
+        return await this.base.get("/v2/expertises_users", params);
     }
 
    /**
@@ -25,7 +25,7 @@ export class UsersApi {
      * @param id
      * @returns Get an expertises user
      */
-    public async get_expertises_users_with_id(id: string, params: EventsUsersParams): Promise<ExpertisesTypes>{
+    public async get_expertises_users_id(id: string, params: EventsUsersParams): Promise<ExpertisesTypes>{
         return await this.base.get("/v2/expertises_users/" + id, params);
     }
 
@@ -34,7 +34,7 @@ export class UsersApi {
      * @param user_id
      * @returns Return all the expertises users of the given User
      */
-    public async get_expertises_users_with_user_id(user_id: string, params: EventsUsersParams): Promise<ExpertisesTypes>{
+    public async get_expertises_users_user_id(user_id: string, params: EventsUsersParams): Promise<ExpertisesTypes>{
         return await this.base.get("/v2/users/" + user_id + "/expertises_users", params);
     }
 
@@ -43,7 +43,7 @@ export class UsersApi {
      * @param expertise_id
      * @returns Return all the expertises users of the given Expertise
      */
-    public async get_expertises_users_with_user_id(expertise_id: string, params: EventsUsersParams): Promise<ExpertisesTypes>{
+    public async get_expertises_users_user_id(expertise_id: string, params: EventsUsersParams): Promise<ExpertisesTypes>{
         return await this.base.get("/v2/expertises/" + expertise_id + "/expertises_users", params);
     }
 }
