@@ -3,7 +3,7 @@ import { GroupsUsersParams } from "./groupsusers.params.types";
 import { GroupsUsersTypes } from "./groupsusers.types";
 import {BaseApi42} from "../../base/baseApi42";
 
-export class UsersApi {
+export class GroupsUsersApi {
     private base: BaseApi42;
 	
     constructor (base: BaseApi42){
