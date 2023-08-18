@@ -3,7 +3,7 @@ import { EventsParams } from "./events.params.type";
 import { EventsType } from "./events.type";
 import {BaseApi42} from "../../base/baseApi42";
 
-export class UsersApi {
+export class EventsApi {
     private base: BaseApi42;
 	
     constructor (base: BaseApi42){
@@ -13,7 +13,7 @@ export class UsersApi {
 
     /**
      * api: `GET /v2/events `
-     * @param params any object or default {}
+     * @param 
      * @returns Return all the events
      */
     public async get_events(params: EventsParams): Promise<EventsType>{
