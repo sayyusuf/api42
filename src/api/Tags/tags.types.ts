@@ -1,4 +1,4 @@
-export type TopLevel {
+export type TagsTypes {
   id:         number;
   name:       string;
   kind:       string;
