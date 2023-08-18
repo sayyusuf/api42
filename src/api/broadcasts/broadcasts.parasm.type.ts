@@ -1,3 +1,11 @@
+/**
+ *   `sort`:     `"id" | "campus_id" | "tag_id" | "content" | "pinned_until" | "hidden_at" | "url" | "created_at" | "updated_at" | "content_html" | "position"`
+ * 
+ * `"filter[xyz]"`: `[a, b, c]`
+ * 
+ * `"range[xyz]"`: `"a, b"`
+ */ 
+
 
 export type BroadcastsParam = {
     sort?:                 "id" | "campus_id" | "tag_id" | "content" | "pinned_until" | "hidden_at" | "url" | "created_at" | "updated_at" | "content_html" | "position",
