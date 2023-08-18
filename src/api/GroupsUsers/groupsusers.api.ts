@@ -17,7 +17,7 @@ export class UsersApi {
      * @returns Return all the groups users
      */
     public async get_groups_users(params: GroupsUsersParams): Promise<GroupsUsersTypes>{
-        return await this.base.get("/v2/groups_users/", params);
+        return await this.base.get("/v2/groups_users", params);
     }
 
     /**
@@ -25,7 +25,7 @@ export class UsersApi {
      * @param id
      * @returns Get a groups user
      */
-    public async get_groups_users_with_id(id: string, params: GroupsUsersParams): Promise<GroupsUsersTypes>{
+    public async get_groups_users_id(id: string, params: GroupsUsersParams): Promise<GroupsUsersTypes>{
         return await this.base.get("/v2/groups_users/" + id, params);
     }
 
@@ -34,7 +34,7 @@ export class UsersApi {
      * @param user_id
      * @returns Return all the groups users of the given User
      */
-    public async get_groups_users_with_user_id(user_id: string, params: GroupsUsersParams): Promise<GroupsUsersTypes>{
+    public async get_groups_users_user_id(user_id: string, params: GroupsUsersParams): Promise<GroupsUsersTypes>{
         return await this.base.get("/v2/users/" + user_id + "/groups_users", params);
     }
 
@@ -43,7 +43,7 @@ export class UsersApi {
      * @param group_id
      * @returns Return all the groups users of the given Group
      */
-    public async get_groups_users_with_group_id(group_id: string, params: GroupsUsersParams): Promise<GroupsUsersTypes>{
+    public async get_groups_users_group_id(group_id: string, params: GroupsUsersParams): Promise<GroupsUsersTypes>{
         return await this.base.get("/v2/groups/" + group_id + "/groups_users", params);
     }
    
