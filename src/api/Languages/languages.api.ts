@@ -3,7 +3,7 @@ import { LanguagesParams  } from "./languages.params.types";
 import { LanguageType  } from "./languages.types";
 import {BaseApi42} from "../../base/baseApi42";
 
-export class UsersApi {
+export class LanguagesApi {
     private base: BaseApi42;
 	
     constructor (base: BaseApi42){
