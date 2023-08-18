@@ -26,7 +26,7 @@ export class TeamsApi {
      * @returns Return all the teams
      */
     public async get_teams(params: TeamsParams): Promise<TeamsTypes>{
-        return await this.base.get("/v2/teams/", params);
+        return await this.base.get("/v2/teams", params);
     }
 
   /**
