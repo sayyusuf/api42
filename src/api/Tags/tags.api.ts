@@ -3,7 +3,7 @@ import { TagsParams } from "./tags.params.types";
 import { TagsTypes } from "./tags.types";
 import {BaseApi42} from "../../base/baseApi42";
 
-export class UsersApi {
+export class TagsApi {
     private base: BaseApi42;
 	
     constructor (base: BaseApi42){
