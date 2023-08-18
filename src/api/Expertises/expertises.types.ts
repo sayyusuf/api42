@@ -1,4 +1,4 @@
-export type TopLevel {
+export type ExpertisesTypes {
   id:                   number;
   name:                 string;
   slug:                 string;
