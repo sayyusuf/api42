@@ -1,4 +1,4 @@
-export type Events {
+export type EventsTypes {
     id:                          number;
     name:                        string;
     description:                 string;
