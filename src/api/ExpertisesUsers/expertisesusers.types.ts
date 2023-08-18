@@ -1,4 +1,4 @@
-export type TopLevel {
+export type ExpertisesUsersTypes {
   id:           number;
   expertise_id: number;
   interested:   boolean;
