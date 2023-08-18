@@ -17,7 +17,7 @@ export class UsersApi {
      * @returns Return all the languages
      */
     public async get_languages(params: LanguagesParams): Promise<LanguageType>{
-        return await this.base.get("/v2/languages/", params);
+        return await this.base.get("/v2/languages", params);
     }
 
 
@@ -26,7 +26,7 @@ export class UsersApi {
      * @param id
      * @returns Get a language
      */
-    public async get_languages_with_id(id: string, params: LanguagesParams): Promise<LanguageType>{
+    public async get_languages_id(id: string, params: LanguagesParams): Promise<LanguageType>{
         return await this.base.get("/v2/languages/" + id, params);
     }
 
