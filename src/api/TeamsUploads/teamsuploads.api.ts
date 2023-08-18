@@ -3,7 +3,7 @@ import { TeamsUploadsParams } from "./teamsuploads.params.types";
 import { TeamsUploadsTypes } from "./teamsuploads.types";
 import {BaseApi42} from "../../base/baseApi42";
 
-export class UsersApi {
+export class TeamsUploadsApi {
     private base: BaseApi42;
 	
     constructor (base: BaseApi42){
