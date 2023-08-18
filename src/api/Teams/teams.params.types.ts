@@ -1,4 +1,4 @@
-export type EventsUsersParams = {
+export type TeamsParams = {
   
 	cursus_id?: string;
   user_id?: string;
