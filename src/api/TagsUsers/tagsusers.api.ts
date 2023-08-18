@@ -2,7 +2,7 @@ import { AnyTxtRecord } from "dns";
 import { TagsUsersParams } from "./tagsusers.params.types";
 import {BaseApi42} from "../../base/baseApi42";
 
-export class UsersApi {
+export class TagsUsersApi {
     private base: BaseApi42;
 	
     constructor (base: BaseApi42){
