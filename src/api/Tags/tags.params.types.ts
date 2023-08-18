@@ -1,4 +1,4 @@
-export type EventsUsersParams = {
+export type TagsParams = {
   
 	project_id?: string;
   issue_id?: string;
