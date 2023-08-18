@@ -1,4 +1,4 @@
-export type TopLevel {
+export type TeamsTypes {
   id:                 number;
   name:               string;
   url:                string;
