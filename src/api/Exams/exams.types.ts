@@ -1,4 +1,4 @@
-export type TopLevel {
+export type ExamsTypes {
   id:              number;
   ip_range:        string;
   begin_at:        string;
