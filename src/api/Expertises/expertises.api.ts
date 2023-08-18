@@ -3,7 +3,7 @@ import { ExpertisesParams } from "./expertises.params.types";
 import { ExpertisesTypes } from "./expertises.types";
 import {BaseApi42} from "../../base/baseApi42";
 
-export class UsersApi {
+export class ExpertisesApi {
     private base: BaseApi42;
 	
     constructor (base: BaseApi42){
