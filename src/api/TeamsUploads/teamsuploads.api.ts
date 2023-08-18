@@ -17,7 +17,7 @@ export class TeamsUploadsApi {
      * @returns Return all the teams uploads
      */
     public async get_teams_uploads(params: TeamsUploadsParams): Promise<TeamsUploadsTypes>{
-        return await this.base.get("/v2/teams_uploads/", params);
+        return await this.base.get("/v2/teams_uploads", params);
     }
 
   /**
