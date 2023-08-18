@@ -2,7 +2,7 @@ import { AnyTxtRecord } from "dns";
 import { FlagsParams } from "./flags.params.types";
 import {BaseApi42} from "../../base/baseApi42";
 
-export class UsersApi {
+export class FlagsApi {
     private base: BaseApi42;
 	
     constructor (base: BaseApi42){
@@ -15,7 +15,7 @@ export class UsersApi {
      * @param 
      * @returns Return all the flags
      */
-    public async get_feedbacks(params: FlagsParams): Promise<Any>{
+    public async get_flags(params: FlagsParams): Promise<Any>{
         return await this.base.get("/v2/flags", params);
     }
 
