@@ -16,7 +16,7 @@ export class UsersApi {
      * @returns Return all the flags
      */
     public async get_feedbacks(params: FlagsParams): Promise<Any>{
-        return await this.base.get("/v2/flags/", params);
+        return await this.base.get("/v2/flags", params);
     }
 
 }
