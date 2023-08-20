@@ -16,6 +16,6 @@ export class ExamsApi {
      * @returns Get an exam
      */
     public async get_exams(id: string): Promise<ExamsTypes>{
-        return await this.base.get("/v2/exams/" + id, params);
+        return await this.base.get("/v2/exams/" + id);
     }
 }
