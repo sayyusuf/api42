@@ -1,7 +1,7 @@
 import {BaseApi42} from "../../../base/baseApi42";
 import { writeFileSync } from "fs";
 import { ApiData } from "../../../base/types";
-import { AchievementsApi } from "../achievements.api";
+import { EventUsersApi } from "../eventsusers.api";
 
 
 const api : {client_id: string, client_secret: string, grant_type: string, code?:string|undefined, redirect_uri?:string|undefined}=  require('./api.json');
@@ -19,9 +19,7 @@ const api : {client_id: string, client_secret: string, grant_type: string, code?
 
 		let base = await BaseApi42.new(apiData);
 		let ac = new AchievementsApi(base);
-		//data = await intrapi.users.getMe()
-		//data = await ac.get_accreditations();
-		data = await ac.get_achievements_id(12);
+		data = await ac.get_events_users_id(12);
 		console.log(data)
 		writeFileSync("./res.json", JSON.stringify(data));
 	})() 
