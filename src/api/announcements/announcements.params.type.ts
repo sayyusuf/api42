@@ -9,8 +9,6 @@
  * 
  */
 export type AnnouncementsParams = {
-    field?:                     "created_at" | "updated_at" | "expire_at",
-    interval?:                  "day" | "week" | "month" | "quarter" | "year" | "hour_of_day" | "day" | "of_week" | "day_of_month" | "month_of_year",
     sort?:                      "id" |  "author" | "title" | "text" | "kind" | "created_at" | "updated_at" | "image" | "expire_at" | "link" | "notificable_id" | "notificable_type",
     "filter[id]"?:              number[] | string[],
     "filter[author]"?:          string[],
@@ -38,4 +36,10 @@ export type AnnouncementsParams = {
     "range[link]"?:            string,
     "range[notificable_id]"?:  string,
     "range[notificable_type]"?:string,
-} 
+}
+
+export type AnnouncementsInputs = {
+    field?: "created_at" | "updated_at" | "expire_at",
+    interval?: "day" | "week" | "month" | "quarter" | "year" | "hour_of_day" | "day_of_week" | "day_of_month" | "month_of_year",
+}
+

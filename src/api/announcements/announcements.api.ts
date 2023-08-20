@@ -1,5 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
-import { AnnouncementsParams } from "./announcements.params.type";
+import { AnnouncementsInputs, AnnouncementsParams } from "./announcements.params.type";
 import { Announcement } from "./announcements.type";
 
 export class AnnouncementsApi {
@@ -11,9 +11,10 @@ export class AnnouncementsApi {
 
     /**
      * ` GET /v2/announcements/graph(/on/:field(/by/:interval))`
+     * @param input AnnouncementsInputs
      */
-    public async get_announcements_graph(field: string, params?: AnnouncementsParams) :Promise<any>{
-        return await this.base.get("/v2/announcements/graph" + field);
+    public async get_announcements_graph(input?: AnnouncementsInputs, params?: AnnouncementsParams) :Promise<any>{
+        return await this.base.get("/v2/announcements/graph" +  ((input && input.field)? ("/on/" + input?.field): "") + ((input && input.field && input.interval)?("/by/" + input?.interval): ""), params);
     }
 
    /**
