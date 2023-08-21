@@ -1,7 +1,7 @@
 export type CampusUser = {
-	id: number;
-	user_id: number;
-	campus_id: number;
+	id: number | string;
+	user_id: number | string;
+	campus_id: number | string;
 	is_primary: boolean;
 	created_at: string;
 	updated_at: string;
