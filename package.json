@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "jest",
+    "test": "jest --detectOpenHandles",
     "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
