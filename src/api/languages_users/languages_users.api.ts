@@ -25,7 +25,13 @@ export class LanguageUsersApi {
   /**
    * Return all the languages users of the given User
    */
-  public async users_languages_users(user_id: string) {
+  public async users_languages_users(
+    user_id: string,
+    sort?: string,
+    filter?: string,
+    range?: string,
+    page?: string
+  ): Promise<LanguageUser[]> {
     return await this.base.get(`/v2/users/${user_id}/languages_users`);
   }
 
@@ -39,7 +45,7 @@ export class LanguageUsersApi {
     filter?: string,
     range?: string,
     page?: string
-  ) {
+  ): Promise<LanguageUser[]> {
     return await this.base.get(`/v2/languages_users`);
   }
 
@@ -47,7 +53,10 @@ export class LanguageUsersApi {
   /**
    * Get a languages user of the given Id, associated with the given User
    */
-  public async get_users_languages_users_id(user_id: string, id: string) {
+  public async get_users_userId_languages_users_id(
+    user_id: string,
+    id: string
+  ): Promise<LanguageUser> {
     return await this.base.get(`/v2/users/${user_id}/languages_users/${id}`);
   }
 
@@ -55,7 +64,7 @@ export class LanguageUsersApi {
   /**
    * Get a languages user
    */
-  public async get_languages_users_id(id: string) {
+  public async get_languages_users_id(id: string): Promise<LanguageUser> {
     return await this.base.get(`/v2/languages_users/${id}`);
   }
 }
