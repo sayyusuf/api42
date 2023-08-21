@@ -1,5 +1,4 @@
 import { BaseApi42 } from "../../base/baseApi42";
-import { User } from "./users.types";
 
 export class UsersApi {
   private base: BaseApi42;
@@ -48,7 +47,7 @@ export class UsersApi {
   /**
    * Return all the users of the given Coalition
    */
-  public async coalitions_users(coalition_id: string) {
+  public async coalitions_users(coalition_id: string): Promise<User[]> {
     return await this.base.get(`/v2/coalitions/${coalition_id}/users`);
   }
 
@@ -56,7 +55,7 @@ export class UsersApi {
   /**
    * Return all the users of the given Dash
    */
-  public async dashes_dashId_users(dash_id: string) {
+  public async dashes_dashId_users(dash_id: string): Promise<User[]> {
     return await this.base.get(`/v2/dashes/${dash_id}/users`);
   }
 
@@ -64,7 +63,7 @@ export class UsersApi {
   /**
    * Return all the users of the given Event
    */
-  public async events_eventId_users(event_id: string) {
+  public async events_eventId_users(event_id: string): Promise<User[]> {
     return await this.base.get(`/v2/events/${event_id}/users`);
   }
 
@@ -72,7 +71,9 @@ export class UsersApi {
   /**
    * Return all the users of the given Accreditation
    */
-  public async accreditations_accreditationId_users(accreditation_id: string) {
+  public async accreditations_accreditationId_users(
+    accreditation_id: string
+  ): Promise<User[]> {
     return await this.base.get(`/v2/accreditations/${accreditation_id}/users`);
   }
 
@@ -80,7 +81,7 @@ export class UsersApi {
   /**
    * Return all the users of the given Team
    */
-  public async teams_teamId_users(team_id: string) {
+  public async teams_teamId_users(team_id: string): Promise<User[]> {
     return await this.base.get(`/v2/teams/${team_id}/users`);
   }
 
@@ -88,7 +89,7 @@ export class UsersApi {
   /**
    * Return all the users of the given Project
    */
-  public async projects_projectId_users(project_id: string) {
+  public async projects_projectId_users(project_id: string): Promise<User[]> {
     return await this.base.get(`/v2/projects/${project_id}/users`);
   }
 
@@ -96,7 +97,9 @@ export class UsersApi {
   /**
    * Return all the users of the given Partnership
    */
-  public async partnerships_partnershipId_users(partnership_id: string) {
+  public async partnerships_partnershipId_users(
+    partnership_id: string
+  ): Promise<User[]> {
     return await this.base.get(`/v2/partnerships/${partnership_id}/users`);
   }
 
@@ -104,7 +107,9 @@ export class UsersApi {
   /**
    * Return all the users of the given Expertise
    */
-  public async expertises_expertiseId_users(expertise_id: string) {
+  public async expertises_expertiseId_users(
+    expertise_id: string
+  ): Promise<User[]> {
     return await this.base.get(`/v2/expertises/${expertise_id}/users`);
   }
 
@@ -112,7 +117,7 @@ export class UsersApi {
   /**
    * Return all the users
    */
-  public async get_users() {
+  public async get_users(): Promise<User[]> {
     return await this.base.get(`/v2/users`);
   }
 
@@ -120,7 +125,7 @@ export class UsersApi {
   /**
    * Return all the users of the given Cursus
    */
-  public async cursus_cursusId_users(cursus_id: string) {
+  public async cursus_cursusId_users(cursus_id: string): Promise<User[]> {
     return await this.base.get(`/v2/cursus/${cursus_id}/users`);
   }
 
@@ -128,7 +133,7 @@ export class UsersApi {
   /**
    * Return all the users of the given Campus
    */
-  public async campus_campusId_users(campus_id: string) {
+  public async campus_campusId_users(campus_id: string): Promise<User[]> {
     return await this.base.get(`/v2/campus/${campus_id}/users`);
   }
 
@@ -136,7 +141,9 @@ export class UsersApi {
   /**
    * Return all the users of the given Achievement
    */
-  public async achievements_achievementId_users(achievement_id: string) {
+  public async achievements_achievementId_users(
+    achievement_id: string
+  ): Promise<User[]> {
     return await this.base.get(`/v2/achievements/${achievement_id}/users`);
   }
 
@@ -144,7 +151,7 @@ export class UsersApi {
   /**
    * Return all the users of the given Title
    */
-  public async titles_titleId_users(title_id: string) {
+  public async titles_titleId_users(title_id: string): Promise<User[]> {
     return await this.base.get(`/v2/titles/${title_id}/users`);
   }
 
@@ -152,7 +159,7 @@ export class UsersApi {
   /**
    * Return all the users of the given Quest
    */
-  public async quests_questId_users(quest_id: string) {
+  public async quests_questId_users(quest_id: string): Promise<User[]> {
     return await this.base.get(`/v2/quests/${quest_id}/users`);
   }
 
@@ -160,7 +167,7 @@ export class UsersApi {
   /**
    * Return all the users of the given Group
    */
-  public async groups_groupId_users(group_id: string) {
+  public async groups_groupId_users(group_id: string): Promise<User[]> {
     return await this.base.get(`/v2/groups/${group_id}/users`);
   }
 
@@ -168,7 +175,7 @@ export class UsersApi {
   /**
    * Get a user
    */
-  public async get_users_user(id: string) {
+  public async get_users_user(id: string): Promise<User> {
     return await this.base.get(`/v2/users/${id}`);
   }
 
@@ -176,7 +183,7 @@ export class UsersApi {
   /**
    * Show the current resource owner
    */
-  public async get_users_me() {
+  public async get_users_me(): Promise<User> {
     return await this.base.get(`/v2/me`);
   }
 }
