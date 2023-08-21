@@ -11,16 +11,16 @@ type Product = {
     updated_at:        string;
     kind:              string;
     slug:              string;
-    image:             Image;
+    image:             ProductImage;
     is_uniq:           boolean;
     one_time_purchase: boolean;
 }
 
-type Image = {
+type ProductImage = {
     url:   string;
-    thumb: Thumb;
+    thumb: ProductThumb;
 }
 
-type Thumb = {
+type ProductThumb = {
     url: string;
 }
