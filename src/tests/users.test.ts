@@ -53,7 +53,7 @@ describe("Users test suite", () => {
 
   it("should return dash users", async () => {
     const data = await intraApi.users
-      .dashes_users("gryffindor")
+      .dashes_dashId_users("gryffindor")
       .catch((ex) => console.error(ex));
 
     expect(data).toEqual("");
@@ -61,7 +61,7 @@ describe("Users test suite", () => {
 
   it("should return users of event", async () => {
     const data = await intraApi.users
-      .events_users("gryffindor")
+      .events_eventId_users("gryffindor")
       .catch((ex) => console.error(ex));
 
     expect(data).toEqual("");
