@@ -11,7 +11,7 @@ export class TitlesApi {
   /**
    * Return all the titles
    */
-  public async get_titles() {
+  public async get_titles(): Promise<Title[]> {
     return await this.base.get(`/v2/titles`);
   }
 
@@ -19,7 +19,10 @@ export class TitlesApi {
   /**
    * Return all the titles of the given User
    */
-  public async get_users_userId_titles(user_id?: string, page?: string) {
+  public async get_users_userId_titles(
+    user_id?: string,
+    page?: string
+  ): Promise<Title[]> {
     return await this.base.get(`/v2/users/${user_id}/titles`);
   }
 
@@ -27,7 +30,7 @@ export class TitlesApi {
   /**
    * Get a title
    */
-  public async get_titles_id(id?: string) {
+  public async get_titles_id(id?: string): Promise<Title> {
     return await this.base.get(`/v2/titles/${id}`);
   }
 }
