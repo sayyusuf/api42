@@ -17,7 +17,7 @@ export class NotionsApi {
     filter?: string,
     range?: string,
     page?: string
-  ) {
+  ): Promise<Notion[]> {
     return await this.base.get(`/v2/cursus/${cursus_id}/notions`);
   }
 
@@ -31,7 +31,7 @@ export class NotionsApi {
     filter?: string,
     range?: string,
     page?: string
-  ) {
+  ): Promise<Notion[]> {
     return await this.base.get(`/v2/tags/${tag_id}/notions`);
   }
 
@@ -44,7 +44,7 @@ export class NotionsApi {
     filter?: string,
     range?: string,
     page?: string
-  ) {
+  ): Promise<Notion[]> {
     return await this.base.get(`/v2/notions`);
   }
 
@@ -52,7 +52,7 @@ export class NotionsApi {
   /**
    * Get a notion
    */
-  public async get_notions_id(id: string) {
+  public async get_notions_id(id: string): Promise<Notion> {
     return await this.base.get(`/v2/notions/${id}`);
   }
 }
