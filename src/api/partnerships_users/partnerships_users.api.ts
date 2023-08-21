@@ -17,7 +17,7 @@ export class PartnershipsUsersApi {
     filter?: string,
     range?: string,
     page?: string
-  ) {
+  ): Promise<PartnershipUsers[]> {
     return await this.base.get(
       `/v2/partnerships/${partnership_id}/partnerships_users`
     );
@@ -32,7 +32,7 @@ export class PartnershipsUsersApi {
     filter?: string,
     range?: string,
     page?: string
-  ) {
+  ): Promise<PartnershipUsers[]> {
     return await this.base.get(`/v2/partnerships_users`);
   }
 
@@ -40,7 +40,9 @@ export class PartnershipsUsersApi {
   /**
    * Get a partnerships user
    */
-  public async get_partnerships_users_id(id: string) {
+  public async get_partnerships_users_id(
+    id: string
+  ): Promise<PartnershipUsers> {
     return await this.base.get(`/v2/partnerships_users/${id}`);
   }
 }
