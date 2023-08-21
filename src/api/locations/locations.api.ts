@@ -25,7 +25,12 @@ export class LocationsApi {
   /**
    * Return all the locations
    */
-  public async locations() {
+  public async locations(
+    sort?: string,
+    filter?: string,
+    range?: string,
+    page?: string
+  ): Promise<Locations[]> {
     return await this.base.get(`/v2/locations`);
   }
 
@@ -33,7 +38,13 @@ export class LocationsApi {
   /**
    * Return all the locations of the given User
    */
-  public async users_userId_locations(user_id: string) {
+  public async users_userId_locations(
+    user_id: string,
+    sort?: string,
+    filter?: string,
+    range?: string,
+    page?: string
+  ): Promise<Locations[]> {
     return await this.base.get(`/v2/users/${user_id}/locations`);
   }
 
@@ -47,7 +58,7 @@ export class LocationsApi {
     filter?: string,
     range?: string,
     page?: string
-  ) {
+  ): Promise<Locations[]> {
     return await this.base.get(`/v2/campus/${campus_id}/locations`);
   }
 
@@ -55,7 +66,7 @@ export class LocationsApi {
   /**
    * Get a location
    */
-  public async get_locations(id: string) {
+  public async get_locations(id: string): Promise<Locations> {
     return await this.base.get(`/v2/locations/${id}`);
   }
 }
