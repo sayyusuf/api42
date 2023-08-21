@@ -1,4 +1,4 @@
-export interface ProjectData {
+type ProjectData = {
     id:                 number;
     coordinates:        number[];
     by:                 any[];
