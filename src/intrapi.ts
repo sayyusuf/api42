@@ -9,6 +9,7 @@ import { OffersApi } from "./api/offers/offers.api";
 import { PartnershipsApi } from "./api/partnerships/partnerships.api";
 import { PartnershipsUsersApi } from "./api/partnerships_users/partnerships_users.api";
 import { PatronagesReportsApi } from "./api/patronages_reports/patronages_reports.api";
+import { ProductsApi } from "./api/products/products.api";
 
 export class IntraApi{
 	private base: BaseApi42
@@ -21,6 +22,7 @@ export class IntraApi{
 	public partnerships: PartnershipsApi
 	public partnerships_users: PartnershipsUsersApi
 	public patronages_reports: PatronagesReportsApi
+	public products: ProductsApi
 	
 	static async new(apiData: ApiData) : Promise<IntraApi>{
 		const base = await BaseApi42.new(apiData);
@@ -37,6 +39,7 @@ export class IntraApi{
 		this.partnerships = new PartnershipsApi(this.base)
 		this.partnerships_users = new PartnershipsUsersApi(this.base)
 		this.patronages_reports = new PatronagesReportsApi(this.base)
+		this.products = new ProductsApi(baseApi)
 		// this.achievements = new AchievementsApi(this.base)
 	}
 }
