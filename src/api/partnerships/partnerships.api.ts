@@ -16,7 +16,7 @@ export class PartnershipsApi {
     filter?: string,
     range?: string,
     page?: string
-  ) {
+  ): Promise<Partnership[]> {
     return await this.base.get(`/v2/partnerships`);
   }
 
@@ -24,7 +24,7 @@ export class PartnershipsApi {
   /**
    * Get a partnership
    */
-  public async get_partnerships_id(id: string) {
+  public async get_partnerships_id(id: string): Promise<Partnership> {
     return await this.base.get(`/v2/partnerships/${id}`);
   }
 }
