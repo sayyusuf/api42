@@ -1,8 +1,14 @@
 type Note = {
-  user_id: string;
+  id: number;
+  from_user: LocationsUser;
   subject: string;
   content: string;
-  kind: string;
-  approved_at: Date;
-  approver_id: number;
+  created_at: string;
+  user: NoteUser;
+};
+
+type NoteUser = {
+  id: number;
+  login: string;
+  url: string;
 };

@@ -22,7 +22,7 @@ export class NotesApi {
     filter?: string,
     range?: string,
     page?: string
-  ) {
+  ): Promise<Note[]> {
     return await this.base.get(`/v2/users/${user_id}/notes`);
   }
 
@@ -36,7 +36,7 @@ export class NotesApi {
     filter?: string,
     range?: string,
     page?: string
-  ) {
+  ): Promise<Note[]> {
     return await this.base.get(`/v2/campus/${campus_id}/notes`);
   }
 
@@ -49,7 +49,7 @@ export class NotesApi {
     filter?: string,
     range?: string,
     page?: string
-  ) {
+  ): Promise<Note[]> {
     return await this.base.get(`/v2/notes`);
   }
 
@@ -63,7 +63,7 @@ export class NotesApi {
     filter?: string,
     range?: string,
     page?: string
-  ) {
+  ): Promise<Note> {
     return await this.base.get(`/v2/notes/${id}`);
   }
 
