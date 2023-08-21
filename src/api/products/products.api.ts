@@ -11,7 +11,11 @@ export class ProductsApi {
   /**
    * Return all the products
    */
-  public async get_products(sort?: string, filter?: string, range?: string) {
+  public async get_products(
+    sort?: string,
+    filter?: string,
+    range?: string
+  ): Promise<Product[]> {
     return await this.base.get(`/v2/products`);
   }
 
@@ -24,7 +28,7 @@ export class ProductsApi {
     sort?: string,
     filter?: string,
     range?: string
-  ) {
+  ): Promise<Product[]> {
     return await this.base.get(`/v2/campus/${campus_id}/products`);
   }
 
@@ -32,7 +36,7 @@ export class ProductsApi {
   /**
    * Get a product
    */
-  public async get_products_id(id: string) {
+  public async get_products_id(id: string): Promise<Product> {
     return await this.base.get(`/v2/products/${id}`);
   }
 
@@ -40,7 +44,7 @@ export class ProductsApi {
   /**
    * Get a product of the given Id, associated with the given Campus
    */
-  public async get_campus_campusId_products_id(id: string) {
+  public async get_campus_campusId_products_id(id: string): Promise<Product> {
     return await this.base.get(`/v2/campus/:campus_id/products/${id}`);
   }
 }
