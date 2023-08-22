@@ -1,6 +1,6 @@
 import { AnyTxtRecord } from "dns";
 import { GroupsParams } from "./groups.params.types";
-import { GroupsTypes } from "./groups.types";
+import { Group } from "./groups.types";
 import {BaseApi42} from "../../base/baseApi42";
 
 export class GroupsApi {
@@ -16,7 +16,7 @@ export class GroupsApi {
      * @param 
      * @returns Return all the groups
      */
-    public async get_groups(params: GroupsParams): Promise<GroupsTypes>{
+    public async get_groups(params: GroupsParams): Promise<Group[]>{
         return await this.base.get("/v2/groups", params);
     }
 
@@ -25,7 +25,7 @@ export class GroupsApi {
      * @param id
      * @returns Get a group
      */
-    public async get_groups_id(id: string, params: GroupsParams): Promise<GroupsTypes>{
+    public async get_groups_id(id: string, params: GroupsParams): Promise<Group>{
         return await this.base.get("/v2/groups/" + id, params);
     }
 
@@ -34,7 +34,7 @@ export class GroupsApi {
      * @param user_id
      * @returns Return all the groups of the given User
      */
-    public async get_groups_user_id(user_id: string, params: GroupsParams): Promise<GroupsTypes>{
+    public async get_users_userId_groups(user_id: string, params: GroupsParams): Promise<Group[]>{
         return await this.base.get("/v2/users/" + user_id + "/groups", params);
     }
    
