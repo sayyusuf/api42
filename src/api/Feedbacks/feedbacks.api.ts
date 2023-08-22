@@ -52,7 +52,7 @@ export class FeedbacksApi {
      * @param event_id, id
      * @returns Get a feedback of the given Id, associated with the given Event
      */
-    public async get_events_eventId_feedbacks_id(event_id: string, id: string, params: FeedbacksParams): Promise<any[]>{
+    public async get_events_eventId_feedbacks_id(event_id: string, id: string, params?: FeedbacksParams): Promise<any[]>{
         return await this.base.get("/v2/events/" + event_id + "/feedbacks/" + id, params);
     }
 
@@ -61,7 +61,7 @@ export class FeedbacksApi {
      * @param scale_team_id, id
      * @returns Get a feedback of the given Id, associated with the given Scale team
      */
-    public async get_scaleTeams_scaleTeamId_feedbacks_id(scale_team_id: string, id: string, params: FeedbacksParams): Promise<any[]>{
+    public async get_scaleTeams_scaleTeamId_feedbacks_id(scale_team_id: string, id: string, params?: FeedbacksParams): Promise<any[]>{
         return await this.base.get("/v2/scale_teams/" + scale_team_id + "/feedbacks/" + id, params);
     }
 }
