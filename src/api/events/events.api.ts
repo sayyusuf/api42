@@ -52,7 +52,7 @@ export class EventsApi {
      * @param campus_id
      * @returns Return all the events of the given Campus
      */
-    public async get_campus_campusId(campus_id: string, params?: EventsParams): Promise<Event[]>{
+    public async get_campus_campusId_events(campus_id: string, params?: EventsParams): Promise<Event[]>{
         return await this.base.get("/v2/campus/" + campus_id + "/events", params);
     }
 
