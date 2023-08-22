@@ -1,6 +1,6 @@
 import { AnyTxtRecord } from "dns";
 import { TeamsParams } from "./teams.params.types";
-import { TeamsTypes } from "./teams.types";
+import { Team } from "./teams.types";
 import {BaseApi42} from "../../base/baseApi42";
 
 export class TeamsApi {
@@ -16,7 +16,7 @@ export class TeamsApi {
      * @param id
      * @returns Get a team
      */
-    public async get_teams_id(id: string, params: TeamsParams): Promise<TeamsTypes>{
+    public async get_teams_id(id: string, params?: TeamsParams): Promise<Team>{
         return await this.base.get("/v2/teams/" + id, params);
     }
 
@@ -25,7 +25,7 @@ export class TeamsApi {
      * @param 
      * @returns Return all the teams
      */
-    public async get_teams(params: TeamsParams): Promise<TeamsTypes>{
+    public async get_teams(params?: TeamsParams): Promise<Team[]>{
         return await this.base.get("/v2/teams", params);
     }
 
@@ -34,7 +34,7 @@ export class TeamsApi {
      * @param cursus_id
      * @returns Return all the teams of the given Cursus
      */
-    public async get_teams_cursus_id(cursus_id: string, params: TeamsParams): Promise<TeamsTypes>{
+    public async get_cursus_cursusId_teams(cursus_id: string, params?: TeamsParams): Promise<Team[]>{
         return await this.base.get("/v2/cursus/" + cursus_id, params);
     }
 
@@ -43,7 +43,7 @@ export class TeamsApi {
      * @param user_id
      * @returns Return all the teams of the given User
      */
-    public async get_teams_user_id(user_id: string, params: TeamsParams): Promise<TeamsTypes>{
+    public async get_users_userId_teams(user_id: string, params?: TeamsParams): Promise<Team[]>{
         return await this.base.get("/v2/users/" + user_id + "/teams", params);
     }
 
@@ -52,7 +52,7 @@ export class TeamsApi {
      * @param user_id, project_id
      * @returns Return all the teams of the given Project, associated with the given User
      */
-    public async get_teams_user_id_project_id(user_id: string, project_id:string, params: TeamsParams): Promise<TeamsTypes>{
+    public async get_users_userId_projects_projectId_teams(user_id: string, project_id:string, params?: TeamsParams): Promise<Team[]>{
         return await this.base.get("/v2/users/" + user_id + "/projects" + project_id + "/teams", params);
     }
 
@@ -61,7 +61,7 @@ export class TeamsApi {
      * @param project_id
      * @returns Return all the teams of the given Project
      */
-    public async get_teams_project_id( project_id:string, params: TeamsParams): Promise<TeamsTypes>{
+    public async get_projects_projectId_teams( project_id:string, params?: TeamsParams): Promise<Team[]>{
         return await this.base.get("/v2/projects/" + project_id + "/teams", params);
     }
 
@@ -70,7 +70,7 @@ export class TeamsApi {
      * @param project_session_id
      * @returns Return all the teams of the given Project session
      */
-    public async get_teams_project_session_id( project_session_id:string, params: TeamsParams): Promise<TeamsTypes>{
+    public async get_projectSessions_projectSessionId_teams( project_session_id:string, params?: TeamsParams): Promise<Team[]>{
         return await this.base.get("/v2/project_sessions/" + project_session_id + "/teams", params);
     }
 
@@ -79,7 +79,7 @@ export class TeamsApi {
      * @param 
      * @returns Return all the teams for the current resource owner
      */
-    public async get_teams_me( params: TeamsParams): Promise<TeamsTypes>{
+    public async get_me_teams(params?: TeamsParams): Promise<Team[]>{
         return await this.base.get("/v2/me/teams", params);
     }
 
