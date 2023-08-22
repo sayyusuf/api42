@@ -1,4 +1,4 @@
-export type ExamsTypes {
+export type Exam = {
   id:              number;
   ip_range:        string;
   begin_at:        string;
@@ -14,7 +14,7 @@ export type ExamsTypes {
   projects:        Project[];
 }
 
-export type Campus {
+export type Campus = {
   id:                   number;
   name:                 string;
   time_zone:            string;
@@ -33,7 +33,7 @@ export type Campus {
   default_hidden_phone: boolean;
 }
 
-export type Language {
+export type Language = {
   id:         number;
   name:       string;
   identifier: string;
@@ -41,14 +41,14 @@ export type Language {
   updated_at: string;
 }
 
-export type Cursus {
+export type Cursus = {
   id:         number;
   created_at: string;
   name:       string;
   slug:       string;
 }
 
-export type Project {
+export type Project = {
   id:          number;
   name:        string;
   slug:        string;
