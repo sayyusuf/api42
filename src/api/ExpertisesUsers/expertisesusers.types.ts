@@ -1,4 +1,4 @@
-export type ExpertisesUsersTypes {
+export type ExpertisesUser = {
   id:           number;
   expertise_id: number;
   interested:   boolean;
@@ -10,7 +10,7 @@ export type ExpertisesUsersTypes {
   user:         User;
 }
 
-export type Expertise {
+export type Expertise = {
   id:                   number;
   name:                 string;
   slug:                 string;
@@ -20,7 +20,7 @@ export type Expertise {
   expertises_users_url: string;
 }
 
-export type User {
+export type User = {
   id:    number;
   login: string;
   url:   string;
