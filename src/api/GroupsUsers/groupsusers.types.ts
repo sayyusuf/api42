@@ -1,4 +1,4 @@
-export type GroupsUsersTypes = {
+export type GroupsUser = {
   id: number;
   user_id: number;
   group_id: number;
