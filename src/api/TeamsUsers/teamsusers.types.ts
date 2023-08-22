@@ -1,4 +1,4 @@
-export type TeamsUsersTypes = {
+export type TeamsUser = {
   id:         number;
   team_id:    number;
   user_id:    number;
