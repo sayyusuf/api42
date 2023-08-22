@@ -1,6 +1,6 @@
 import { AnyTxtRecord } from "dns";
 import { EventsParams } from "./events.params.type";
-import { EventsTypes } from "./events.types";
+import { Event } from "./events.types";
 import {BaseApi42} from "../../base/baseApi42";
 
 export class EventsApi {
@@ -16,7 +16,7 @@ export class EventsApi {
      * @param 
      * @returns Return all the events
      */
-    public async get_events(params: EventsParams): Promise<EventsTypes>{
+    public async get_events(params?: EventsParams): Promise<Event[]>{
         return await this.base.get("/v2/events", params);
     }
 
@@ -25,7 +25,7 @@ export class EventsApi {
      * @param id
      * @returns Get an event
      */
-    public async get_events_id(id: string, params: EventsParams): Promise<EventsTypes>{
+    public async get_events_id(id: string, params?: EventsParams): Promise<Event>{
         return await this.base.get("/v2/events/" + id, params);
     }
 
@@ -34,7 +34,7 @@ export class EventsApi {
      * @param user_id
      * @returns Return all the events of the given User
      */
-    public async get_events_user_id(user_id: string, params: EventsParams): Promise<EventsTypes>{
+    public async get_users_userId_events(user_id: string, params?: EventsParams): Promise<Event[]>{
         return await this.base.get("/v2/users/" + user_id + "/events", params);
     }
 
@@ -43,7 +43,7 @@ export class EventsApi {
      * @param campus_id, curcus_id
      * @returns Return all the events of the given Cursus, associated with the given Campus
      */
-    public async get_events_campus_campus_id_curcus_id(campus_id: string, curcus_id: string, params: EventsParams): Promise<EventsTypes>{
+    public async get_campus_campusId_cursus_cursusId_events(campus_id: string, curcus_id: string, params?: EventsParams): Promise<Event[]>{
         return await this.base.get("/v2/campus/" + campus_id + "/cursus/" + curcus_id + "/events", params);
     }
 
@@ -52,7 +52,7 @@ export class EventsApi {
      * @param campus_id
      * @returns Return all the events of the given Campus
      */
-    public async get_events_campus_id(campus_id: string, params: EventsParams): Promise<EventsTypes>{
+    public async get_campus_campusId(campus_id: string, params?: EventsParams): Promise<Event[]>{
         return await this.base.get("/v2/campus/" + campus_id + "/events", params);
     }
 
@@ -61,7 +61,7 @@ export class EventsApi {
      * @param  curcus_id
      * @returns Return all the events of the given Cursus
      */
-    public async get_events_curcus_id(cursus_id: string, params: EventsParams): Promise<EventsTypes>{
+    public async get_cursus_cursusId_events(cursus_id: string, params?: EventsParams): Promise<Event[]>{
         return await this.base.get("/v2/cursus/" + cursus_id + "/events", params);
     }
 }
