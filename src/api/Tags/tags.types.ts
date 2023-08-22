@@ -1,4 +1,4 @@
-export type TagsTypes {
+export type TagsTypes = {
   id:         number;
   name:       string;
   kind:       string;
@@ -6,7 +6,7 @@ export type TagsTypes {
   subnotions: Subnotion[];
 }
 
-export type Subnotion {
+export type Subnotion = {
   id:         number;
   name:       string;
   slug:       string;

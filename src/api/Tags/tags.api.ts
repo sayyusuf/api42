@@ -53,7 +53,7 @@ export class TagsApi {
      * @param notion_id
      * @returns Return all the tags of the given Notion
      */
-    public async get_tags_notion_id(cursus_id: string, params: TagsParams): Promise<TagsTypes>{
+    public async get_tags_notion_id(notion_id: string, params: TagsParams): Promise<TagsTypes>{
         return await this.base.get("/v2/notions/" + notion_id + "/tags", params);
     }
 
@@ -62,7 +62,7 @@ export class TagsApi {
      * @param issue_id
      * @returns Return all the tags of the given Issue
      */
-    public async get_tags_issue_id(cursus_id: string, params: TagsParams): Promise<TagsTypes>{
+    public async get_tags_issue_id(issue_id: string, params: TagsParams): Promise<TagsTypes>{
         return await this.base.get("/v2/issues/" + issue_id + "/tags", params);
     }
   
@@ -71,7 +71,7 @@ export class TagsApi {
      * @param project_id
      * @returns Return all the tags of the given Project
      */
-    public async get_tags_issue_id(cursus_id: string, params: TagsParams): Promise<TagsTypes>{
+    public async get_tags_project_id(project_id: string, params: TagsParams): Promise<TagsTypes>{
         return await this.base.get("/v2/projects/" + project_id + "/tags", params);
     }
 }
