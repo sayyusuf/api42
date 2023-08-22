@@ -1,6 +1,6 @@
 import { AnyTxtRecord } from "dns";
 import { TeamsParams } from "./teams.params.types";
-import { TeamsTypes } from "./teams.params.types";
+import { TeamsTypes } from "./teams.types";
 import {BaseApi42} from "../../base/baseApi42";
 
 export class TeamsApi {
