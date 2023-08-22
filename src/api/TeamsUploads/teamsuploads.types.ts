@@ -1,4 +1,4 @@
-export interface TeamsUploadsTypes {
+export type TeamsUploadsTypes = {
   id:         number;
   final_mark: number;
   comment:    string;
@@ -7,7 +7,7 @@ export interface TeamsUploadsTypes {
   upload:     Upload;
 }
 
-export interface Upload {
+export type Upload = {
   id:            number;
   evaluation_id: number;
   name:          string;
