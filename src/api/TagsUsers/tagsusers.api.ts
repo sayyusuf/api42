@@ -15,7 +15,7 @@ export class TagsUsersApi {
      * @param id
      * @returns Get a tags user
      */
-    public async get_tags_users_id(id: string, params: TagsUsersParams): Promise<Any>{
+    public async get_tags_users_id(id: string, params: TagsUsersParams): Promise<any>{
         return await this.base.get("/v2/tags_users/" + id, params);
     }
 
@@ -24,7 +24,7 @@ export class TagsUsersApi {
      * @param
      * @returns Return all the tags users
      */
-    public async get_tags_users(params: TagsUsersParams): Promise<Any>{
+    public async get_tags_users(params: TagsUsersParams): Promise<any>{
         return await this.base.get("/v2/tags_users", params);
     }
 
@@ -33,7 +33,7 @@ export class TagsUsersApi {
      * @param user_id
      * @returns Return all the tags users of the given User
      */
-    public async get_tags_users_user_id(params: TagsUsersParams): Promise<Any>{
+    public async get_tags_users_user_id(user_id: string, params: TagsUsersParams): Promise<any>{
         return await this.base.get("/v2/users/" + user_id + "/tags_users", params);
     }
 
@@ -42,7 +42,7 @@ export class TagsUsersApi {
      * @param cursus_id
      * @returns Return all the tags users of the given Cursus
      */
-    public async get_tags_users_cursus_id(params: TagsUsersParams): Promise<Any>{
+    public async get_tags_users_cursus_id(cursus_id: string, params: TagsUsersParams): Promise<any>{
         return await this.base.get("/v2/cursus/" + cursus_id + "/tags_users", params);
     }
 
@@ -51,8 +51,8 @@ export class TagsUsersApi {
      * @param campus_id
      * @returns Return all the tags users of the given Campus
      */
-    public async get_tags_users_campus_id(params: TagsUsersParams): Promise<Any>{
-        return await this.base.get("/v2/campus/" + cursus_id + "/tags_users", params);
+    public async get_tags_users_campus_id(campus_id: string,params: TagsUsersParams): Promise<any>{
+        return await this.base.get("/v2/campus/" + campus_id + "/tags_users", params);
     }
 
   /**
@@ -60,7 +60,7 @@ export class TagsUsersApi {
      * @param tag_id
      * @returns Return all the tags users of the given Tag
      */
-    public async get_tags_users_tag_id(params: TagsUsersParams): Promise<Any>{
+    public async get_tags_users_tag_id(tag_id: string, params: TagsUsersParams): Promise<any>{
         return await this.base.get("/v2/tags/" + tag_id + "/tags_users", params);
     }
 
