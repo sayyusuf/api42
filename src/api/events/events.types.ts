@@ -1,4 +1,4 @@
-export type EventsTypes {
+export type EventsTypes = {
     id:                          number;
     name:                        string;
     description:                 string;
@@ -17,7 +17,7 @@ export type EventsTypes {
     updated_at:                  string;
 }
 
-export type Theme {
+export type Theme = {
     created_at: string;
     id:         number;
     name:       string;
