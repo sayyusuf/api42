@@ -24,7 +24,7 @@ export class EventsUsersApi {
      * @param 
      * @returns Return all the events users
      */
-    public async get_eventsUsers(params?: EventsUsersParams): Promise<any>{
+    public async get_eventsUsers(params?: EventsUsersParams): Promise<any[]>{
         return await this.base.get("/v2/events_users", params);
     }
 
@@ -33,7 +33,7 @@ export class EventsUsersApi {
      * @param event_id
      * @returns Return all the events users of the given Event
      */
-    public async get_events_eventId(event_id : string, params?: EventsUsersParams): Promise<any>{
+    public async get_events_eventId(event_id : string, params?: EventsUsersParams): Promise<any[]>{
         return await this.base.get("/v2/events/" + event_id + "/event_users", params);
     }
 
@@ -42,7 +42,7 @@ export class EventsUsersApi {
      * @param user_id
      * @returns Return all the events users of the given User
      */
-    public async get_users_userId_eventsUsers(user_id : string, params?: EventsUsersParams): Promise<any>{
+    public async get_users_userId_eventsUsers(user_id : string, params?: EventsUsersParams): Promise<any[]>{
         return await this.base.get("/v2/users/" + user_id + "/event_users", params);
     }
 }
