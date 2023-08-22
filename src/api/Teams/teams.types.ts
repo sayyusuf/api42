@@ -1,4 +1,4 @@
-export type TeamsTypes {
+export type TeamsTypes = {
   id:                 number;
   name:               string;
   url:                string;
@@ -21,7 +21,7 @@ export type TeamsTypes {
   teams_uploads:      any[];
 }
 
-export type User {
+export type User = {
   id:               number;
   login:            string;
   url:              string;
