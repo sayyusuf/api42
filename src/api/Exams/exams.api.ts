@@ -1,5 +1,5 @@
 import { AnyTxtRecord } from "dns";
-import { ExamsTypes } from "./exams.types";
+import { Exam } from "./exams.types";
 import {BaseApi42} from "../../base/baseApi42";
 
 export class ExamsApi {
