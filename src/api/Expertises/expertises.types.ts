@@ -1,4 +1,4 @@
-export type ExpertisesTypes {
+export type Expertise = {
   id:                   number;
   name:                 string;
   slug:                 string;
