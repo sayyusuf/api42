@@ -1,4 +1,4 @@
-export interface TeamsUsersTypes {
+export type TeamsUsersTypes = {
   id:         number;
   team_id:    number;
   user_id:    number;
@@ -10,7 +10,7 @@ export interface TeamsUsersTypes {
   user:       TopLevelUser;
 }
 
-export interface Team {
+export type Team = {
   id:                 number;
   name:               string;
   url:                string;
@@ -31,7 +31,7 @@ export interface Team {
   project_session_id: number;
 }
 
-export interface UserElement {
+export type UserElement = {
   id:               number;
   login:            string;
   url:              string;
@@ -41,7 +41,7 @@ export interface UserElement {
   projects_user_id: number;
 }
 
-export interface TopLevelUser {
+export type TopLevelUser = {
   id:    number;
   login: string;
   url:   string;
