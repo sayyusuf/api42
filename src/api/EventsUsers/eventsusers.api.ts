@@ -33,7 +33,7 @@ export class EventsUsersApi {
      * @param event_id
      * @returns Return all the events users of the given Event
      */
-    public async get_events_eventId(event_id : string, params?: EventsUsersParams): Promise<any[]>{
+    public async get_events_eventId_eventsUsers(event_id : string, params?: EventsUsersParams): Promise<any[]>{
         return await this.base.get("/v2/events/" + event_id + "/event_users", params);
     }
 
