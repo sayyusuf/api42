@@ -1,4 +1,4 @@
-export type TagsTypes = {
+export type Tag = {
   id:         number;
   name:       string;
   kind:       string;
