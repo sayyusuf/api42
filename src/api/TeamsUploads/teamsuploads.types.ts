@@ -1,4 +1,4 @@
-export type TeamsUploadsTypes = {
+export type TeamsUpload = {
   id:         number;
   final_mark: number;
   comment:    string;
