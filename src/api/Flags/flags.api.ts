@@ -15,7 +15,7 @@ export class FlagsApi {
      * @param 
      * @returns Return all the flags
      */
-    public async get_flags(params?: FlagsParams): Promise<any>{
+    public async get_flags(params?: FlagsParams): Promise<any[]>{
         return await this.base.get("/v2/flags", params);
     }
 
