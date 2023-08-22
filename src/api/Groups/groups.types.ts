@@ -1,4 +1,4 @@
-export type GroupsTypes = {
+export type Group = {
   id: number;
   name: string;
 }
