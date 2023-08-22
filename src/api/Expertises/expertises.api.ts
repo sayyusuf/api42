@@ -16,7 +16,7 @@ export class ExpertisesApi {
      * @param 
      * @returns Return all the expertises
      */
-    public async get_expertises(params?: ExpertisesParams): Promise<ExpertisesTypes[]>{
+    public async get_expertises(params?: ExpertisesParams): Promise<Expertise[]>{
         return await this.base.get("/v2/expertises", params);
     }
 
@@ -25,7 +25,7 @@ export class ExpertisesApi {
      * @param id
      * @returns Get an expertise
      */
-    public async get_expertises_id(id: string, params?: ExpertisesParams): Promise<ExpertisesTypes>{
+    public async get_expertises_id(id: string, params?: ExpertisesParams): Promise<Expertise>{
         return await this.base.get("/v2/expertises/" + id, params);
     }
 }
