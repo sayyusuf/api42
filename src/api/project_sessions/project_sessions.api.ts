@@ -1,5 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
-import { ProjectSessionsParams, ProjectSessionsInputs } from "./project_sessions.params.type";
+import { ProjectSessionsParams, ProjectSessionsInputs, ProjectSessionsGraphParams } from "./project_sessions.params.type";
 import { ProjectSession } from "./project_sessions.type";
 
 export class ProjectSessionsApi {
@@ -15,7 +15,7 @@ export class ProjectSessionsApi {
      * @param input ProjectSessionsInputs
      * @param params ProjectSessionsParams
      */
-    public async  get_projects_projectId_projectSessions_graph(project_id: number | string ,input?: ProjectSessionsInputs, params?:ProjectSessionsParams) :Promise<any>{
+    public async  get_projects_projectId_projectSessions_graph(project_id: number | string ,input?: ProjectSessionsInputs, params?:ProjectSessionsGraphParams) :Promise<any>{
        return await this.base.get("/v2/projects/" + project_id + "/project_sessions/graph" + ((input && input.field)? ("/on/" + input?.field): "") + ((input && input.field && input.interval)?("/by/" + input?.interval): ""), params) ;
     }
 
@@ -24,7 +24,7 @@ export class ProjectSessionsApi {
      * @param input ProjectSessionsInputs
      * @param params ProjectSessionsParams
      */
-    public async get_projectSessions_graph(input?: ProjectSessionsInputs, params?: ProjectSessionsParams) : Promise<any>{
+    public async get_projectSessions_graph(input?: ProjectSessionsInputs, params?: ProjectSessionsGraphParams) : Promise<any>{
         return await this.base.get("/v2/project_sessions/graph" + ((input && input.field)? ("/on/" + input?.field): "") + ((input && input.field && input.interval)?("/by/" + input?.interval): ""), params) ;
         
     }

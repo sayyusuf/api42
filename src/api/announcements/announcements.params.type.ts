@@ -9,6 +9,8 @@
  * 
  */
 export type AnnouncementsParams = {
+    field?: "created_at" | "updated_at" | "expire_at",
+    interval?: "day" | "week" | "month" | "quarter" | "year" | "hour_of_day" | "day_of_week" | "day_of_month" | "month_of_year",
     sort?:                      "id" |  "author" | "title" | "text" | "kind" | "created_at" | "updated_at" | "image" | "expire_at" | "link" | "notificable_id" | "notificable_type",
     "filter[id]"?:              number[] | string[],
     "filter[author]"?:          string[],

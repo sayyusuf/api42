@@ -18,7 +18,6 @@ export type AmendmentsParams = {
 }
 
 export type AmendmentsParams2= {
-    id?:                            number,
     amendment?:                     number,
     "amendment[internship_id]"?:    number,
     "amendment[end_at]"?:           string,
