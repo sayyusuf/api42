@@ -54,5 +54,4 @@ export class ProjectSessionsApi {
         return await this.base.get("/v2/project_sessions/" + id);
     }
 
-
 }
