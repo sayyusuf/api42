@@ -19,7 +19,7 @@ const api : {client_id: string, client_secret: string, grant_type: string, code?
 
 		let base = await BaseApi42.new(apiData);
 		let ac = new EventsApi(base);
-		data = await ac.get_events({});
+		data = await ac.get_events_id("1");
 		console.log(data)
 		writeFileSync("./res.json", JSON.stringify(data));
 	})() 
