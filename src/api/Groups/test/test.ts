@@ -19,7 +19,7 @@ const api : {client_id: string, client_secret: string, grant_type: string, code?
 
 		let base = await BaseApi42.new(apiData);
 		let ac = new GroupsApi(base);
-		data = await ac.get_groups_user_id("12", {});
+		data = await ac.get_groups();
 		console.log(data)
 		writeFileSync("./res.json", JSON.stringify(data));
 	})() 
