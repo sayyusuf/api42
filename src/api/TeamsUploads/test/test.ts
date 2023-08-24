@@ -19,7 +19,7 @@ const api : {client_id: string, client_secret: string, grant_type: string, code?
 
 		let base = await BaseApi42.new(apiData);
 		let ac = new TeamsUploadsApi(base);
-		data = await ac.get_teams_uploads({});
+		data = await ac.get_teamsUploads_id("132");
 		console.log(data)
 		writeFileSync("./res.json", JSON.stringify(data));
 	})() 
