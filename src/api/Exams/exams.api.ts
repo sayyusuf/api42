@@ -1,5 +1,6 @@
 import { AnyTxtRecord } from "dns";
 import { Exam } from "./exams.types";
+import { ExamsParams  } from "./exams.params.types";
 import {BaseApi42} from "../../base/baseApi42";
 
 export class ExamsApi {
@@ -15,7 +16,7 @@ export class ExamsApi {
      * @param id
      * @returns Get an exam
      */
-    public async get_exams_id(id: string): Promise<Exam>{
-        return await this.base.get("/v2/exams/" + id);
+    public async get_exams_id(id: string, params?: ExamsParams): Promise<Exam>{
+        return await this.base.get("/v2/exams/" + id, params);
     }
 }
