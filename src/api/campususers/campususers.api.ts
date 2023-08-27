@@ -14,7 +14,7 @@ export class CampusUsersApi{
      * @param params any object or default {}
      * @returns CampusUser array
      */
-	public async get_campusUsers(params: CampusUserParams) : Promise<CampusUser[]>{
+	public async get_campusUsers(params?: CampusUserParams) : Promise<CampusUser[]>{
 		const route = `/v2/campus_users/`;
 		return await this.base.get(route, params)
 	}
@@ -25,7 +25,7 @@ export class CampusUsersApi{
      * @param params any object or default {}
      * @returns CampusUser array
      */
-	public async get_users_userId_campusUsers(user_id:number | string, params: CampusUserParams) : Promise<CampusUser[]>{
+	public async get_users_userId_campusUsers(user_id:number | string, params?: CampusUserParams) : Promise<CampusUser[]>{
 		const route = `/v2/users/${user_id}/campus_users`;
 		return await this.base.get(route, params)
 	}

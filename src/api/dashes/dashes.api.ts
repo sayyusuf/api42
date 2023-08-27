@@ -2,7 +2,7 @@ import { BaseApi42 } from "../../base/baseApi42";
 import { DashesParams } from "./dashes.params.type";
 
 
-export class CursusUsersApi {
+export class DashesApi {
     private base: BaseApi42;
 
     constructor(base: BaseApi42) {

@@ -1,0 +1,508 @@
+[
+	{
+		"id": 1042,
+		"name": "SARI ODA KULLANIM UZATMA",
+		"description": "Sarı odayı kullanma sınırınız 1 günlüğüne 6 saate çıkarılır.",
+		"price": 100,
+		"quantity": null,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 22,
+		"created_at": "2023-08-02T10:08:16.025Z",
+		"updated_at": "2023-08-02T10:15:26.730Z",
+		"kind": "manager",
+		"slug": "sari-oda-kullanim-uzatma",
+		"image": {
+			"url": "/uploads/product/image/1042/69765362.jpg",
+			"thumb": {
+				"url": "/uploads/product/image/1042/thumb_69765362.jpg"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 1035,
+		"name": "I need space III",
+		"description": "Son bir kez, 2GB artırabilir misiniz 👉👈? Bu ürünü başkasına hediye EDEMEZSİNİZ. NOT : Bu ürünü aldıktan sonra, hesabını kapatıp, staff odasına gitmeniz gerekecektir. HESABINIZ SIFIRLANACAKTIR",
+		"price": 300,
+		"quantity": null,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 4,
+		"created_at": "2023-07-04T13:21:09.755Z",
+		"updated_at": "2023-07-04T13:21:09.793Z",
+		"kind": "manager",
+		"slug": "i-need-space-iii-f5a2c6a3-a9bc-4965-8766-790430c71284",
+		"image": {
+			"url": "/uploads/product/image/1035/hard-drive__2_.png",
+			"thumb": {
+				"url": "/uploads/product/image/1035/thumb_hard-drive__2_.png"
+			}
+		},
+		"is_uniq": true,
+		"one_time_purchase": true
+	},
+	{
+		"id": 958,
+		"name": "Anlaşmalı coalition değiştirme",
+		"description": "\"Biz ikimiz anlaştık, ben onun, o da benim Coalitiona geçmek istiyor.\" 2 kişide shoptan satın alıp, haber vermesi gerekiyor. Bu ürünü başkasına hediye EDEMEZSİNİZ. Değişimler sadece puanlar sıfırlandığında yapılacaktır.",
+		"price": 50,
+		"quantity": null,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 4,
+		"created_at": "2023-05-09T12:53:52.630Z",
+		"updated_at": "2023-07-04T13:16:23.597Z",
+		"kind": "auto",
+		"slug": "anlasmali-coalition-degistirme",
+		"image": {
+			"url": "/uploads/product/image/958/rerere__1_.png",
+			"thumb": {
+				"url": "/uploads/product/image/958/thumb_rerere__1_.png"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 957,
+		"name": "Kart numarası değişikliği",
+		"description": "Boşta duran kart numaralarının listesinin linki yakın bir zamanda buradan görebileceksiniz",
+		"price": 4242,
+		"quantity": null,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 4,
+		"created_at": "2023-05-09T11:06:25.109Z",
+		"updated_at": "2023-05-24T08:18:45.158Z",
+		"kind": "auto",
+		"slug": "kart-numarasi-degisikligi",
+		"image": {
+			"url": "/uploads/product/image/957/kart_degisim.png",
+			"thumb": {
+				"url": "/uploads/product/image/957/thumb_kart_degisim.png"
+			}
+		},
+		"is_uniq": true,
+		"one_time_purchase": true
+	},
+	{
+		"id": 956,
+		"name": "I need space II",
+		"description": "Hafızam cidden doldu, 2GB artırabilir misiniz ? Bu ürünü başkasına hediye EDEMEZSİNİZ. NOT : Bu ürünü aldıktan sonra, hesabını kapatıp, staff odasına gitmeniz gerekecektir. HESABINIZ SIFIRLANACAKTIR",
+		"price": 300,
+		"quantity": null,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 4,
+		"created_at": "2023-05-09T06:35:51.852Z",
+		"updated_at": "2023-07-04T13:13:28.966Z",
+		"kind": "auto",
+		"slug": "i-need-space-ii",
+		"image": {
+			"url": "/uploads/product/image/956/hard-drive__2_.png",
+			"thumb": {
+				"url": "/uploads/product/image/956/thumb_hard-drive__2_.png"
+			}
+		},
+		"is_uniq": true,
+		"one_time_purchase": true
+	},
+	{
+		"id": 955,
+		"name": "I need space I",
+		"description": "Hafızam doldu, 1GB artırabilir misiniz ? Bu ürünü başkasına hediye EDEMEZSİNİZ. NOT : Bu ürünü aldıktan sonra, hesabını kapatıp, staff odasına gitmeniz gerekecektir. HESABINIZ SIFIRLANACAKTIR",
+		"price": 175,
+		"quantity": null,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 4,
+		"created_at": "2023-05-09T06:32:14.299Z",
+		"updated_at": "2023-07-04T13:12:50.428Z",
+		"kind": "auto",
+		"slug": "i-need-space-i",
+		"image": {
+			"url": "/uploads/product/image/955/hard-drive__1_.png",
+			"thumb": {
+				"url": "/uploads/product/image/955/thumb_hard-drive__1_.png"
+			}
+		},
+		"is_uniq": true,
+		"one_time_purchase": true
+	},
+	{
+		"id": 954,
+		"name": "Evaluation Puanı +1",
+		"description": "Ya hocam, evo düşmüyor! Bana 1 puan verseniz? Veremem ama satabilirim ;)",
+		"price": 100,
+		"quantity": null,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 5,
+		"created_at": "2023-05-09T06:05:35.546Z",
+		"updated_at": "2023-08-09T13:59:27.378Z",
+		"kind": "manager",
+		"slug": "evaluation-puani-1",
+		"image": {
+			"url": "/uploads/product/image/954/ko%CC%88pke.jpeg",
+			"thumb": {
+				"url": "/uploads/product/image/954/thumb_ko%CC%88pke.jpeg"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 952,
+		"name": "hain ",
+		"description": "Coalition değiştirmek mi istiyorsun ? İşte sana şans. Yalnız dikkat et, Rasgele bir coalition'a atanacaksın. Aynı gelme ihtimali var... Bu ürünü başkasına hediye EDEMEZSİNİZ. Değişimler sadece puanlar sıfırlandığında yapılacaktır.",
+		"price": 75,
+		"quantity": null,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 5,
+		"created_at": "2023-05-07T16:02:43.761Z",
+		"updated_at": "2023-07-04T13:15:23.138Z",
+		"kind": "manager",
+		"slug": "hain-083740c9-88e0-41d5-8ffd-d732950f5fbb",
+		"image": {
+			"url": "/uploads/product/image/952/1537000349394.jpeg",
+			"thumb": {
+				"url": "/uploads/product/image/952/thumb_1537000349394.jpeg"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 819,
+		"name": "42 İstanbul Boyun Askısı",
+		"description": "Herkesin rüyalarına giren, uğruna taklalar atılan o efsanevi boyunluk artık sadece 59.99 (Kart ayrı olarak satılmaktadır)",
+		"price": 60,
+		"quantity": null,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 22,
+		"created_at": "2022-12-29T14:29:09.993Z",
+		"updated_at": "2023-07-04T13:11:30.656Z",
+		"kind": "user",
+		"slug": "42-istanbul-boyun-askisi",
+		"image": {
+			"url": "/uploads/product/image/819/WhatsApp_Image_2022-12-29_at_5.23.37_PM.jpeg",
+			"thumb": {
+				"url": "/uploads/product/image/819/thumb_WhatsApp_Image_2022-12-29_at_5.23.37_PM.jpeg"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 726,
+		"name": "Kral Dairesi",
+		"description": "Yeni havuz gelene kadar istedigi bilgisayarda takilma sansi",
+		"price": 175,
+		"quantity": 50,
+		"begin_at": "2022-08-13T10:00:00.000Z",
+		"end_at": "2022-08-19T21:00:00.000Z",
+		"category_id": 22,
+		"created_at": "2022-08-13T09:32:07.504Z",
+		"updated_at": "2022-08-13T15:48:13.491Z",
+		"kind": "user",
+		"slug": "kral-dairesi",
+		"image": {
+			"url": "/uploads/product/image/726/07944400-64C2-469C-BB27-62A848B2871A.jpeg",
+			"thumb": {
+				"url": "/uploads/product/image/726/thumb_07944400-64C2-469C-BB27-62A848B2871A.jpeg"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 681,
+		"name": "Paşa Koltuğu",
+		"description": "Bu ürünü alan arkadaşlar 2 gün, ister ise bir arkadaşı ile, ister ise tek başına köşeyi kullanabiliyor.",
+		"price": 24,
+		"quantity": 15,
+		"begin_at": "2022-06-19T21:00:00.000Z",
+		"end_at": "2022-08-12T21:00:00.000Z",
+		"category_id": 22,
+		"created_at": "2022-06-20T13:44:43.830Z",
+		"updated_at": "2022-08-13T15:49:52.475Z",
+		"kind": "user",
+		"slug": "pasa-koltugu",
+		"image": {
+			"url": "/uploads/product/image/681/Screen_Shot_2022-06-20_at_16.41.03.jpg",
+			"thumb": {
+				"url": "/uploads/product/image/681/thumb_Screen_Shot_2022-06-20_at_16.41.03.jpg"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 680,
+		"name": "Kbueno Challenge Istanbul",
+		"description": "Jonathan 'a masa tenisinde meydan okumak ister misin?\r\nJonathan gönlü bol bir arkadaşımız... Kendisini yenen cengavere 110₳ sunuyor.",
+		"price": 10,
+		"quantity": null,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 23,
+		"created_at": "2022-06-20T12:53:27.954Z",
+		"updated_at": "2023-07-04T13:05:53.784Z",
+		"kind": "user",
+		"slug": "kbueno-challenge-istanbul",
+		"image": {
+			"url": "/uploads/product/image/680/jochiche.jpeg",
+			"thumb": {
+				"url": "/uploads/product/image/680/thumb_jochiche.jpeg"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 645,
+		"name": "Beni bir de böyle çek",
+		"description": "Bu ürün sayesinde Intra profil fotoğrafınızı tekrar çektirebilirsiniz. Tickboy'dan farklı olarak fotoğrafı yalnızca bir Staff'ın bilgisayar kamerası ile çekebilirsiniz.",
+		"price": 60,
+		"quantity": null,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 22,
+		"created_at": "2022-05-17T12:38:55.379Z",
+		"updated_at": "2023-07-04T13:07:43.617Z",
+		"kind": "user",
+		"slug": "beni-bir-de-boyle-cek",
+		"image": {
+			"url": "/uploads/product/image/645/bidebo%CC%88y.png",
+			"thumb": {
+				"url": "/uploads/product/image/645/thumb_bidebo%CC%88y.png"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 644,
+		"name": "tickyboy",
+		"description": "Bu ürünü alanlar profil fotoğraflarını değiştirebilecek. 42 kampüsü içinde yeniden çekilerek, yüzü gözüktüğü sürece istediği fotoğrafı koyma hakkina sahip olacak.",
+		"price": 100,
+		"quantity": null,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 22,
+		"created_at": "2022-05-17T12:24:02.927Z",
+		"updated_at": "2023-07-04T13:17:44.099Z",
+		"kind": "user",
+		"slug": "tickyboy",
+		"image": {
+			"url": "/uploads/product/image/644/C_Screen_Shot_2022-05-17_at_15.23.04.png",
+			"thumb": {
+				"url": "/uploads/product/image/644/thumb_C_Screen_Shot_2022-05-17_at_15.23.04.png"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 643,
+		"name": "Ma'am Zehra's Specials",
+		"description": "Fotoğraf gerçektir. Birebir beklentiniz olsun. Değişiklik-farklılıklar olamaz. Görsel 1-1dir. Itiraz hakkınız vardır. Komple tencereyi alacaksınız. Tencereyi geri vermeyi unutmayın.",
+		"price": 273,
+		"quantity": 0,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 22,
+		"created_at": "2022-05-17T12:14:04.001Z",
+		"updated_at": "2023-04-13T11:31:53.773Z",
+		"kind": "user",
+		"slug": "ma-am-zehra-s-specials",
+		"image": {
+			"url": "/uploads/product/image/643/pasta.jpeg",
+			"thumb": {
+				"url": "/uploads/product/image/643/thumb_pasta.jpeg"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 641,
+		"name": "Şaban",
+		"description": "Bu ürünü alan arkadaş #duyuru kanalından istediği postu ve görseli paylaşma hakkı veriyoruz.",
+		"price": 153,
+		"quantity": 3,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 22,
+		"created_at": "2022-05-17T11:57:38.394Z",
+		"updated_at": "2023-05-22T08:13:20.808Z",
+		"kind": "user",
+		"slug": "saban",
+		"image": {
+			"url": "/uploads/product/image/641/Screen_Shot_2022-05-17_at_14.53.52.png",
+			"thumb": {
+				"url": "/uploads/product/image/641/thumb_Screen_Shot_2022-05-17_at_14.53.52.png"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 640,
+		"name": "Uyuyan Güzel",
+		"description": "Bu ürünü alan öğrenci dilediği bir gece sosyal odayı kapatıp, puflarda rahat rahat uyuyabilecek.",
+		"price": 170,
+		"quantity": 10,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 22,
+		"created_at": "2022-05-17T11:46:57.586Z",
+		"updated_at": "2022-09-22T11:28:46.597Z",
+		"kind": "user",
+		"slug": "uyuyan-guzel",
+		"image": {
+			"url": "/uploads/product/image/640/C_Screen_Shot_2022-05-17_at_14.45.21.png",
+			"thumb": {
+				"url": "/uploads/product/image/640/thumb_C_Screen_Shot_2022-05-17_at_14.45.21.png"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 639,
+		"name": "Köy Ağası ",
+		"description": "Bu ürünü alan öğrenci dilediği gece bir kazan semaver kaynatıp arkadaşları ile muhabbetin dibine vurabiliyor.",
+		"price": 100,
+		"quantity": 17,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 22,
+		"created_at": "2022-05-17T11:44:25.891Z",
+		"updated_at": "2023-06-13T07:21:14.542Z",
+		"kind": "user",
+		"slug": "koy-agasi",
+		"image": {
+			"url": "/uploads/product/image/639/koyagalari__1___1_.png",
+			"thumb": {
+				"url": "/uploads/product/image/639/thumb_koyagalari__1___1_.png"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 637,
+		"name": "2x cppuccino mackefileto structfuccio",
+		"description": "Tam story atmalık, Kağıthane'nin tozlu mistik havasında büyümüş kahve tomurcuklarının, Macrocenter semalarından gelen süt ile mükemmel birleşimi..",
+		"price": 24,
+		"quantity": null,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 22,
+		"created_at": "2022-05-17T11:36:33.019Z",
+		"updated_at": "2023-08-26T07:28:16.792Z",
+		"kind": "user",
+		"slug": "2x-cppuccino-mackefileto-structfuccio",
+		"image": {
+			"url": "/uploads/product/image/637/C_Screen_Shot_2022-05-17_at_14.33.10.png",
+			"thumb": {
+				"url": "/uploads/product/image/637/thumb_C_Screen_Shot_2022-05-17_at_14.33.10.png"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 636,
+		"name": "Masa Tenisi Turnuvasında Skor Tutulan Kalem",
+		"description": "Siyah, az-temiz kullanılmış, hastasına, keyfe keder, ölücüler yazmasin kalp kirarim",
+		"price": 33,
+		"quantity": 0,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 22,
+		"created_at": "2022-05-17T11:21:39.970Z",
+		"updated_at": "2023-02-24T12:38:06.576Z",
+		"kind": "user",
+		"slug": "masa-tenisi-turnuvasinda-skor-tutulan-kalem",
+		"image": {
+			"url": "/uploads/product/image/636/kalem.jpeg",
+			"thumb": {
+				"url": "/uploads/product/image/636/thumb_kalem.jpeg"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 635,
+		"name": "42 Magic Defter S+",
+		"description": "Insanin yazdikca yazasini getiren buyulu defter. ",
+		"price": 73,
+		"quantity": 0,
+		"begin_at": null,
+		"end_at": null,
+		"category_id": 22,
+		"created_at": "2022-05-17T11:16:47.658Z",
+		"updated_at": "2023-02-24T15:01:44.790Z",
+		"kind": "user",
+		"slug": "42-magic-defter-s",
+		"image": {
+			"url": "/uploads/product/image/635/defter.jpeg",
+			"thumb": {
+				"url": "/uploads/product/image/635/thumb_defter.jpeg"
+			}
+		},
+		"is_uniq": false,
+		"one_time_purchase": false
+	},
+	{
+		"id": 562,
+		"name": "Rush Seyyid'in Sac Stil Hakkı",
+		"description": "Sınırlı sayıda olan bu ürünü kısa zaman için halka açıyoruz. Hayatınızda unutamayacağınız bir anı.. Rush ekibimizden Seyyid Bey'in saclarının nasıl bir sekile(renk,kesim) girmesinin kararını verme ayrıcalığı ile tanışın.",
+		"price": 199,
+		"quantity": 1,
+		"begin_at": "2022-02-10T21:00:00.000Z",
+		"end_at": "2022-02-27T21:00:00.000Z",
+		"category_id": 22,
+		"created_at": "2022-02-11T18:44:00.481Z",
+		"updated_at": "2022-02-11T18:45:55.189Z",
+		"kind": "user",
+		"slug": "rush-seyyid-in-sac-stil-hakki",
+		"image": {
+			"url": "/uploads/product/image/562/Ekran_g%C3%B6r%C3%BCnt%C3%BCs%C3%BC_2022-02-11_213856-min.jpg",
+			"thumb": {
+				"url": "/uploads/product/image/562/thumb_Ekran_g%C3%B6r%C3%BCnt%C3%BCs%C3%BC_2022-02-11_213856-min.jpg"
+			}
+		},
+		"is_uniq": true,
+		"one_time_purchase": true
+	},
+	{
+		"id": 546,
+		"name": "Cool Kravat",
+		"description": "cool olmak için birebir.\t",
+		"price": 16,
+		"quantity": 0,
+		"begin_at": "2022-01-09T21:00:00.000Z",
+		"end_at": "2022-01-11T21:00:00.000Z",
+		"category_id": 22,
+		"created_at": "2022-01-09T22:45:15.136Z",
+		"updated_at": "2022-01-15T16:12:41.092Z",
+		"kind": "user",
+		"slug": "cool-kravat",
+		"image": {
+			"url": "/uploads/product/image/546/duck-neckties-145-8cm-barney-ducky-cartoon.jpg",
+			"thumb": {
+				"url": "/uploads/product/image/546/thumb_duck-neckties-145-8cm-barney-ducky-cartoon.jpg"
+			}
+		},
+		"is_uniq": true,
+		"one_time_purchase": true
+	}
+]

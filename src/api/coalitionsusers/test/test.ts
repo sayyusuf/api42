@@ -3,8 +3,7 @@ import axios from "axios";
 import { writeFileSync } from "fs";
 import { ApiData } from "../../../base/types";
 import { BaseApi42 } from "../../../base/baseApi42";
-import { Coalition } from "../coalitions.type";
-import { CoalitionsApi } from "../coalitions.api";
+import { CoalitionsUsersApi } from "../coalitionsusers.api";
 
 
 //"filter[campus_id]" : campus_id.toString()
@@ -22,14 +21,7 @@ const api : {client_id: string, client_secret: string, grant_type: string, code?
 			redirect_uri:api.redirect_uri
 		}
 		const baseapi = await BaseApi42.new(apiData)
-		const testapi = new CoalitionsApi(baseapi)
-		data = await testapi.get_coalitions_id(366)
+		const testapi = new CoalitionsUsersApi(baseapi)
+		data = await testapi.get_coalitionsUsers()
 		writeFileSync("./res.json", JSON.stringify(data));
-	})() 
-
-
-
-
-
-
-	
+	})()

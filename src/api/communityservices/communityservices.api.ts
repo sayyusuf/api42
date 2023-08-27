@@ -16,7 +16,7 @@ export class CommunityServicesApi {
      * @param params any object or default {}
      * @returns CommunityService array
      */
-    public async get_communityServices_graph(field: string, interval: string, params: CommunityServicesParams): Promise<any> {
+    public async get_communityServices_graph(field: string, interval: string, params?: CommunityServicesParams): Promise<any> {
         const route = "/v2/community_services/graph" +  (field ? ("/on/" + field): "") + ((field && interval)?("/by/" + interval): "");
         return await this.base.get(route, params);
     }
@@ -27,7 +27,7 @@ export class CommunityServicesApi {
      * @param params any object or default {}
      * @returns CommunityService array
      */
-    public async get_closes_closeId_communityServices(close_id: number | string, params: CommunityServicesParams): Promise<CommunityService[]> {
+    public async get_closes_closeId_communityServices(close_id: number | string, params?: CommunityServicesParams): Promise<CommunityService[]> {
         const route = `/v2/closes/${close_id}/community_services`;
         return await this.base.get(route, params);
     }
@@ -37,7 +37,7 @@ export class CommunityServicesApi {
      * @param params any object or default {}
      * @returns CommunityService array
      */
-    public async get_communityServices(params: CommunityServicesParams): Promise<CommunityService[]> {
+    public async get_communityServices(params?: CommunityServicesParams): Promise<CommunityService[]> {
         const route = "/v2/community_services";
         return await this.base.get(route, params);
     }
