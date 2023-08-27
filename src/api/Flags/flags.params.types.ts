@@ -3,16 +3,16 @@ export type FlagsParams = {
   
   
     "filter[id]"?:string[] | number[],
-    "filter[name]"?:string[] | number[],
+    "filter[name]"?:string[],
     "filter[positive]"?:string[],
-    "filter[icon]"?:string[] | number[],
+    "filter[icon]"?:string[,
     "filter[created_at]"?:string[],
     "filter[updated_at]"?:string[],
 
     "range[id]"?:string[] | number[],
-    "range[name]"?:string[] | number[],
+    "range[name]"?:string[],
     "range[positive]"?:string[],
-    "range[icon]"?:string[] | number[],
+    "range[icon]"?:string[],
     "range[created_at]"?:string[],
     "range[updated_at]"?:string[],
 
