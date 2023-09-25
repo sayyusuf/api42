@@ -1,7 +1,7 @@
-import { ApiData } from "../base/types";
-import { IntraApi } from "../intrapi";
+import { ApiData } from "../../../base/types";
+import { IntraApi } from "../../../intrapi";
 
-describe("Locations test suite", () => {
+describe("Patronages reports test suite", () => {
   let intraApi;
 
   beforeAll(async () => {
@@ -24,9 +24,9 @@ describe("Locations test suite", () => {
     intraApi = await IntraApi.new(apiData);
   });
 
-  it("should return users location grouped data", async () => {
-    const data = await intraApi.locations
-      .locations_graph()
+  it("should return patronages reports", async () => {
+    const data = await intraApi.patronages_reports
+      .get_patronages_reports()
       .catch((ex) => console.error(ex));
 
     expect(0).toEqual(0);

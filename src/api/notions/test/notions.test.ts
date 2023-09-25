@@ -1,7 +1,7 @@
-import { ApiData } from "../base/types";
-import { IntraApi } from "../intrapi";
+import { ApiData } from "../../../base/types";
+import { IntraApi } from "../../../intrapi";
 
-describe("Products test suite", () => {
+describe("Notions test suite", () => {
   let intraApi;
 
   beforeAll(async () => {
@@ -24,9 +24,9 @@ describe("Products test suite", () => {
     intraApi = await IntraApi.new(apiData);
   });
 
-  it("should return products", async () => {
-    const data = await intraApi.products
-      .get_products()
+  it("should return notions", async () => {
+    const data = await intraApi.notions
+      .get_notions()
       .catch((ex) => console.error(ex));
 
     expect(0).toEqual(0);

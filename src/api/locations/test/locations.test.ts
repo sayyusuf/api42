@@ -1,7 +1,7 @@
-import { ApiData } from "../base/types";
-import { IntraApi } from "../intrapi";
+import { ApiData } from "../../../base/types";
+import { IntraApi } from "../../../intrapi";
 
-describe("Titles users test suite", () => {
+describe("Locations test suite", () => {
   let intraApi;
 
   beforeAll(async () => {
@@ -24,9 +24,9 @@ describe("Titles users test suite", () => {
     intraApi = await IntraApi.new(apiData);
   });
 
-  it("should return titles users", async () => {
-    const data = await intraApi.titles_users
-      .get_titles_users()
+  it("should return users location grouped data", async () => {
+    const data = await intraApi.locations
+      .locations_graph()
       .catch((ex) => console.error(ex));
 
     expect(0).toEqual(0);

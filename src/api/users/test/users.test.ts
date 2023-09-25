@@ -1,5 +1,5 @@
-import { ApiData } from "../base/types";
-import { IntraApi } from "../intrapi";
+import { ApiData } from "../../../base/types";
+import { IntraApi } from "../../../intrapi";
 
 describe("Users test suite", () => {
   let intraApi;

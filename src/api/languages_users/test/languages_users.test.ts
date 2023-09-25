@@ -1,7 +1,7 @@
-import { ApiData } from "../base/types";
-import { IntraApi } from "../intrapi";
+import { ApiData } from "../../../base/types";
+import { IntraApi } from "../../../intrapi";
 
-describe("Notions test suite", () => {
+describe("Languages Users test suite", () => {
   let intraApi;
 
   beforeAll(async () => {
@@ -24,9 +24,9 @@ describe("Notions test suite", () => {
     intraApi = await IntraApi.new(apiData);
   });
 
-  it("should return notions", async () => {
-    const data = await intraApi.notions
-      .get_notions()
+  it("should return language users grouped data", async () => {
+    const data = await intraApi.language_users
+      .languages_users_graph()
       .catch((ex) => console.error(ex));
 
     expect(0).toEqual(0);

@@ -1,7 +1,7 @@
-import { ApiData } from "../base/types";
-import { IntraApi } from "../intrapi";
+import { ApiData } from "../../../base/types";
+import { IntraApi } from "../../../intrapi";
 
-describe("Languages Users test suite", () => {
+describe("Offers test suite", () => {
   let intraApi;
 
   beforeAll(async () => {
@@ -24,9 +24,9 @@ describe("Languages Users test suite", () => {
     intraApi = await IntraApi.new(apiData);
   });
 
-  it("should return language users grouped data", async () => {
-    const data = await intraApi.language_users
-      .languages_users_graph()
+  it("should return offers", async () => {
+    const data = await intraApi.offers
+      .get_offers()
       .catch((ex) => console.error(ex));
 
     expect(0).toEqual(0);
