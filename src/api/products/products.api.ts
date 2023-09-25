@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { Product } from "./products.types";
 
 export class ProductsApi {
   private base: BaseApi42;

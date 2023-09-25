@@ -1,4 +1,4 @@
-type ProjectData = {
+export type ProjectData = {
     id:                 number;
     coordinates:        number[];
     by:                 any[];

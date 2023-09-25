@@ -1,4 +1,4 @@
-type PartnershipUsers = {
+export type PartnershipUsers = {
     id:             number;
     partnership_id: number;
     final_mark:     null;

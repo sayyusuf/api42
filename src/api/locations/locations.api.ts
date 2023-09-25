@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { Locations } from "./locations.types";
 
 export class LocationsApi {
   private base: BaseApi42;

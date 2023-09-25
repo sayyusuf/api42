@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { Translation } from "./translations.types";
 
 export class TransaltionsApi {
   private base: BaseApi42;

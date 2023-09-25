@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { PartnershipUsers } from "./partnerships_users.types";
 
 export class PartnershipsUsersApi {
   private base: BaseApi42;

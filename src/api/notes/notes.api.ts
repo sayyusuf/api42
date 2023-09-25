@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { Note } from "./notes.types";
 
 /**
  * This resource is paginated by 30 items.

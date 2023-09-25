@@ -1,3 +1,4 @@
+import { writeFileSync } from "fs";
 import { ApiData } from "../../../base/types";
 import { IntraApi } from "../../../intrapi";
 
@@ -11,7 +12,7 @@ describe("Languages Users test suite", () => {
       grant_type: string;
       code?: string | undefined;
       redirect_uri?: string | undefined;
-    } = require("./api.json");
+    } = require("../../../tests/api.json");
 
     const apiData: ApiData = {
       client_id: api.client_id,
@@ -28,6 +29,7 @@ describe("Languages Users test suite", () => {
     const data = await intraApi.language_users
       .languages_users_graph()
       .catch((ex) => console.error(ex));
+    writeFileSync("./res.json", JSON.stringify(data));
 
     expect(0).toEqual(0);
   });

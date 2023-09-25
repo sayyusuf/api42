@@ -1,4 +1,4 @@
-type Translation = {
+export type Translation = {
     id:                        number;
     translatable_id:           number;
     translatable_type:         string;
@@ -13,12 +13,12 @@ type Translation = {
     translations_structure:    TranslationsStructure;
 }
 
-type Fields = {
+export type Fields = {
     name:        string;
     description: null | string;
 }
 
-type TranslationsStructure = {
+export type TranslationsStructure = {
     id:                  number;
     searchable_by:       string[];
     identified_by:       string[];

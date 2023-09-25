@@ -1,4 +1,4 @@
-type Partnership = {
+export type Partnership = {
     id:                     number;
     name:                   string;
     slug:                   string;

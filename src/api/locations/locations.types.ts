@@ -1,4 +1,4 @@
-type Locations = {
+export type Locations = {
     id:        number;
     begin_at:  string;
     end_at:    string;

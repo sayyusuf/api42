@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { Notion } from "./notions.types";
 
 export class NotionsApi {
   private base: BaseApi42;

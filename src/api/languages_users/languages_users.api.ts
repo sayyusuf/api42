@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { LanguageUser } from "./languages_users.types";
 
 export class LanguageUsersApi {
   private base: BaseApi42;

@@ -1,6 +1,6 @@
-type Note = {
+export type Note = {
   id: number;
-  from_user: LocationsUser;
+  from_user: NoteUser;
   subject: string;
   content: string;
   created_at: string;

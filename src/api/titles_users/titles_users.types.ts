@@ -1,4 +1,4 @@
-type TitleUser = {
+export type TitleUser = {
     id:         number;
     user_id:    number;
     title_id:   number;

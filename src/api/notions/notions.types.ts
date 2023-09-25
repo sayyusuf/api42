@@ -1,4 +1,4 @@
-type Notion = {
+export type Notion = {
     id:         number;
     name:       string;
     slug:       string;

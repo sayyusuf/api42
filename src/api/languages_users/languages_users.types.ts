@@ -1,4 +1,4 @@
-type LanguageUser = {
+export type LanguageUser = {
     id:          number;
     language_id: number;
     user_id:     number;
