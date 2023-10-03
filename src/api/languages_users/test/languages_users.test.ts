@@ -29,6 +29,7 @@ describe("Languages Users test suite", () => {
     const data = await intraApi.language_users
       .languages_users_graph()
       .catch((ex) => console.error(ex));
+    console.log(data);
     writeFileSync("./res.json", JSON.stringify(data));
 
     expect(0).toEqual(0);

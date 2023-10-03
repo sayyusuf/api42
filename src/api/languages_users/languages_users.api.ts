@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { LanguageUserParams } from "./languages_users.params.type";
 import { LanguageUser } from "./languages_users.types";
 
 export class LanguageUsersApi {
@@ -8,51 +9,44 @@ export class LanguageUsersApi {
     this.base = base;
   }
 
-  // GET /v2/languages_users/graph(/on/:field(/by/:interval))
   /**
-   * Return grouped temporal data on languages users
+   * GET /v2/languages_users/graph(/on/:field(/by/:interval))
+   * @param params
+   * @returns grouped temporal data on languages users
    */
-  public async languages_users_graph(
-    field?: "created_at",
-    interval?: "month_of_year",
-    sort?: string,
-    filter?: string,
-    range?: string
-  ) {
-    return await this.base.get(`/v2/languages_users/graph`);
+  public async languages_users_graph(params?: LanguageUserParams) {
+    return await this.base.get(`/v2/languages_users/graph`, params);
   }
 
-  // GET /v2/users/:user_id/languages_users
   /**
-   * Return all the languages users of the given User
+   * GET /v2/users/:user_id/languages_users
+   * @param user_id
+   * @param params
+   * @returns all the languages users of the given User
    */
   public async users_languages_users(
     user_id: string,
-    sort?: string,
-    filter?: string,
-    range?: string,
-    page?: string
+    params?: LanguageUserParams
   ): Promise<LanguageUser[]> {
-    return await this.base.get(`/v2/users/${user_id}/languages_users`);
+    return await this.base.get(`/v2/users/${user_id}/languages_users`, params);
   }
 
-  // GET /v2/languages_users
   /**
-   * Return all the languages users
+   * GET /v2/languages_users
+   * @param params
+   * @returns all the languages users
    */
   public async get_languages_users(
-    user_id?: string,
-    sort?: string,
-    filter?: string,
-    range?: string,
-    page?: string
+    params?: LanguageUserParams
   ): Promise<LanguageUser[]> {
     return await this.base.get(`/v2/languages_users`);
   }
 
-  // GET /v2/users/:user_id/languages_users/:id
   /**
-   * Get a languages user of the given Id, associated with the given User
+   * GET /v2/users/:user_id/languages_users/:id
+   * @param user_id
+   * @param id
+   * @returns a languages user of the given Id, associated with the given User
    */
   public async get_users_userId_languages_users_id(
     user_id: string,
@@ -61,9 +55,10 @@ export class LanguageUsersApi {
     return await this.base.get(`/v2/users/${user_id}/languages_users/${id}`);
   }
 
-  // GET /v2/languages_users/:id
   /**
-   * Get a languages user
+   * GET /v2/languages_users/:id
+   * @param id
+   * @returns a languages user
    */
   public async get_languages_users_id(id: string): Promise<LanguageUser> {
     return await this.base.get(`/v2/languages_users/${id}`);
