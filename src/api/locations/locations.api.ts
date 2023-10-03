@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { LocationsParams } from "./locations.params.type";
 import { Locations } from "./locations.types";
 
 export class LocationsApi {
@@ -10,62 +11,57 @@ export class LocationsApi {
 
   // GET /v2/locations/graph(/on/:field(/by/:interval))
   /**
-   * Return grouped temporal data on locations
+   * Count all occurences on a particular field (default on begin_at) by a particular period, starting from the first occurence to now.
+   * @param params
+   * @returns Return grouped temporal data on locations
    */
-  public async locations_graph(
-    field?: "created_at",
-    interval?: "month_of_year",
-    sort?: string,
-    filter?: string,
-    range?: string
-  ) {
-    return await this.base.get(`/v2/locations/graph`);
+  public async locations_graph(params?: LocationsParams) {
+    return await this.base.get(`/v2/locations/graph`, params);
   }
 
   // GET /v2/locations
   /**
-   * Return all the locations
+   *
+   * @param params
+   * @returns Return all the locations
    */
-  public async locations(
-    sort?: string,
-    filter?: string,
-    range?: string,
-    page?: string
-  ): Promise<Locations[]> {
-    return await this.base.get(`/v2/locations`);
+  public async locations(params?: LocationsParams): Promise<Locations[]> {
+    return await this.base.get(`/v2/locations`, params);
   }
 
   // GET /v2/users/:user_id/locations
   /**
-   * Return all the locations of the given User
+   *
+   * @param user_id
+   * @param params
+   * @returns Return all the locations of the given User
    */
   public async users_userId_locations(
     user_id: string,
-    sort?: string,
-    filter?: string,
-    range?: string,
-    page?: string
+    params?: LocationsParams
   ): Promise<Locations[]> {
-    return await this.base.get(`/v2/users/${user_id}/locations`);
+    return await this.base.get(`/v2/users/${user_id}/locations`, params);
   }
 
   // GET /v2/campus/:campus_id/locations
   /**
-   * Return all the locations of the given Campus
+   *
+   * @param campus_id
+   * @param params
+   * @returns Return all the locations of the given Campus
    */
   public async campus_campusId_locations(
     campus_id: string,
-    sort?: string,
-    filter?: string,
-    range?: string,
-    page?: string
+    params?: LocationsParams
   ): Promise<Locations[]> {
-    return await this.base.get(`/v2/campus/${campus_id}/locations`);
+    return await this.base.get(`/v2/campus/${campus_id}/locations`, params);
   }
 
   // GET /v2/locations/:id
   /**
-   * Get a location
+   *
+   * @param id
+   * @returns Get a location
    */
   public async get_locations(id: string): Promise<Locations> {
     return await this.base.get(`/v2/locations/${id}`);
