@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { NotesParams } from "./notes.params.type";
 import { Note } from "./notes.types";
 
 /**
@@ -15,56 +16,49 @@ export class NotesApi {
 
   // GET /v2/users/:user_id/notes
   /**
-   * Return all the notes of the given User
+   *
+   * @param user_id
+   * @param params
+   * @returns Return all the notes of the given User
    */
   public async users_userId_notes(
     user_id: string,
-    sort?: string,
-    filter?: string,
-    range?: string,
-    page?: string
+    params?: NotesParams
   ): Promise<Note[]> {
-    return await this.base.get(`/v2/users/${user_id}/notes`);
+    return await this.base.get(`/v2/users/${user_id}/notes`, params);
   }
 
   // GET /v2/campus/:campus_id/notes
   /**
-   * Return all the notes of the given Campus
+   *
+   * @param campus_id
+   * @param params
+   * @returns Return all the notes of the given Campus
    */
   public async campus_campusId_notes(
     campus_id: string,
-    sort?: string,
-    filter?: string,
-    range?: string,
-    page?: string
+    params?: NotesParams
   ): Promise<Note[]> {
-    return await this.base.get(`/v2/campus/${campus_id}/notes`);
+    return await this.base.get(`/v2/campus/${campus_id}/notes`, params);
   }
 
   // GET /v2/notes
   /**
-   * Return all the notes
+   *
+   * @param params
+   * @returns Return all the notes
    */
-  public async notes(
-    sort?: string,
-    filter?: string,
-    range?: string,
-    page?: string
-  ): Promise<Note[]> {
-    return await this.base.get(`/v2/notes`);
+  public async notes(params?: NotesParams): Promise<Note[]> {
+    return await this.base.get(`/v2/notes`, params);
   }
 
   // GET /v2/notes/:id
   /**
-   * Get a note
+   * 
+   * @param id 
+   * @returns Get a note
    */
-  public async get_note(
-    id: string,
-    sort?: string,
-    filter?: string,
-    range?: string,
-    page?: string
-  ): Promise<Note> {
+  public async get_note(id: string): Promise<Note> {
     return await this.base.get(`/v2/notes/${id}`);
   }
 
