@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { TranslationsParams } from "./translations.params.type";
 import { Translation } from "./translations.types";
 
 export class TransaltionsApi {
@@ -10,19 +11,21 @@ export class TransaltionsApi {
 
   // GET /v2/translations
   /**
-   * Return all the translations
+   *
+   * @param params
+   * @returns Return all the translations
    */
   public async get_translations(
-    sort?: string,
-    filter?: string,
-    page?: string
+    params?: TranslationsParams
   ): Promise<Translation[]> {
-    return await this.base.get(`/v2/translations`);
+    return await this.base.get(`/v2/translations`, params);
   }
 
   // GET /v2/translations/:id
   /**
-   * Get a translation
+   *
+   * @param id
+   * @returns Get a translation
    */
   public async get_translations_id(id: string): Promise<Translation> {
     return await this.base.get(`/v2/translations/${id}`);
