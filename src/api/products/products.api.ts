@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { ProductsParams } from "./products.params.type";
 import { Product } from "./products.types";
 
 export class ProductsApi {
@@ -10,27 +11,26 @@ export class ProductsApi {
 
   // GET /v2/products
   /**
-   * Return all the products
+   *
+   * @param params
+   * @returns Return all the products
    */
-  public async get_products(
-    sort?: string,
-    filter?: string,
-    range?: string
-  ): Promise<Product[]> {
-    return await this.base.get(`/v2/products`);
+  public async get_products(params?: ProductsParams): Promise<Product[]> {
+    return await this.base.get(`/v2/products`, params);
   }
 
   // GET /v2/campus/:campus_id/products
   /**
-   * Return all the products of the given Campus
+   *
+   * @param campus_id
+   * @param params
+   * @returns Return all the products of the given Campus
    */
   public async get_campus_campusId_products(
     campus_id: string,
-    sort?: string,
-    filter?: string,
-    range?: string
+    params?: ProductsParams
   ): Promise<Product[]> {
-    return await this.base.get(`/v2/campus/${campus_id}/products`);
+    return await this.base.get(`/v2/campus/${campus_id}/products`, params);
   }
 
   // GET /v2/products/:id
@@ -43,9 +43,15 @@ export class ProductsApi {
 
   // GET /v2/campus/:campus_id/products/:id
   /**
-   * Get a product of the given Id, associated with the given Campus
+   *
+   * @param id
+   * @param campus_id
+   * @returns Get a product of the given Id, associated with the given Campus
    */
-  public async get_campus_campusId_products_id(id: string): Promise<Product> {
-    return await this.base.get(`/v2/campus/:campus_id/products/${id}`);
+  public async get_campus_campusId_products_id(
+    id: string,
+    campus_id?: string
+  ): Promise<Product> {
+    return await this.base.get(`/v2/campus/${campus_id}/products/${id}`);
   }
 }
