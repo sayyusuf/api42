@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { PartnershipsParams } from "./partnerships.params.type";
 import { Partnership } from "./partnerships.types";
 
 export class PartnershipsApi {
@@ -10,15 +11,14 @@ export class PartnershipsApi {
 
   // GET /v2/partnerships
   /**
-   * Return all the partnerships
+   *
+   * @param params
+   * @returns Return all the partnerships
    */
   public async get_partnerships(
-    sort?: string,
-    filter?: string,
-    range?: string,
-    page?: string
+    params?: PartnershipsParams
   ): Promise<Partnership[]> {
-    return await this.base.get(`/v2/partnerships`);
+    return await this.base.get(`/v2/partnerships`, params);
   }
 
   // GET /v2/partnerships/:id
