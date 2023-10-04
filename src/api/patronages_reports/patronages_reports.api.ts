@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { PatronagesReportsParams } from "./partronages_reports.params.type";
 
 export class PatronagesReportsApi {
   private base: BaseApi42;
@@ -9,15 +10,11 @@ export class PatronagesReportsApi {
 
   // GET /v2/patronages_reports/graph(/on/:field(/by/:interval))
   /**
-   * Return grouped temporal data on patronages reports
+   *
+   * @param params
+   * @returns Return grouped temporal data on patronages reports
    */
-  public async get_patronages_reports(
-    field?: string,
-    interval?: string,
-    sort?: string,
-    filter?: string,
-    range?: string
-  ) {
-    return await this.base.get(`/v2/patronages_reports/graph`);
+  public async get_patronages_reports(params?: PatronagesReportsParams) {
+    return await this.base.get(`/v2/patronages_reports/graph`, params);
   }
 }
