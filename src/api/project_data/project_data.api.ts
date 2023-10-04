@@ -1,4 +1,5 @@
 import { BaseApi42 } from "../../base/baseApi42";
+import { ProjectDataParams } from "./project_data.params.type";
 import { ProjectData } from "./project_data.types";
 
 export class ProjectDataApi {
@@ -10,30 +11,38 @@ export class ProjectDataApi {
 
   // GET /v2/project_data
   /**
-   * Return all the project data
+   *
+   * @param params
+   * @returns Return all the project data
    */
-  public async get_project_data(): Promise<ProjectData[]> {
-    return await this.base.get(`/v2/project_data`);
+  public async get_project_data(
+    params?: ProjectDataParams
+  ): Promise<ProjectData[]> {
+    return await this.base.get(`/v2/project_data`, params);
   }
 
   // GET /v2/project_sessions/:project_session_id/project_data
   /**
-   * Return all the project data of the given Project session
+   *
+   * @param project_session_id
+   * @param params
+   * @returns Return all the project data of the given Project session
    */
   public async get_project_sessions_projectSessionId_project_data(
     project_session_id?: string,
-    sort?: string,
-    filter?: string,
-    range?: string
+    params?: ProjectDataParams
   ): Promise<ProjectData[]> {
     return await this.base.get(
-      `/v2/project_sessions/${project_session_id}/project_data`
+      `/v2/project_sessions/${project_session_id}/project_data`,
+      params
     );
   }
 
   // GET /v2/project_data/:id
   /**
-   * Get a project datum
+   *
+   * @param id
+   * @returns Get a project datum
    */
   public async get_project_data_id(id: string): Promise<ProjectData> {
     return await this.base.get(`/v2/project_data/${id}`);
