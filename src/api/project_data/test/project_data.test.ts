@@ -11,7 +11,7 @@ describe("Project data test suite", () => {
       grant_type: string;
       code?: string | undefined;
       redirect_uri?: string | undefined;
-    } = require("./api.json");
+    } = require("../../../tests/api.json");
 
     const apiData: ApiData = {
       client_id: api.client_id,
@@ -26,8 +26,9 @@ describe("Project data test suite", () => {
 
   it("should return project data", async () => {
     const data = await intraApi.project_data
-      .get_project_data()
+      .get_project_data({ sort: "project_session_id" })
       .catch((ex) => console.error(ex));
+    console.log(data);
 
     expect(0).toEqual(0);
   });
