@@ -39,7 +39,7 @@ export class LanguageUsersApi {
   public async get_languages_users(
     params?: LanguageUserParams
   ): Promise<LanguageUser[]> {
-    return await this.base.get(`/v2/languages_users`);
+    return await this.base.get(`/v2/languages_users`, params);
   }
 
   /**
