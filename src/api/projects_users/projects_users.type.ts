@@ -28,7 +28,7 @@ export type ProjectsUser = {
         created_at:         string;
         updated_at:         string;
         status:             string;
-        terminating_at:     null;
+        terminating_at:     null | string;
         users:              {
             id:               number;
             login:            string;
@@ -39,9 +39,9 @@ export type ProjectsUser = {
             projects_user_id: number;
         }[];
         "locked?":          boolean;
-        "validated?":       null;
+        "validated?":       null | string;
         "closed?":          boolean;
-        repo_url:           null;
+        repo_url:           null | string;
         repo_uuid:          string;
         locked_at:          null | string;
         closed_at:          null | string;
@@ -64,13 +64,13 @@ export type ProjectsUser2 = {
        name:          string;
        slug:          string;
        kind:          string;
-       internal_name: null;
+       internal_name: null | string;
        description:   string;
        cursus_id:     number;
-       campus_id:     null;
+       campus_id:     null | string;
        created_at:    string;
        updated_at:    string;
-       grade_id:      null;
+       grade_id:      null | string;
        position:      number;
     };
     quest:        {
