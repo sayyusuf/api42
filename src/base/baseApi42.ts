@@ -61,19 +61,17 @@ export class BaseApi42
 			},
 			params: {
 				...params,
-				page : 1,
 			},
 			responseType: 'json', 
 			responseEncoding: 'utf8',
 		};
 
 		let res: any;
-		let total: number = 0;
 		do {
 			try{
 				res = await axios(pack);
 			}catch(err:any){
-				if (!(err === undefined )&& err.response.status == 401 || err.response.status == 429)
+				if (!(err === undefined ) && err.response.status == 401 || err.response.status == 429)
 				{
 					if (err.response.status == 401)
 						this.auth = await BaseApi42.new_auth(this.prvData);
@@ -81,14 +79,16 @@ export class BaseApi42
 				}
 				else throw err;
 			}
-			if (res.headers['x-per-page']){
-				total += Number(res.headers['x-per-page']);	
+			if (res.headers['x-per-page'] && res.headers['x-page']){
+				if (res.data.length == 0)
+					return data;
 				data.push(...res.data);
+				console.error(res.data)
+				pack.params.page = 1 + Number(res.headers['x-page']);
 			}
 			else
 				return res.data;
-			pack.params.page++;
-		} while (res.headers['x-total'] && res.headers['x-per-page'] && total < Number(res.headers['x-total']))
+		} while (res.headers['x-total'] && res.headers['x-per-page'] && res.headers['x-page'] && res.headers['x-per-page'] * res.headers['x-page'] < Number(res.headers['x-total']))
 		
 		return data;
 	}

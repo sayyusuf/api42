@@ -16,7 +16,7 @@ export class ProjectsUsersApi {
      * @param params ProjectSessionsParams
      */
     public async get_projects_projectId_projectsUsers_graph(project_id: number, input?: ProjectsUsersInputs, params?: ProjectsUsersGraphParams): Promise<any>{
-       return await this.base.get("GET /v2/projects/" + project_id  + "/projects_users/graph" + ((input && input.field)? ("/on/" + input?.field): "") + ((input && input.field && input.interval)?("/by/" + input?.interval): ""), params) ;
+       return await this.base.get("/v2/projects/" + project_id  + "/projects_users/graph" + ((input && input.field)? ("/on/" + input?.field): "") + ((input && input.field && input.interval)?("/by/" + input?.interval): ""), params) ;
     } 
 
    /**
@@ -26,7 +26,7 @@ export class ProjectsUsersApi {
      * @param params ProjectSessionsParams
      */
     public async get_users_userId_projectsUsers_graph(user_id: number, input?: ProjectsUsersInputs, params?: ProjectsUsersGraphParams): Promise<any>{
-       return await this.base.get("GET /v2/user/" + user_id  + "/projects_users/graph" + ((input && input.field)? ("/on/" + input?.field): "") + ((input && input.field && input.interval)?("/by/" + input?.interval): ""), params) ;
+       return await this.base.get("v2/user/" + user_id  + "/projects_users/graph" + ((input && input.field)? ("/on/" + input?.field): "") + ((input && input.field && input.interval)?("/by/" + input?.interval): ""), params) ;
     }
 
    /**
@@ -35,7 +35,7 @@ export class ProjectsUsersApi {
      * @param params ProjectSessionsParams
      */
     public async get_projectsUsers_graph(input?: ProjectsUsersInputs, params?: ProjectsUsersGraphParams): Promise<any>{
-       return await this.base.get("GET /v2/projects_users/graph" + ((input && input.field)? ("/on/" + input?.field): "") + ((input && input.field && input.interval)?("/by/" + input?.interval): ""), params) ;
+       return await this.base.get("/v2/projects_users/graph" + ((input && input.field)? ("/on/" + input?.field): "") + ((input && input.field && input.interval)?("/by/" + input?.interval): ""), params) ;
     }
 
     /**
