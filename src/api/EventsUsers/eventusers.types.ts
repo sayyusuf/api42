@@ -1,4 +1,4 @@
-export type EventsUser = {
+export type EventUser = {
     id:       number;
     event_id: number;
     user_id:  number;
