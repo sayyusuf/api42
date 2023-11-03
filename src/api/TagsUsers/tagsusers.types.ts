@@ -1,4 +1,4 @@
-export type EventUsers = {
+export type TagUsers = {
     id:         number;
     campus_id:  number | null;
     created_at: Date;
