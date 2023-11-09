@@ -22,7 +22,7 @@ const api : {client_id: string, client_secret: string, grant_type: string, code?
 		let ac = new AmendmentsApi(base)
 		//data = await intrapi.users.getMe()
 		//data = await ac.get_accreditations();
-		data = await ac.get_amendments_id(12);
+		data = await ac.get_amendments({"page[number]": 1});
 		console.log(data)
 		writeFileSync("./res.json", JSON.stringify(data));
 	})() 

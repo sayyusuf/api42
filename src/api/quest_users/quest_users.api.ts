@@ -40,7 +40,7 @@ export class QuestsUsersApi {
     /**
      * `GET /v2/quests_users/:id `
      */
-     public async get_questsUsers_id(id: number | string): Promise<any>{
+     public async get_questsUsers_id(id: number | string): Promise<QuestsUser>{
         return await this.base.get("/v2/quests_users/" + id);
     }   
 

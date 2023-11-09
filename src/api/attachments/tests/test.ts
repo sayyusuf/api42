@@ -20,7 +20,7 @@ const api : {client_id: string, client_secret: string, grant_type: string, code?
 
 		let base = await BaseApi42.new(apiData);
 		let ac = new Attachments(base);
-		data = await ac.get_attachments({"range[id]": "1, 2"});
+		data = await ac.get_attachments({"page[number]": 1});
 		//data = await ac.get_attachments_id(1);
 		console.log(data)
 		writeFileSync("./res.json", JSON.stringify(data));
