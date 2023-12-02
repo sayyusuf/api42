@@ -17,6 +17,7 @@ const api : {client_id: string, client_secret: string, grant_type: string, code?
 
 		let base = await BaseApi42.new(apiData);
 		data = await base.get("/v2/campus_users", {"page[size]": 2, "page[number]": 1, campus_id: 49, "range[user_id]": "168790,168800"});
+		//data = await base.get("/v2/flags");
 		console.log(data)
 		writeFileSync("./res.json", data);
 	})() 
