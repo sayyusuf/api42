@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "module": "CommonJS",
     "target": "ES2015",
@@ -10,3 +11,16 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
+=======
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "outDir": "out"
+    },
+    "exclude": [
+        "**/node_modules/*",
+        "out",
+        "coverage"
+    ]
+}
+>>>>>>> test
