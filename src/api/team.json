@@ -1,0 +1,60 @@
+{
+  "team": {
+    "id": 4806573,
+    "name": "ysay's group",
+    "url": "https://api.intra.42.fr/v2/teams/4806573",
+    "final_mark": 100,
+    "project_id": 1636,
+    "created_at": "2023-04-13T18:04:37.749Z",
+    "updated_at": "2023-04-15T09:43:12.208Z",
+    "status": "finished",
+    "terminating_at": null,
+    "users": [
+      {
+        "id": 96514,
+        "login": "akarahan",
+        "url": "https://api.intra.42.fr/v2/users/akarahan",
+        "leader": false,
+        "occurrence": 0,
+        "validated": true,
+        "projects_user_id": 3064277
+      },
+      {
+        "id": 96659,
+        "login": "ysay",
+        "url": "https://api.intra.42.fr/v2/users/ysay",
+        "leader": true,
+        "occurrence": 0,
+        "validated": true,
+        "projects_user_id": 3064276
+      },
+      {
+        "id": 100588,
+        "login": "eharuni",
+        "url": "https://api.intra.42.fr/v2/users/eharuni",
+        "leader": false,
+        "occurrence": 0,
+        "validated": true,
+        "projects_user_id": 3064278
+      },
+      {
+        "id": 102882,
+        "login": "cagirdem",
+        "url": "https://api.intra.42.fr/v2/users/cagirdem",
+        "leader": false,
+        "occurrence": 0,
+        "validated": true,
+        "projects_user_id": 3064279
+      }
+    ],
+    "locked?": true,
+    "validated?": true,
+    "closed?": true,
+    "repo_url": "git@vogsphere.42istanbul.com.tr:vogsphere/intra-uuid-b927aa48-a27f-4bb3-80ac-350d1a32502c-4806573-ysay",
+    "repo_uuid": "intra-uuid-b927aa48-a27f-4bb3-80ac-350d1a32502c-4806573-ysay",
+    "locked_at": "2023-04-13T18:04:37.851Z",
+    "closed_at": "2023-04-14T17:13:21.409Z",
+    "project_session_id": 3947,
+    "project_gitlab_path": "pedago_world/42-cursus/outer-circle/open_project/open-project-define-your-subject"
+  }
+}

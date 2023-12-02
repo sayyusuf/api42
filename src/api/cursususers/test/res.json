@@ -1,0 +1,305 @@
+[
+	{
+		"grade": "Member",
+		"level": 10.98,
+		"skills": [
+			{
+				"id": 3,
+				"name": "Rigor",
+				"level": 8.14
+			},
+			{
+				"id": 10,
+				"name": "Network & system administration",
+				"level": 7.57
+			},
+			{
+				"id": 6,
+				"name": "Web",
+				"level": 6.28
+			},
+			{
+				"id": 17,
+				"name": "Object-oriented programming",
+				"level": 6.03
+			},
+			{
+				"id": 2,
+				"name": "Imperative programming",
+				"level": 4.57
+			},
+			{
+				"id": 4,
+				"name": "Unix",
+				"level": 4.46
+			},
+			{
+				"id": 1,
+				"name": "Algorithms & AI",
+				"level": 4.03
+			},
+			{
+				"id": 7,
+				"name": "Group & interpersonal",
+				"level": 3.86
+			},
+			{
+				"id": 5,
+				"name": "Graphics",
+				"level": 3.3
+			}
+		],
+		"blackholed_at": null,
+		"id": 151433,
+		"begin_at": "2022-01-03T06:42:00.000Z",
+		"end_at": null,
+		"cursus_id": 21,
+		"has_coalition": true,
+		"created_at": "2021-12-28T07:45:18.315Z",
+		"updated_at": "2021-12-28T07:45:18.315Z",
+		"user": {
+			"id": 100588,
+			"email": "eharuni@student.42istanbul.com.tr",
+			"login": "eharuni",
+			"first_name": "Ermand",
+			"last_name": "Haruni",
+			"usual_full_name": "Ermand Haruni",
+			"usual_first_name": null,
+			"url": "https://api.intra.42.fr/v2/users/eharuni",
+			"phone": "hidden",
+			"displayname": "Ermand Haruni",
+			"kind": "student",
+			"image": {
+				"link": "https://cdn.intra.42.fr/users/51a12ee29d82643fffbba247a3c90a5a/eharuni.jpg",
+				"versions": {
+					"large": "https://cdn.intra.42.fr/users/397e75858bb27abc5df9f329b1c27fe6/large_eharuni.jpg",
+					"medium": "https://cdn.intra.42.fr/users/3f3d0a3218d8afe4600631af51fc93c8/medium_eharuni.jpg",
+					"small": "https://cdn.intra.42.fr/users/c351b3994651c474a367569ac7813270/small_eharuni.jpg",
+					"micro": "https://cdn.intra.42.fr/users/a3b7896c762efc71192f677dc74cbe5a/micro_eharuni.jpg"
+				}
+			},
+			"staff?": false,
+			"correction_point": 5,
+			"pool_month": "october",
+			"pool_year": "2021",
+			"location": null,
+			"wallet": 504,
+			"anonymize_date": "2026-08-26T00:00:00.000+03:00",
+			"data_erasure_date": "2026-08-26T00:00:00.000+03:00",
+			"created_at": "2021-10-14T12:33:01.546Z",
+			"updated_at": "2023-07-10T10:42:58.579Z",
+			"alumnized_at": null,
+			"alumni?": false,
+			"active?": true
+		},
+		"cursus": {
+			"id": 21,
+			"created_at": "2019-07-29T08:45:17.896Z",
+			"name": "42cursus",
+			"slug": "42cursus",
+			"kind": "main"
+		}
+	},
+	{
+		"grade": "Member",
+		"level": 11.05,
+		"skills": [
+			{
+				"id": 3,
+				"name": "Rigor",
+				"level": 8.14
+			},
+			{
+				"id": 10,
+				"name": "Network & system administration",
+				"level": 7.87
+			},
+			{
+				"id": 6,
+				"name": "Web",
+				"level": 6.28
+			},
+			{
+				"id": 17,
+				"name": "Object-oriented programming",
+				"level": 6.08
+			},
+			{
+				"id": 2,
+				"name": "Imperative programming",
+				"level": 4.5600000000000005
+			},
+			{
+				"id": 4,
+				"name": "Unix",
+				"level": 4.44
+			},
+			{
+				"id": 1,
+				"name": "Algorithms & AI",
+				"level": 4.05
+			},
+			{
+				"id": 7,
+				"name": "Group & interpersonal",
+				"level": 3.86
+			},
+			{
+				"id": 5,
+				"name": "Graphics",
+				"level": 3.25
+			}
+		],
+		"blackholed_at": null,
+		"id": 151518,
+		"begin_at": "2022-01-03T06:42:00.000Z",
+		"end_at": null,
+		"cursus_id": 21,
+		"has_coalition": true,
+		"created_at": "2021-12-28T08:13:14.249Z",
+		"updated_at": "2022-12-29T11:08:18.598Z",
+		"user": {
+			"id": 103050,
+			"email": "gdemirta@student.42istanbul.com.tr",
+			"login": "gdemirta",
+			"first_name": "Görkem",
+			"last_name": "Demirtaş",
+			"usual_full_name": "Görkem Demirtaş",
+			"usual_first_name": null,
+			"url": "https://api.intra.42.fr/v2/users/gdemirta",
+			"phone": "hidden",
+			"displayname": "Görkem Demirtaş",
+			"kind": "student",
+			"image": {
+				"link": "https://cdn.intra.42.fr/users/543a0f4d4a0846ae647d86e97dad7999/gdemirta.jpg",
+				"versions": {
+					"large": "https://cdn.intra.42.fr/users/fee818b8dc18823e4c36885d3141ae2d/large_gdemirta.jpg",
+					"medium": "https://cdn.intra.42.fr/users/4428e203afcb9098da9bf6c396608856/medium_gdemirta.jpg",
+					"small": "https://cdn.intra.42.fr/users/e964fbd719e5b677d2acdc9b4e59ac6e/small_gdemirta.jpg",
+					"micro": "https://cdn.intra.42.fr/users/2125379ebe28cca1b3ad7ab42c1cba90/micro_gdemirta.jpg"
+				}
+			},
+			"staff?": false,
+			"correction_point": 4,
+			"pool_month": "december",
+			"pool_year": "2021",
+			"location": null,
+			"wallet": 65,
+			"anonymize_date": "2026-08-27T00:00:00.000+03:00",
+			"data_erasure_date": "2026-08-27T00:00:00.000+03:00",
+			"created_at": "2021-11-20T14:33:53.609Z",
+			"updated_at": "2023-08-25T21:50:07.747Z",
+			"alumnized_at": null,
+			"alumni?": false,
+			"active?": true
+		},
+		"cursus": {
+			"id": 21,
+			"created_at": "2019-07-29T08:45:17.896Z",
+			"name": "42cursus",
+			"slug": "42cursus",
+			"kind": "main"
+		}
+	},
+	{
+		"grade": "Learner",
+		"level": 11.09,
+		"skills": [
+			{
+				"id": 3,
+				"name": "Rigor",
+				"level": 8.27
+			},
+			{
+				"id": 10,
+				"name": "Network & system administration",
+				"level": 8.06
+			},
+			{
+				"id": 6,
+				"name": "Web",
+				"level": 6.28
+			},
+			{
+				"id": 17,
+				"name": "Object-oriented programming",
+				"level": 5.73
+			},
+			{
+				"id": 2,
+				"name": "Imperative programming",
+				"level": 4.86
+			},
+			{
+				"id": 4,
+				"name": "Unix",
+				"level": 4.44
+			},
+			{
+				"id": 1,
+				"name": "Algorithms & AI",
+				"level": 4.04
+			},
+			{
+				"id": 7,
+				"name": "Group & interpersonal",
+				"level": 3.86
+			},
+			{
+				"id": 5,
+				"name": "Graphics",
+				"level": 3.13
+			}
+		],
+		"blackholed_at": "2024-02-07T06:42:00.000Z",
+		"id": 151672,
+		"begin_at": "2022-01-03T06:42:00.000Z",
+		"end_at": null,
+		"cursus_id": 21,
+		"has_coalition": true,
+		"created_at": "2021-12-28T10:14:28.171Z",
+		"updated_at": "2022-12-29T11:08:18.598Z",
+		"user": {
+			"id": 100635,
+			"email": "akarabay@student.42istanbul.com.tr",
+			"login": "akarabay",
+			"first_name": "Ali",
+			"last_name": "Karabay",
+			"usual_full_name": "Ali Karabay",
+			"usual_first_name": null,
+			"url": "https://api.intra.42.fr/v2/users/akarabay",
+			"phone": "hidden",
+			"displayname": "Ali Karabay",
+			"kind": "student",
+			"image": {
+				"link": "https://cdn.intra.42.fr/users/70554447d4821668c34b845f8988be8f/akarabay.jpg",
+				"versions": {
+					"large": "https://cdn.intra.42.fr/users/715e20d631cb038ae1edf23ce227c101/large_akarabay.jpg",
+					"medium": "https://cdn.intra.42.fr/users/16ddc75c5d5a67b11e28f4a10b32b3fe/medium_akarabay.jpg",
+					"small": "https://cdn.intra.42.fr/users/d67024b35f4719076fc76b356d088eb3/small_akarabay.jpg",
+					"micro": "https://cdn.intra.42.fr/users/37b665149b89d069d27e09f184388e6e/micro_akarabay.jpg"
+				}
+			},
+			"staff?": false,
+			"correction_point": 3,
+			"pool_month": "october",
+			"pool_year": "2021",
+			"location": null,
+			"wallet": 775,
+			"anonymize_date": "2026-08-16T00:00:00.000+03:00",
+			"data_erasure_date": "2026-08-16T00:00:00.000+03:00",
+			"created_at": "2021-10-16T11:27:35.969Z",
+			"updated_at": "2023-07-25T20:28:17.899Z",
+			"alumnized_at": null,
+			"alumni?": false,
+			"active?": true
+		},
+		"cursus": {
+			"id": 21,
+			"created_at": "2019-07-29T08:45:17.896Z",
+			"name": "42cursus",
+			"slug": "42cursus",
+			"kind": "main"
+		}
+	}
+]

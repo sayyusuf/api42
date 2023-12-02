@@ -1,11 +1,37 @@
 {
+<<<<<<< HEAD
+  "name": "intrapi",
+  "description": "",
+  "version": "1.0.5",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayyusuf/api42.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sayyusuf/api42/issues"
+  },
+  "homepage": "https://github.com/sayyusuf/api42#readme",
+=======
   "scripts": {
     "test": "jest --detectOpenHandles",
     "test:watch": "npm run test -- --watch"
   },
+>>>>>>> test
   "dependencies": {
     "axios": "^0.27.2",
-    "JSON": "^1.0.0"
+    "JSON": "^1.0.0",
+    "typescript": "^5.1.6"
   },
   "devDependencies": {
     "@types/jest": "^29.5.3",

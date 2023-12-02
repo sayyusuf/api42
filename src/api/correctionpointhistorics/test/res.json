@@ -1,0 +1,2198 @@
+[
+	{
+		"id": 5585372,
+		"scale_team_id": null,
+		"reason": "Creation",
+		"sum": 5,
+		"total": 5,
+		"created_at": "2021-10-14T12:33:01.606Z",
+		"updated_at": "2021-10-14T12:33:01.606Z"
+	},
+	{
+		"id": 5607167,
+		"scale_team_id": 3648017,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 5,
+		"created_at": "2021-10-18T14:27:57.025Z",
+		"updated_at": "2021-10-18T14:27:57.025Z"
+	},
+	{
+		"id": 5607702,
+		"scale_team_id": 3648264,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 4,
+		"created_at": "2021-10-18T15:51:38.141Z",
+		"updated_at": "2021-10-18T15:51:38.141Z"
+	},
+	{
+		"id": 5611011,
+		"scale_team_id": 3649987,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 3,
+		"created_at": "2021-10-19T09:55:32.395Z",
+		"updated_at": "2021-10-19T09:55:32.395Z"
+	},
+	{
+		"id": 5611337,
+		"scale_team_id": 3650251,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 4,
+		"created_at": "2021-10-19T10:37:25.348Z",
+		"updated_at": "2021-10-19T10:37:25.348Z"
+	},
+	{
+		"id": 5612087,
+		"scale_team_id": 3650734,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 5,
+		"created_at": "2021-10-19T12:21:17.916Z",
+		"updated_at": "2021-10-19T12:21:17.916Z"
+	},
+	{
+		"id": 5612352,
+		"scale_team_id": 3650136,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 6,
+		"created_at": "2021-10-19T12:54:33.356Z",
+		"updated_at": "2021-10-19T12:54:33.356Z"
+	},
+	{
+		"id": 5612555,
+		"scale_team_id": 3650483,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 7,
+		"created_at": "2021-10-19T13:20:27.211Z",
+		"updated_at": "2021-10-19T13:20:27.211Z"
+	},
+	{
+		"id": 5625688,
+		"scale_team_id": 3657405,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 8,
+		"created_at": "2021-10-21T13:41:55.056Z",
+		"updated_at": "2021-10-21T13:41:55.056Z"
+	},
+	{
+		"id": 5626053,
+		"scale_team_id": 3658203,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 9,
+		"created_at": "2021-10-21T14:23:55.754Z",
+		"updated_at": "2021-10-21T14:23:55.754Z"
+	},
+	{
+		"id": 5626056,
+		"scale_team_id": 3658205,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 8,
+		"created_at": "2021-10-21T14:24:20.304Z",
+		"updated_at": "2021-10-21T14:24:20.304Z"
+	},
+	{
+		"id": 5630500,
+		"scale_team_id": 3660513,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 7,
+		"created_at": "2021-10-22T10:47:17.576Z",
+		"updated_at": "2021-10-22T10:47:17.576Z"
+	},
+	{
+		"id": 5634226,
+		"scale_team_id": 3662901,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 8,
+		"created_at": "2021-10-23T11:27:50.665Z",
+		"updated_at": "2021-10-23T11:27:50.665Z"
+	},
+	{
+		"id": 5634227,
+		"scale_team_id": 3662902,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 7,
+		"created_at": "2021-10-23T11:28:01.173Z",
+		"updated_at": "2021-10-23T11:28:01.173Z"
+	},
+	{
+		"id": 5634607,
+		"scale_team_id": 3663070,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 6,
+		"created_at": "2021-10-23T12:33:31.127Z",
+		"updated_at": "2021-10-23T12:33:31.127Z"
+	},
+	{
+		"id": 5634608,
+		"scale_team_id": 3663071,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 5,
+		"created_at": "2021-10-23T12:33:37.284Z",
+		"updated_at": "2021-10-23T12:33:37.284Z"
+	},
+	{
+		"id": 5634917,
+		"scale_team_id": 3663079,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 4,
+		"created_at": "2021-10-23T13:31:17.017Z",
+		"updated_at": "2021-10-23T13:31:17.017Z"
+	},
+	{
+		"id": 5635120,
+		"scale_team_id": 3663274,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 5,
+		"created_at": "2021-10-23T14:21:36.820Z",
+		"updated_at": "2021-10-23T14:21:36.820Z"
+	},
+	{
+		"id": 5635122,
+		"scale_team_id": 3663275,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 4,
+		"created_at": "2021-10-23T14:21:42.870Z",
+		"updated_at": "2021-10-23T14:21:42.870Z"
+	},
+	{
+		"id": 5635588,
+		"scale_team_id": 3663392,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 3,
+		"created_at": "2021-10-23T16:09:27.430Z",
+		"updated_at": "2021-10-23T16:09:27.430Z"
+	},
+	{
+		"id": 5635673,
+		"scale_team_id": 3663403,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 4,
+		"created_at": "2021-10-23T16:35:16.525Z",
+		"updated_at": "2021-10-23T16:35:16.525Z"
+	},
+	{
+		"id": 5647151,
+		"scale_team_id": 3670044,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 5,
+		"created_at": "2021-10-26T09:05:08.956Z",
+		"updated_at": "2021-10-26T09:05:08.956Z"
+	},
+	{
+		"id": 5647152,
+		"scale_team_id": 3670045,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 4,
+		"created_at": "2021-10-26T09:05:15.665Z",
+		"updated_at": "2021-10-26T09:05:15.665Z"
+	},
+	{
+		"id": 5647450,
+		"scale_team_id": 3670198,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2021-10-26T09:59:39.501Z",
+		"updated_at": "2021-10-26T09:59:39.501Z"
+	},
+	{
+		"id": 5647451,
+		"scale_team_id": 3670199,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-10-26T09:59:45.782Z",
+		"updated_at": "2021-10-26T09:59:45.782Z"
+	},
+	{
+		"id": 5647825,
+		"scale_team_id": 3670260,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-10-26T10:59:19.143Z",
+		"updated_at": "2021-10-26T10:59:19.143Z"
+	},
+	{
+		"id": 5647965,
+		"scale_team_id": 3670491,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-10-26T11:19:03.144Z",
+		"updated_at": "2021-10-26T11:19:03.144Z"
+	},
+	{
+		"id": 5647967,
+		"scale_team_id": 3670493,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2021-10-26T11:19:09.940Z",
+		"updated_at": "2021-10-26T11:19:09.940Z"
+	},
+	{
+		"id": 5648058,
+		"scale_team_id": 3670112,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2021-10-26T11:33:14.359Z",
+		"updated_at": "2021-10-26T11:33:14.359Z"
+	},
+	{
+		"id": 5648242,
+		"scale_team_id": 3670526,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-10-26T12:01:28.679Z",
+		"updated_at": "2021-10-26T12:01:28.679Z"
+	},
+	{
+		"id": 5648593,
+		"scale_team_id": 3670575,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2021-10-26T12:51:52.627Z",
+		"updated_at": "2021-10-26T12:51:52.627Z"
+	},
+	{
+		"id": 5649321,
+		"scale_team_id": 3670716,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 3,
+		"created_at": "2021-10-26T14:37:24.925Z",
+		"updated_at": "2021-10-26T14:37:24.925Z"
+	},
+	{
+		"id": 5653712,
+		"scale_team_id": 3673561,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 4,
+		"created_at": "2021-10-27T09:33:17.319Z",
+		"updated_at": "2021-10-27T09:33:17.319Z"
+	},
+	{
+		"id": 5653714,
+		"scale_team_id": 3673563,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2021-10-27T09:33:22.953Z",
+		"updated_at": "2021-10-27T09:33:22.953Z"
+	},
+	{
+		"id": 5655325,
+		"scale_team_id": 3674037,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2021-10-27T12:30:03.168Z",
+		"updated_at": "2021-10-27T12:30:03.168Z"
+	},
+	{
+		"id": 5655377,
+		"scale_team_id": 3674325,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2021-10-27T12:36:22.557Z",
+		"updated_at": "2021-10-27T12:36:22.557Z"
+	},
+	{
+		"id": 5655378,
+		"scale_team_id": 3674326,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-10-27T12:36:28.517Z",
+		"updated_at": "2021-10-27T12:36:28.517Z"
+	},
+	{
+		"id": 5655896,
+		"scale_team_id": 3674397,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-10-27T13:38:17.432Z",
+		"updated_at": "2021-10-27T13:38:17.432Z"
+	},
+	{
+		"id": 5656188,
+		"scale_team_id": 3674741,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-10-27T14:19:21.233Z",
+		"updated_at": "2021-10-27T14:19:21.233Z"
+	},
+	{
+		"id": 5656189,
+		"scale_team_id": 3674742,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2021-10-27T14:19:26.951Z",
+		"updated_at": "2021-10-27T14:19:26.951Z"
+	},
+	{
+		"id": 5656656,
+		"scale_team_id": 3674790,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2021-10-27T15:14:09.581Z",
+		"updated_at": "2021-10-27T15:14:09.581Z"
+	},
+	{
+		"id": 5656673,
+		"scale_team_id": 3675003,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2021-10-27T15:15:13.704Z",
+		"updated_at": "2021-10-27T15:15:13.704Z"
+	},
+	{
+		"id": 5657234,
+		"scale_team_id": 3675087,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2021-10-27T16:28:38.597Z",
+		"updated_at": "2021-10-27T16:28:38.597Z"
+	},
+	{
+		"id": 5658093,
+		"scale_team_id": 3675584,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-10-27T19:17:37.069Z",
+		"updated_at": "2021-10-27T19:17:37.069Z"
+	},
+	{
+		"id": 5658154,
+		"scale_team_id": 3675691,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-10-27T19:31:27.807Z",
+		"updated_at": "2021-10-27T19:31:27.807Z"
+	},
+	{
+		"id": 5658156,
+		"scale_team_id": 3675692,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2021-10-27T19:31:35.425Z",
+		"updated_at": "2021-10-27T19:31:35.425Z"
+	},
+	{
+		"id": 5658483,
+		"scale_team_id": 3675833,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2021-10-27T21:53:10.069Z",
+		"updated_at": "2021-10-27T21:53:10.069Z"
+	},
+	{
+		"id": 5658515,
+		"scale_team_id": 3675823,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-10-27T22:16:01.995Z",
+		"updated_at": "2021-10-27T22:16:01.995Z"
+	},
+	{
+		"id": 5658518,
+		"scale_team_id": 3675887,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-10-27T22:16:42.362Z",
+		"updated_at": "2021-10-27T22:16:42.362Z"
+	},
+	{
+		"id": 5658536,
+		"scale_team_id": 3675818,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-10-27T22:47:59.449Z",
+		"updated_at": "2021-10-27T22:47:59.449Z"
+	},
+	{
+		"id": 5658575,
+		"scale_team_id": 3675914,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-10-27T23:16:02.993Z",
+		"updated_at": "2021-10-27T23:16:02.993Z"
+	},
+	{
+		"id": 5658578,
+		"scale_team_id": 3675917,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2021-10-27T23:17:06.529Z",
+		"updated_at": "2021-10-27T23:17:06.529Z"
+	},
+	{
+		"id": 5658579,
+		"scale_team_id": 3675836,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2021-10-27T23:17:59.504Z",
+		"updated_at": "2021-10-27T23:17:59.504Z"
+	},
+	{
+		"id": 5658587,
+		"scale_team_id": 3675914,
+		"reason": "Evaluator cancelled a defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-10-27T23:28:02.030Z",
+		"updated_at": "2021-10-27T23:28:02.030Z"
+	},
+	{
+		"id": 5658598,
+		"scale_team_id": 3675923,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-10-27T23:34:24.943Z",
+		"updated_at": "2021-10-27T23:34:24.943Z"
+	},
+	{
+		"id": 5658817,
+		"scale_team_id": 3675932,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-10-28T01:30:52.589Z",
+		"updated_at": "2021-10-28T01:30:52.589Z"
+	},
+	{
+		"id": 5658888,
+		"scale_team_id": 3676074,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-10-28T02:02:31.325Z",
+		"updated_at": "2021-10-28T02:02:31.325Z"
+	},
+	{
+		"id": 5658891,
+		"scale_team_id": 3676076,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2021-10-28T02:03:19.680Z",
+		"updated_at": "2021-10-28T02:03:19.680Z"
+	},
+	{
+		"id": 5659073,
+		"scale_team_id": 3676098,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2021-10-28T03:11:16.080Z",
+		"updated_at": "2021-10-28T03:11:16.080Z"
+	},
+	{
+		"id": 5659188,
+		"scale_team_id": 3676161,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-10-28T03:47:50.162Z",
+		"updated_at": "2021-10-28T03:47:50.162Z"
+	},
+	{
+		"id": 5659226,
+		"scale_team_id": 3676253,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-10-28T03:59:17.281Z",
+		"updated_at": "2021-10-28T03:59:17.281Z"
+	},
+	{
+		"id": 5659227,
+		"scale_team_id": 3676254,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2021-10-28T03:59:25.755Z",
+		"updated_at": "2021-10-28T03:59:25.755Z"
+	},
+	{
+		"id": 5659588,
+		"scale_team_id": 3676199,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2021-10-28T04:56:16.185Z",
+		"updated_at": "2021-10-28T04:56:16.185Z"
+	},
+	{
+		"id": 5668235,
+		"scale_team_id": 3680699,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2021-10-30T09:39:16.052Z",
+		"updated_at": "2021-10-30T09:39:16.052Z"
+	},
+	{
+		"id": 5668340,
+		"scale_team_id": 3680669,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2021-10-30T10:27:16.200Z",
+		"updated_at": "2021-10-30T10:27:16.200Z"
+	},
+	{
+		"id": 5668342,
+		"scale_team_id": 3680746,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2021-10-30T10:27:38.286Z",
+		"updated_at": "2021-10-30T10:27:38.286Z"
+	},
+	{
+		"id": 5668401,
+		"scale_team_id": 3680672,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2021-10-30T10:56:40.508Z",
+		"updated_at": "2021-10-30T10:56:40.508Z"
+	},
+	{
+		"id": 5668476,
+		"scale_team_id": 3680679,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-10-30T11:22:51.356Z",
+		"updated_at": "2021-10-30T11:22:51.356Z"
+	},
+	{
+		"id": 5668561,
+		"scale_team_id": 3680761,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2021-10-30T11:49:13.491Z",
+		"updated_at": "2021-10-30T11:49:13.491Z"
+	},
+	{
+		"id": 5668627,
+		"scale_team_id": 3680893,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2021-10-30T12:10:26.234Z",
+		"updated_at": "2021-10-30T12:10:26.234Z"
+	},
+	{
+		"id": 5668630,
+		"scale_team_id": 3680896,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-10-30T12:10:39.156Z",
+		"updated_at": "2021-10-30T12:10:39.156Z"
+	},
+	{
+		"id": 5668963,
+		"scale_team_id": 3680911,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-10-30T13:41:04.775Z",
+		"updated_at": "2021-10-30T13:41:04.775Z"
+	},
+	{
+		"id": 5669000,
+		"scale_team_id": 3681086,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-10-30T13:50:57.907Z",
+		"updated_at": "2021-10-30T13:50:57.907Z"
+	},
+	{
+		"id": 5669002,
+		"scale_team_id": 3681088,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2021-10-30T13:51:07.956Z",
+		"updated_at": "2021-10-30T13:51:07.956Z"
+	},
+	{
+		"id": 5669028,
+		"scale_team_id": 3681046,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2021-10-30T14:02:07.443Z",
+		"updated_at": "2021-10-30T14:02:07.443Z"
+	},
+	{
+		"id": 5669223,
+		"scale_team_id": 3680817,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-10-30T14:47:49.815Z",
+		"updated_at": "2021-10-30T14:47:49.815Z"
+	},
+	{
+		"id": 5669250,
+		"scale_team_id": 3681879,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-10-30T14:56:30.072Z",
+		"updated_at": "2021-10-30T14:56:30.072Z"
+	},
+	{
+		"id": 5669251,
+		"scale_team_id": 3681880,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2021-10-30T14:56:36.299Z",
+		"updated_at": "2021-10-30T14:56:36.299Z"
+	},
+	{
+		"id": 5669330,
+		"scale_team_id": 3681175,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2021-10-30T15:23:31.717Z",
+		"updated_at": "2021-10-30T15:23:31.717Z"
+	},
+	{
+		"id": 5670178,
+		"scale_team_id": 3682264,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-10-30T21:15:38.416Z",
+		"updated_at": "2021-10-30T21:15:38.416Z"
+	},
+	{
+		"id": 5677532,
+		"scale_team_id": 3685976,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-11-02T10:03:17.107Z",
+		"updated_at": "2021-11-02T10:03:17.107Z"
+	},
+	{
+		"id": 5677534,
+		"scale_team_id": 3685977,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2021-11-02T10:03:23.120Z",
+		"updated_at": "2021-11-02T10:03:23.120Z"
+	},
+	{
+		"id": 5677539,
+		"scale_team_id": 3685804,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2021-11-02T10:03:59.705Z",
+		"updated_at": "2021-11-02T10:03:59.705Z"
+	},
+	{
+		"id": 5678059,
+		"scale_team_id": 3686124,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-11-02T11:33:27.939Z",
+		"updated_at": "2021-11-02T11:33:27.939Z"
+	},
+	{
+		"id": 5678204,
+		"scale_team_id": 3686356,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2021-11-02T11:59:59.671Z",
+		"updated_at": "2021-11-02T11:59:59.671Z"
+	},
+	{
+		"id": 5678206,
+		"scale_team_id": 3686358,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2021-11-02T12:00:06.501Z",
+		"updated_at": "2021-11-02T12:00:06.501Z"
+	},
+	{
+		"id": 5678363,
+		"scale_team_id": 3685670,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2021-11-02T12:24:55.613Z",
+		"updated_at": "2021-11-02T12:24:55.613Z"
+	},
+	{
+		"id": 5679450,
+		"scale_team_id": 3686825,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2021-11-02T14:55:12.476Z",
+		"updated_at": "2021-11-02T14:55:12.476Z"
+	},
+	{
+		"id": 5688611,
+		"scale_team_id": 3691066,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2021-11-04T09:50:28.733Z",
+		"updated_at": "2021-11-04T09:50:28.733Z"
+	},
+	{
+		"id": 5688848,
+		"scale_team_id": 3691139,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 3,
+		"created_at": "2021-11-04T10:35:49.669Z",
+		"updated_at": "2021-11-04T10:35:49.669Z"
+	},
+	{
+		"id": 5689017,
+		"scale_team_id": 3691295,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 4,
+		"created_at": "2021-11-04T11:02:26.044Z",
+		"updated_at": "2021-11-04T11:02:26.044Z"
+	},
+	{
+		"id": 5689879,
+		"scale_team_id": 3691179,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 5,
+		"created_at": "2021-11-04T12:26:03.408Z",
+		"updated_at": "2021-11-04T12:26:03.408Z"
+	},
+	{
+		"id": 5689897,
+		"scale_team_id": 3691423,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 6,
+		"created_at": "2021-11-04T12:28:54.030Z",
+		"updated_at": "2021-11-04T12:28:54.030Z"
+	},
+	{
+		"id": 5690915,
+		"scale_team_id": 3692013,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 7,
+		"created_at": "2021-11-04T14:55:18.936Z",
+		"updated_at": "2021-11-04T14:55:18.936Z"
+	},
+	{
+		"id": 5717998,
+		"scale_team_id": 3706426,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 8,
+		"created_at": "2021-11-12T11:43:59.473Z",
+		"updated_at": "2021-11-12T11:43:59.473Z"
+	},
+	{
+		"id": 5718005,
+		"scale_team_id": 3706429,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 7,
+		"created_at": "2021-11-12T11:45:37.088Z",
+		"updated_at": "2021-11-12T11:45:37.088Z"
+	},
+	{
+		"id": 5718930,
+		"scale_team_id": 3707032,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 6,
+		"created_at": "2021-11-12T14:57:11.913Z",
+		"updated_at": "2021-11-12T14:57:11.913Z"
+	},
+	{
+		"id": 5718931,
+		"scale_team_id": 3707033,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 5,
+		"created_at": "2021-11-12T14:57:20.178Z",
+		"updated_at": "2021-11-12T14:57:20.178Z"
+	},
+	{
+		"id": 5927824,
+		"scale_team_id": 3810340,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 4,
+		"created_at": "2022-01-03T09:24:46.865Z",
+		"updated_at": "2022-01-03T09:24:46.865Z"
+	},
+	{
+		"id": 5927827,
+		"scale_team_id": 3810342,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2022-01-03T09:25:00.350Z",
+		"updated_at": "2022-01-03T09:25:00.350Z"
+	},
+	{
+		"id": 5927828,
+		"scale_team_id": 3810343,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2022-01-03T09:25:06.778Z",
+		"updated_at": "2022-01-03T09:25:06.778Z"
+	},
+	{
+		"id": 5928398,
+		"scale_team_id": 3810494,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2022-01-03T13:10:50.221Z",
+		"updated_at": "2022-01-03T13:10:50.221Z"
+	},
+	{
+		"id": 5933769,
+		"scale_team_id": 3812909,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2022-01-05T08:22:38.323Z",
+		"updated_at": "2022-01-05T08:22:38.323Z"
+	},
+	{
+		"id": 5933770,
+		"scale_team_id": 3812910,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-01-05T08:22:47.005Z",
+		"updated_at": "2022-01-05T08:22:47.005Z"
+	},
+	{
+		"id": 5967749,
+		"scale_team_id": 3828455,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2022-01-14T15:39:57.920Z",
+		"updated_at": "2022-01-14T15:39:57.920Z"
+	},
+	{
+		"id": 5967758,
+		"scale_team_id": 3828627,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-01-14T15:41:34.110Z",
+		"updated_at": "2022-01-14T15:41:34.110Z"
+	},
+	{
+		"id": 5967968,
+		"scale_team_id": 3828614,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2022-01-14T16:37:58.990Z",
+		"updated_at": "2022-01-14T16:37:58.990Z"
+	},
+	{
+		"id": 5991545,
+		"scale_team_id": 3840344,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2022-01-20T09:41:08.758Z",
+		"updated_at": "2022-01-20T09:41:08.758Z"
+	},
+	{
+		"id": 6008626,
+		"scale_team_id": 3850375,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2022-01-24T15:39:39.394Z",
+		"updated_at": "2022-01-24T15:39:39.394Z"
+	},
+	{
+		"id": 6011351,
+		"scale_team_id": 3851931,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2022-01-25T08:00:46.530Z",
+		"updated_at": "2022-01-25T08:00:46.530Z"
+	},
+	{
+		"id": 6011353,
+		"scale_team_id": 3851933,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2022-01-25T08:00:57.681Z",
+		"updated_at": "2022-01-25T08:00:57.681Z"
+	},
+	{
+		"id": 6011359,
+		"scale_team_id": 3851939,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-01-25T08:01:31.736Z",
+		"updated_at": "2022-01-25T08:01:31.736Z"
+	},
+	{
+		"id": 6011888,
+		"scale_team_id": 3852054,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2022-01-25T09:54:55.134Z",
+		"updated_at": "2022-01-25T09:54:55.134Z"
+	},
+	{
+		"id": 6030688,
+		"scale_team_id": 3861319,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2022-01-28T12:03:16.033Z",
+		"updated_at": "2022-01-28T12:03:16.033Z"
+	},
+	{
+		"id": 6031142,
+		"scale_team_id": 3861513,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2022-01-28T13:59:32.075Z",
+		"updated_at": "2022-01-28T13:59:32.075Z"
+	},
+	{
+		"id": 6031289,
+		"scale_team_id": 3861837,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2022-01-28T14:30:39.191Z",
+		"updated_at": "2022-01-28T14:30:39.191Z"
+	},
+	{
+		"id": 6031294,
+		"scale_team_id": 3861840,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2022-01-28T14:30:49.315Z",
+		"updated_at": "2022-01-28T14:30:49.315Z"
+	},
+	{
+		"id": 6031295,
+		"scale_team_id": 3861841,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-01-28T14:30:56.212Z",
+		"updated_at": "2022-01-28T14:30:56.212Z"
+	},
+	{
+		"id": 6033095,
+		"scale_team_id": 3862670,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2022-01-29T10:01:11.932Z",
+		"updated_at": "2022-01-29T10:01:11.932Z"
+	},
+	{
+		"id": 6034339,
+		"scale_team_id": 3863675,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2022-01-29T16:49:47.198Z",
+		"updated_at": "2022-01-29T16:49:47.198Z"
+	},
+	{
+		"id": 6036682,
+		"scale_team_id": 3864648,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2022-01-30T13:50:32.401Z",
+		"updated_at": "2022-01-30T13:50:32.401Z"
+	},
+	{
+		"id": 6036855,
+		"scale_team_id": 3864907,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2022-01-30T14:40:51.671Z",
+		"updated_at": "2022-01-30T14:40:51.671Z"
+	},
+	{
+		"id": 6037163,
+		"scale_team_id": 3865070,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2022-01-30T15:51:57.288Z",
+		"updated_at": "2022-01-30T15:51:57.288Z"
+	},
+	{
+		"id": 6037166,
+		"scale_team_id": 3865073,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-01-30T15:52:05.768Z",
+		"updated_at": "2022-01-30T15:52:05.768Z"
+	},
+	{
+		"id": 6057387,
+		"scale_team_id": 3874746,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2022-02-02T13:13:36.853Z",
+		"updated_at": "2022-02-02T13:13:36.853Z"
+	},
+	{
+		"id": 6057904,
+		"scale_team_id": 3874695,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2022-02-02T14:13:19.915Z",
+		"updated_at": "2022-02-02T14:13:19.915Z"
+	},
+	{
+		"id": 6058458,
+		"scale_team_id": 3875248,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2022-02-02T15:05:54.171Z",
+		"updated_at": "2022-02-02T15:05:54.171Z"
+	},
+	{
+		"id": 6072918,
+		"scale_team_id": 3883452,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2022-02-04T10:02:30.073Z",
+		"updated_at": "2022-02-04T10:02:30.073Z"
+	},
+	{
+		"id": 6073229,
+		"scale_team_id": 3883538,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2022-02-04T11:11:47.383Z",
+		"updated_at": "2022-02-04T11:11:47.383Z"
+	},
+	{
+		"id": 6086696,
+		"scale_team_id": 3891759,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2022-02-07T09:20:11.751Z",
+		"updated_at": "2022-02-07T09:20:11.751Z"
+	},
+	{
+		"id": 6087028,
+		"scale_team_id": 3891959,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2022-02-07T10:09:10.096Z",
+		"updated_at": "2022-02-07T10:09:10.096Z"
+	},
+	{
+		"id": 6087546,
+		"scale_team_id": 3891988,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2022-02-07T11:10:10.916Z",
+		"updated_at": "2022-02-07T11:10:10.916Z"
+	},
+	{
+		"id": 6087548,
+		"scale_team_id": 3892257,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2022-02-07T11:10:29.574Z",
+		"updated_at": "2022-02-07T11:10:29.574Z"
+	},
+	{
+		"id": 6088105,
+		"scale_team_id": 3892323,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2022-02-07T12:27:03.786Z",
+		"updated_at": "2022-02-07T12:27:03.786Z"
+	},
+	{
+		"id": 6088607,
+		"scale_team_id": 3892395,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2022-02-07T13:37:25.324Z",
+		"updated_at": "2022-02-07T13:37:25.324Z"
+	},
+	{
+		"id": 6101820,
+		"scale_team_id": 3899545,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 3,
+		"created_at": "2022-02-09T09:08:43.226Z",
+		"updated_at": "2022-02-09T09:08:43.226Z"
+	},
+	{
+		"id": 6102839,
+		"scale_team_id": 3900543,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 4,
+		"created_at": "2022-02-09T10:50:39.377Z",
+		"updated_at": "2022-02-09T10:50:39.377Z"
+	},
+	{
+		"id": 6103715,
+		"scale_team_id": 3900946,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2022-02-09T12:03:26.402Z",
+		"updated_at": "2022-02-09T12:03:26.402Z"
+	},
+	{
+		"id": 6104726,
+		"scale_team_id": 3901414,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2022-02-09T13:20:39.157Z",
+		"updated_at": "2022-02-09T13:20:39.157Z"
+	},
+	{
+		"id": 6106601,
+		"scale_team_id": 3901968,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2022-02-09T16:06:31.312Z",
+		"updated_at": "2022-02-09T16:06:31.312Z"
+	},
+	{
+		"id": 6126471,
+		"scale_team_id": 3912632,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2022-02-12T09:11:23.021Z",
+		"updated_at": "2022-02-12T09:11:23.021Z"
+	},
+	{
+		"id": 6138167,
+		"scale_team_id": 3918894,
+		"reason": "Earning after defense",
+		"sum": 2,
+		"total": 3,
+		"created_at": "2022-02-14T08:46:53.810Z",
+		"updated_at": "2022-02-14T08:46:53.810Z"
+	},
+	{
+		"id": 6138773,
+		"scale_team_id": 3919457,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 5,
+		"created_at": "2022-02-14T09:41:55.990Z",
+		"updated_at": "2022-02-14T09:41:55.990Z"
+	},
+	{
+		"id": 6139296,
+		"scale_team_id": 3919774,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 4,
+		"created_at": "2022-02-14T10:47:52.892Z",
+		"updated_at": "2022-02-14T10:47:52.892Z"
+	},
+	{
+		"id": 6139303,
+		"scale_team_id": 3919780,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2022-02-14T10:48:22.667Z",
+		"updated_at": "2022-02-14T10:48:22.667Z"
+	},
+	{
+		"id": 6140060,
+		"scale_team_id": 3919974,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2022-02-14T12:22:32.447Z",
+		"updated_at": "2022-02-14T12:22:32.447Z"
+	},
+	{
+		"id": 6169434,
+		"scale_team_id": 3935015,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 3,
+		"created_at": "2022-02-17T11:07:26.849Z",
+		"updated_at": "2022-02-17T11:07:26.849Z"
+	},
+	{
+		"id": 6171150,
+		"scale_team_id": 3935835,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 4,
+		"created_at": "2022-02-17T13:40:14.483Z",
+		"updated_at": "2022-02-17T13:40:14.483Z"
+	},
+	{
+		"id": 6172357,
+		"scale_team_id": 3936658,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 5,
+		"created_at": "2022-02-17T15:27:00.122Z",
+		"updated_at": "2022-02-17T15:27:00.122Z"
+	},
+	{
+		"id": 6251337,
+		"scale_team_id": 3979202,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 6,
+		"created_at": "2022-03-01T11:12:24.980Z",
+		"updated_at": "2022-03-01T11:12:24.980Z"
+	},
+	{
+		"id": 6251588,
+		"scale_team_id": 3979550,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 7,
+		"created_at": "2022-03-01T11:43:03.551Z",
+		"updated_at": "2022-03-01T11:43:03.551Z"
+	},
+	{
+		"id": 6252001,
+		"scale_team_id": 3979736,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 6,
+		"created_at": "2022-03-01T12:47:10.040Z",
+		"updated_at": "2022-03-01T12:47:10.040Z"
+	},
+	{
+		"id": 6252443,
+		"scale_team_id": 3979943,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 5,
+		"created_at": "2022-03-01T13:50:37.946Z",
+		"updated_at": "2022-03-01T13:50:37.946Z"
+	},
+	{
+		"id": 6253210,
+		"scale_team_id": 3980030,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 4,
+		"created_at": "2022-03-01T15:39:26.085Z",
+		"updated_at": "2022-03-01T15:39:26.085Z"
+	},
+	{
+		"id": 6364772,
+		"scale_team_id": 4037699,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 5,
+		"created_at": "2022-03-28T10:54:38.769Z",
+		"updated_at": "2022-03-28T10:54:38.769Z"
+	},
+	{
+		"id": 6382166,
+		"scale_team_id": 4046335,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 6,
+		"created_at": "2022-03-31T12:03:02.368Z",
+		"updated_at": "2022-03-31T12:03:02.368Z"
+	},
+	{
+		"id": 6448677,
+		"scale_team_id": 4083021,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 7,
+		"created_at": "2022-04-16T18:21:26.747Z",
+		"updated_at": "2022-04-16T18:21:26.747Z"
+	},
+	{
+		"id": 6449168,
+		"scale_team_id": 4083472,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 8,
+		"created_at": "2022-04-17T01:35:24.381Z",
+		"updated_at": "2022-04-17T01:35:24.381Z"
+	},
+	{
+		"id": 6449392,
+		"scale_team_id": 4083583,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 7,
+		"created_at": "2022-04-17T03:49:57.345Z",
+		"updated_at": "2022-04-17T03:49:57.345Z"
+	},
+	{
+		"id": 6449396,
+		"scale_team_id": 4083586,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 6,
+		"created_at": "2022-04-17T03:51:30.636Z",
+		"updated_at": "2022-04-17T03:51:30.636Z"
+	},
+	{
+		"id": 6474542,
+		"scale_team_id": 4096242,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 5,
+		"created_at": "2022-04-22T14:41:54.451Z",
+		"updated_at": "2022-04-22T14:41:54.451Z"
+	},
+	{
+		"id": 6508388,
+		"scale_team_id": 4112506,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 6,
+		"created_at": "2022-04-29T13:14:27.634Z",
+		"updated_at": "2022-04-29T13:14:27.634Z"
+	},
+	{
+		"id": 6508557,
+		"scale_team_id": 4112717,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 7,
+		"created_at": "2022-04-29T13:53:34.047Z",
+		"updated_at": "2022-04-29T13:53:34.047Z"
+	},
+	{
+		"id": 6508817,
+		"scale_team_id": 4112821,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 6,
+		"created_at": "2022-04-29T14:55:29.252Z",
+		"updated_at": "2022-04-29T14:55:29.252Z"
+	},
+	{
+		"id": 6508825,
+		"scale_team_id": 4112828,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 5,
+		"created_at": "2022-04-29T14:57:17.993Z",
+		"updated_at": "2022-04-29T14:57:17.993Z"
+	},
+	{
+		"id": 6558407,
+		"scale_team_id": 4138580,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 4,
+		"created_at": "2022-05-13T09:34:43.610Z",
+		"updated_at": "2022-05-13T09:34:43.610Z"
+	},
+	{
+		"id": 6558563,
+		"scale_team_id": 4138675,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2022-05-13T10:14:31.516Z",
+		"updated_at": "2022-05-13T10:14:31.516Z"
+	},
+	{
+		"id": 6559259,
+		"scale_team_id": 4139007,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2022-05-13T13:05:44.630Z",
+		"updated_at": "2022-05-13T13:05:44.630Z"
+	},
+	{
+		"id": 6559260,
+		"scale_team_id": 4139008,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-05-13T13:05:52.242Z",
+		"updated_at": "2022-05-13T13:05:52.242Z"
+	},
+	{
+		"id": 6587319,
+		"scale_team_id": 4157234,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2022-05-20T11:56:53.247Z",
+		"updated_at": "2022-05-20T11:56:53.247Z"
+	},
+	{
+		"id": 6587774,
+		"scale_team_id": 4157779,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-05-20T13:38:53.381Z",
+		"updated_at": "2022-05-20T13:38:53.381Z"
+	},
+	{
+		"id": 6588018,
+		"scale_team_id": 4156881,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2022-05-20T14:45:20.315Z",
+		"updated_at": "2022-05-20T14:45:20.315Z"
+	},
+	{
+		"id": 6588104,
+		"scale_team_id": 4157921,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-05-20T15:11:28.706Z",
+		"updated_at": "2022-05-20T15:11:28.706Z"
+	},
+	{
+		"id": 6588202,
+		"scale_team_id": 4157820,
+		"reason": "Earning after defense",
+		"sum": 2,
+		"total": 0,
+		"created_at": "2022-05-20T15:45:55.900Z",
+		"updated_at": "2022-05-20T15:45:55.900Z"
+	},
+	{
+		"id": 6608293,
+		"scale_team_id": 4168133,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2022-05-25T09:33:42.059Z",
+		"updated_at": "2022-05-25T09:33:42.059Z"
+	},
+	{
+		"id": 6608438,
+		"scale_team_id": 4168412,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2022-05-25T10:00:50.815Z",
+		"updated_at": "2022-05-25T10:00:50.815Z"
+	},
+	{
+		"id": 6608873,
+		"scale_team_id": 4168640,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2022-05-25T11:07:43.666Z",
+		"updated_at": "2022-05-25T11:07:43.666Z"
+	},
+	{
+		"id": 6609446,
+		"scale_team_id": 4168775,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2022-05-25T12:32:58.653Z",
+		"updated_at": "2022-05-25T12:32:58.653Z"
+	},
+	{
+		"id": 6610192,
+		"scale_team_id": 4169243,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2022-05-25T14:32:48.045Z",
+		"updated_at": "2022-05-25T14:32:48.045Z"
+	},
+	{
+		"id": 6610268,
+		"scale_team_id": 4169282,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-05-25T14:44:45.785Z",
+		"updated_at": "2022-05-25T14:44:45.785Z"
+	},
+	{
+		"id": 6610745,
+		"scale_team_id": 4169389,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2022-05-25T16:14:59.804Z",
+		"updated_at": "2022-05-25T16:14:59.804Z"
+	},
+	{
+		"id": 6641463,
+		"scale_team_id": 4184286,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-06-01T10:48:29.956Z",
+		"updated_at": "2022-06-01T10:48:29.956Z"
+	},
+	{
+		"id": 6643318,
+		"scale_team_id": 4184997,
+		"reason": "Earning after defense",
+		"sum": 2,
+		"total": 0,
+		"created_at": "2022-06-01T15:20:36.091Z",
+		"updated_at": "2022-06-01T15:20:36.091Z"
+	},
+	{
+		"id": 6647424,
+		"scale_team_id": 4187095,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2022-06-02T09:33:37.775Z",
+		"updated_at": "2022-06-02T09:33:37.775Z"
+	},
+	{
+		"id": 6647712,
+		"scale_team_id": 4186893,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2022-06-02T10:11:14.324Z",
+		"updated_at": "2022-06-02T10:11:14.324Z"
+	},
+	{
+		"id": 6648884,
+		"scale_team_id": 4187713,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2022-06-02T12:15:39.823Z",
+		"updated_at": "2022-06-02T12:15:39.823Z"
+	},
+	{
+		"id": 6648885,
+		"scale_team_id": 4187714,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-06-02T12:15:55.067Z",
+		"updated_at": "2022-06-02T12:15:55.067Z"
+	},
+	{
+		"id": 6650129,
+		"scale_team_id": 4188029,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2022-06-02T14:23:25.255Z",
+		"updated_at": "2022-06-02T14:23:25.255Z"
+	},
+	{
+		"id": 6650323,
+		"scale_team_id": 4188272,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-06-02T14:43:02.602Z",
+		"updated_at": "2022-06-02T14:43:02.602Z"
+	},
+	{
+		"id": 6650584,
+		"scale_team_id": 4188259,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2022-06-02T15:16:36.799Z",
+		"updated_at": "2022-06-02T15:16:36.799Z"
+	},
+	{
+		"id": 6671116,
+		"scale_team_id": 4198489,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-06-07T10:47:45.048Z",
+		"updated_at": "2022-06-07T10:47:45.048Z"
+	},
+	{
+		"id": 6672595,
+		"scale_team_id": 4198964,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2022-06-07T13:58:00.561Z",
+		"updated_at": "2022-06-07T13:58:00.561Z"
+	},
+	{
+		"id": 6672712,
+		"scale_team_id": 4199316,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-06-07T14:13:46.101Z",
+		"updated_at": "2022-06-07T14:13:46.101Z"
+	},
+	{
+		"id": 6691413,
+		"scale_team_id": 4208661,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2022-06-10T08:43:09.311Z",
+		"updated_at": "2022-06-10T08:43:09.311Z"
+	},
+	{
+		"id": 6691418,
+		"scale_team_id": 4208854,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 1,
+		"created_at": "2022-06-10T08:44:04.283Z",
+		"updated_at": "2022-06-10T08:44:04.283Z"
+	},
+	{
+		"id": 6691477,
+		"scale_team_id": 4208741,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 0,
+		"created_at": "2022-06-10T09:03:15.001Z",
+		"updated_at": "2022-06-10T09:03:15.001Z"
+	},
+	{
+		"id": 6692489,
+		"scale_team_id": 4209348,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2022-06-10T13:06:32.088Z",
+		"updated_at": "2022-06-10T13:06:32.088Z"
+	},
+	{
+		"id": 6703068,
+		"scale_team_id": 4217152,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2022-06-13T12:35:19.585Z",
+		"updated_at": "2022-06-13T12:35:19.585Z"
+	},
+	{
+		"id": 6703602,
+		"scale_team_id": 4217737,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2022-06-13T13:57:15.227Z",
+		"updated_at": "2022-06-13T13:57:15.227Z"
+	},
+	{
+		"id": 6703846,
+		"scale_team_id": 4217674,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2022-06-13T14:37:25.126Z",
+		"updated_at": "2022-06-13T14:37:25.126Z"
+	},
+	{
+		"id": 6704081,
+		"scale_team_id": 4217992,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2022-06-13T15:13:58.192Z",
+		"updated_at": "2022-06-13T15:13:58.192Z"
+	},
+	{
+		"id": 6704084,
+		"scale_team_id": 4217994,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 2,
+		"created_at": "2022-06-13T15:14:28.027Z",
+		"updated_at": "2022-06-13T15:14:28.027Z"
+	},
+	{
+		"id": 6704552,
+		"scale_team_id": 4218001,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 1,
+		"created_at": "2022-06-13T16:34:16.499Z",
+		"updated_at": "2022-06-13T16:34:16.499Z"
+	},
+	{
+		"id": 6711676,
+		"scale_team_id": null,
+		"reason": "15den fazla olanlarin bagisi",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2022-06-15T09:49:55.307Z",
+		"updated_at": "2022-06-15T09:49:55.307Z"
+	},
+	{
+		"id": 6711717,
+		"scale_team_id": null,
+		"reason": "15den fazla olanlarin bagisi",
+		"sum": 1,
+		"total": 3,
+		"created_at": "2022-06-15T09:51:48.776Z",
+		"updated_at": "2022-06-15T09:51:48.776Z"
+	},
+	{
+		"id": 6711797,
+		"scale_team_id": null,
+		"reason": "15den fazla olanlarin bagisi",
+		"sum": 1,
+		"total": 4,
+		"created_at": "2022-06-15T09:59:42.355Z",
+		"updated_at": "2022-06-15T09:59:42.355Z"
+	},
+	{
+		"id": 6790373,
+		"scale_team_id": 4261530,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 5,
+		"created_at": "2022-06-29T12:26:59.444Z",
+		"updated_at": "2022-06-29T12:26:59.444Z"
+	},
+	{
+		"id": 6790693,
+		"scale_team_id": 4261967,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 6,
+		"created_at": "2022-06-29T13:08:10.450Z",
+		"updated_at": "2022-06-29T13:08:10.450Z"
+	},
+	{
+		"id": 6791783,
+		"scale_team_id": 4262489,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 5,
+		"created_at": "2022-06-29T15:30:09.659Z",
+		"updated_at": "2022-06-29T15:30:09.659Z"
+	},
+	{
+		"id": 6895464,
+		"scale_team_id": 4321381,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 4,
+		"created_at": "2022-07-16T11:34:44.931Z",
+		"updated_at": "2022-07-16T11:34:44.931Z"
+	},
+	{
+		"id": 6896757,
+		"scale_team_id": 4322254,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 5,
+		"created_at": "2022-07-16T14:50:42.161Z",
+		"updated_at": "2022-07-16T14:50:42.161Z"
+	},
+	{
+		"id": 6898148,
+		"scale_team_id": 4322685,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 4,
+		"created_at": "2022-07-16T17:43:57.112Z",
+		"updated_at": "2022-07-16T17:43:57.112Z"
+	},
+	{
+		"id": 6976000,
+		"scale_team_id": 4363303,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 5,
+		"created_at": "2022-07-25T13:13:53.801Z",
+		"updated_at": "2022-07-25T13:13:53.801Z"
+	},
+	{
+		"id": 7026590,
+		"scale_team_id": 4390163,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 6,
+		"created_at": "2022-07-30T10:47:17.408Z",
+		"updated_at": "2022-07-30T10:47:17.408Z"
+	},
+	{
+		"id": 7026968,
+		"scale_team_id": 4390399,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 5,
+		"created_at": "2022-07-30T12:00:48.128Z",
+		"updated_at": "2022-07-30T12:00:48.128Z"
+	},
+	{
+		"id": 7026970,
+		"scale_team_id": 4390400,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 4,
+		"created_at": "2022-07-30T12:00:54.536Z",
+		"updated_at": "2022-07-30T12:00:54.536Z"
+	},
+	{
+		"id": 7047521,
+		"scale_team_id": 4402277,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 3,
+		"created_at": "2022-08-02T11:05:54.959Z",
+		"updated_at": "2022-08-02T11:05:54.959Z"
+	},
+	{
+		"id": 7048094,
+		"scale_team_id": 4402355,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 4,
+		"created_at": "2022-08-02T12:02:17.420Z",
+		"updated_at": "2022-08-02T12:02:17.420Z"
+	},
+	{
+		"id": 7048829,
+		"scale_team_id": 4402981,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 5,
+		"created_at": "2022-08-02T12:59:29.986Z",
+		"updated_at": "2022-08-02T12:59:29.986Z"
+	},
+	{
+		"id": 7050008,
+		"scale_team_id": 4403600,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 6,
+		"created_at": "2022-08-02T14:30:30.546Z",
+		"updated_at": "2022-08-02T14:30:30.546Z"
+	},
+	{
+		"id": 7096402,
+		"scale_team_id": 4427930,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 7,
+		"created_at": "2022-08-08T13:30:36.576Z",
+		"updated_at": "2022-08-08T13:30:36.576Z"
+	},
+	{
+		"id": 7097020,
+		"scale_team_id": 4428177,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 6,
+		"created_at": "2022-08-08T14:36:45.407Z",
+		"updated_at": "2022-08-08T14:36:45.407Z"
+	},
+	{
+		"id": 7097427,
+		"scale_team_id": 4428376,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 5,
+		"created_at": "2022-08-08T15:21:52.783Z",
+		"updated_at": "2022-08-08T15:21:52.783Z"
+	},
+	{
+		"id": 7139246,
+		"scale_team_id": 4450035,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 4,
+		"created_at": "2022-08-12T14:56:53.738Z",
+		"updated_at": "2022-08-12T14:56:53.738Z"
+	},
+	{
+		"id": 7163237,
+		"scale_team_id": 4465135,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 5,
+		"created_at": "2022-08-16T12:46:20.331Z",
+		"updated_at": "2022-08-16T12:46:20.331Z"
+	},
+	{
+		"id": 7215924,
+		"scale_team_id": 4494165,
+		"reason": "Earning after defense",
+		"sum": 2,
+		"total": 6,
+		"created_at": "2022-08-23T12:51:22.360Z",
+		"updated_at": "2022-08-23T12:51:22.360Z"
+	},
+	{
+		"id": 7367180,
+		"scale_team_id": 4577255,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 8,
+		"created_at": "2022-09-08T11:02:55.977Z",
+		"updated_at": "2022-09-08T11:02:55.977Z"
+	},
+	{
+		"id": 7367187,
+		"scale_team_id": 4577256,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 7,
+		"created_at": "2022-09-08T11:03:14.282Z",
+		"updated_at": "2022-09-08T11:03:14.282Z"
+	},
+	{
+		"id": 7367192,
+		"scale_team_id": 4577257,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 6,
+		"created_at": "2022-09-08T11:03:26.528Z",
+		"updated_at": "2022-09-08T11:03:26.528Z"
+	},
+	{
+		"id": 7618005,
+		"scale_team_id": 4707355,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 5,
+		"created_at": "2022-10-10T13:46:40.793Z",
+		"updated_at": "2022-10-10T13:46:40.793Z"
+	},
+	{
+		"id": 7865141,
+		"scale_team_id": 4833550,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 6,
+		"created_at": "2022-11-18T13:27:30.043Z",
+		"updated_at": "2022-11-18T13:27:30.043Z"
+	},
+	{
+		"id": 8611025,
+		"scale_team_id": 5204701,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 7,
+		"created_at": "2023-03-24T07:41:06.746Z",
+		"updated_at": "2023-03-24T07:41:06.746Z"
+	},
+	{
+		"id": 8717008,
+		"scale_team_id": 5256158,
+		"reason": "Earning after defense",
+		"sum": 2,
+		"total": 6,
+		"created_at": "2023-04-14T17:31:52.788Z",
+		"updated_at": "2023-04-14T17:31:52.788Z"
+	},
+	{
+		"id": 8717086,
+		"scale_team_id": 5256250,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 8,
+		"created_at": "2023-04-14T17:56:23.212Z",
+		"updated_at": "2023-04-14T17:56:23.212Z"
+	},
+	{
+		"id": 8717090,
+		"scale_team_id": 5256251,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 7,
+		"created_at": "2023-04-14T17:56:53.724Z",
+		"updated_at": "2023-04-14T17:56:53.724Z"
+	},
+	{
+		"id": 8717096,
+		"scale_team_id": 5256252,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 6,
+		"created_at": "2023-04-14T17:57:19.663Z",
+		"updated_at": "2023-04-14T17:57:19.663Z"
+	},
+	{
+		"id": 8717102,
+		"scale_team_id": 5256254,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 5,
+		"created_at": "2023-04-14T17:57:40.105Z",
+		"updated_at": "2023-04-14T17:57:40.105Z"
+	},
+	{
+		"id": 8717107,
+		"scale_team_id": 5256251,
+		"reason": "Evaluator cancelled a defense",
+		"sum": 1,
+		"total": 4,
+		"created_at": "2023-04-14T17:57:45.926Z",
+		"updated_at": "2023-04-14T17:57:45.926Z"
+	},
+	{
+		"id": 8717111,
+		"scale_team_id": 5256255,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 5,
+		"created_at": "2023-04-14T17:58:10.656Z",
+		"updated_at": "2023-04-14T17:58:10.656Z"
+	},
+	{
+		"id": 8717115,
+		"scale_team_id": 5256256,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 4,
+		"created_at": "2023-04-14T18:00:06.140Z",
+		"updated_at": "2023-04-14T18:00:06.140Z"
+	},
+	{
+		"id": 8717119,
+		"scale_team_id": 5256257,
+		"reason": "Defense plannification",
+		"sum": -1,
+		"total": 3,
+		"created_at": "2023-04-14T18:00:22.412Z",
+		"updated_at": "2023-04-14T18:00:22.412Z"
+	},
+	{
+		"id": 8717202,
+		"scale_team_id": 5256191,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 2,
+		"created_at": "2023-04-14T18:40:59.268Z",
+		"updated_at": "2023-04-14T18:40:59.268Z"
+	},
+	{
+		"id": 8717240,
+		"scale_team_id": 5256241,
+		"reason": "Earning after defense",
+		"sum": 1,
+		"total": 3,
+		"created_at": "2023-04-14T19:08:01.043Z",
+		"updated_at": "2023-04-14T19:08:01.043Z"
+	},
+	{
+		"id": 8910983,
+		"scale_team_id": 5204701,
+		"reason": "Evaluator cancelled a defense",
+		"sum": 1,
+		"total": 4,
+		"created_at": "2023-05-31T14:06:31.166Z",
+		"updated_at": "2023-05-31T14:06:31.166Z"
+	}
+]

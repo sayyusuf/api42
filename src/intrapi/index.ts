@@ -1,0 +1,1 @@
+export { IntraApi } from './intrapi'

@@ -1,4 +1,8 @@
 *.js
 node_modules
+<<<<<<< HEAD
+dist
+=======
 *.json
 *.map
+>>>>>>> test

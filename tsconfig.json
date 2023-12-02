@@ -1,4 +1,17 @@
 {
+<<<<<<< HEAD
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2015",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "declaration": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
+=======
     "compilerOptions": {
         "esModuleInterop": true,
         "sourceMap": true,
@@ -10,3 +23,4 @@
         "coverage"
     ]
 }
+>>>>>>> test
