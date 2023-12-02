@@ -5,5 +5,5 @@ export type Subnotion = {
   created_at: string;
   notepad: any;
   attachments: any[];
-  notion: any; // Notion tipini ekle
+  notion: any;
 }
