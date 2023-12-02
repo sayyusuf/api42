@@ -21,7 +21,7 @@ export class NotesApi {
    * @param params
    * @returns Return all the notes of the given User
    */
-  public async users_userId_notes(
+  public async get_users_userId_notes(
     user_id: string,
     params?: NotesParams
   ): Promise<Note[]> {
@@ -35,7 +35,7 @@ export class NotesApi {
    * @param params
    * @returns Return all the notes of the given Campus
    */
-  public async campus_campusId_notes(
+  public async get_campus_campusId_notes(
     campus_id: string,
     params?: NotesParams
   ): Promise<Note[]> {
@@ -48,50 +48,17 @@ export class NotesApi {
    * @param params
    * @returns Return all the notes
    */
-  public async notes(params?: NotesParams): Promise<Note[]> {
+  public async get_notes(params?: NotesParams): Promise<Note[]> {
     return await this.base.get(`/v2/notes`, params);
   }
 
   // GET /v2/notes/:id
   /**
-   * 
-   * @param id 
+   *
+   * @param id
    * @returns Get a note
    */
-  public async get_note(id: string): Promise<Note> {
+  public async get_notes_id(id: string): Promise<Note> {
     return await this.base.get(`/v2/notes/${id}`);
   }
-
-  // TODO
-  //   // POST /v2/notes
-  //   /**
-  //    * Create a note
-  //    */
-  //   public async create_note(note: Pick<Note, "user_id"> & Partial<Note>) {
-  //     return await this.base.post(`/v2/notes`, { note: note });
-  //   }
-
-  //   // PATCH /v2/notes/:id
-  //   /**
-  //    * Update a note
-  //    */
-  //   public async update_full_note(id: string, note: Partial<Note>) {
-  //     return await this.base.patch(`/v2/notes/${id}`, { note: note });
-  //   }
-
-  //   // PUT /v2/notes/:id
-  //   /**
-  //    * Update a note
-  //    */
-  //   public async update_note(id: string, note: Partial<Note>) {
-  //     return await this.base.put(`/v2/notes/${id}`, { note: note });
-  //   }
-
-  //   // DELETE /v2/notes/:id
-  //   /**
-  //    * Destroy a note
-  //    */
-  //   public async delete_note(id: string) {
-  //     return await this.base.delete(`/v2/notes/${id}`);
-  //   }
 }

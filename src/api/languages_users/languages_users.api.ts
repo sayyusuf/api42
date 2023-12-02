@@ -14,7 +14,7 @@ export class LanguageUsersApi {
    * @param params
    * @returns grouped temporal data on languages users
    */
-  public async languages_users_graph(params?: LanguageUserParams) {
+  public async get_languages_users_graph(params?: LanguageUserParams) {
     return await this.base.get(`/v2/languages_users/graph`, params);
   }
 
@@ -24,7 +24,7 @@ export class LanguageUsersApi {
    * @param params
    * @returns all the languages users of the given User
    */
-  public async users_languages_users(
+  public async get_users_userId_languages_users(
     user_id: string,
     params?: LanguageUserParams
   ): Promise<LanguageUser[]> {

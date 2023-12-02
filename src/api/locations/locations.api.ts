@@ -15,7 +15,7 @@ export class LocationsApi {
    * @param params
    * @returns Return grouped temporal data on locations
    */
-  public async locations_graph(params?: LocationsParams) {
+  public async get_locations_graph(params?: LocationsParams) {
     return await this.base.get(`/v2/locations/graph`, params);
   }
 
@@ -25,7 +25,7 @@ export class LocationsApi {
    * @param params
    * @returns Return all the locations
    */
-  public async locations(params?: LocationsParams): Promise<Locations[]> {
+  public async get_locations(params?: LocationsParams): Promise<Locations[]> {
     return await this.base.get(`/v2/locations`, params);
   }
 
@@ -36,7 +36,7 @@ export class LocationsApi {
    * @param params
    * @returns Return all the locations of the given User
    */
-  public async users_userId_locations(
+  public async get_users_userId_locations(
     user_id: string,
     params?: LocationsParams
   ): Promise<Locations[]> {
@@ -50,7 +50,7 @@ export class LocationsApi {
    * @param params
    * @returns Return all the locations of the given Campus
    */
-  public async campus_campusId_locations(
+  public async get_campus_campusId_locations(
     campus_id: string,
     params?: LocationsParams
   ): Promise<Locations[]> {
@@ -63,7 +63,7 @@ export class LocationsApi {
    * @param id
    * @returns Get a location
    */
-  public async get_locations(id: string): Promise<Locations> {
+  public async get_locations_id(id: string): Promise<Locations> {
     return await this.base.get(`/v2/locations/${id}`);
   }
 }

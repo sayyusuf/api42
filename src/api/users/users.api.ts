@@ -15,7 +15,7 @@ export class UsersApi {
    * @param params
    * @returns Return grouped temporal data on users
    */
-  public async users_graph(params?: UsersParams) {
+  public async get_users_graph(params?: UsersParams) {
     return await this.base.get(`/v2/users/graph`, params);
   }
 
@@ -28,7 +28,7 @@ export class UsersApi {
    * @param time_zone optional. Must be String
    * @returns will return the data from the last 4 months
    */
-  public async location_stats(
+  public async get_users_id_location_stats(
     id: string,
     begin_at?: string,
     end_at?: string,
@@ -48,7 +48,7 @@ export class UsersApi {
    * @param params
    * @returns Return all the users of the given Coalition
    */
-  public async coalitions_users(
+  public async get_coalitions_coalitionId_users(
     coalition_id: string,
     params?: UsersParams2
   ): Promise<User[]> {
@@ -62,7 +62,7 @@ export class UsersApi {
    * @param params
    * @returns Return all the users of the given Dash
    */
-  public async dashes_dashId_users(
+  public async get_dashes_dashId_users(
     dash_id: string,
     params?: UsersParams2
   ): Promise<User[]> {
@@ -76,7 +76,7 @@ export class UsersApi {
    * @param params
    * @returns Return all the users of the given Event
    */
-  public async events_eventId_users(
+  public async get_events_eventId_users(
     event_id: string,
     params?: UsersParams2
   ): Promise<User[]> {
@@ -90,7 +90,7 @@ export class UsersApi {
    * @param params
    * @returns Return all the users of the given Accreditation
    */
-  public async accreditations_accreditationId_users(
+  public async get_accreditations_accreditationId_users(
     accreditation_id: string,
     params?: UsersParams2
   ): Promise<User[]> {
@@ -107,7 +107,7 @@ export class UsersApi {
    * @param params
    * @returns Return all the users of the given Team
    */
-  public async teams_teamId_users(
+  public async get_teams_teamId_users(
     team_id: string,
     params?: UsersParams2
   ): Promise<User[]> {
@@ -121,7 +121,7 @@ export class UsersApi {
    * @param params
    * @returns Return all the users of the given Project
    */
-  public async projects_projectId_users(
+  public async get_projects_projectId_users(
     project_id: string,
     params?: UsersParams2
   ): Promise<User[]> {
@@ -135,7 +135,7 @@ export class UsersApi {
    * @param params
    * @returns Return all the users of the given Partnership
    */
-  public async partnerships_partnershipId_users(
+  public async get_partnerships_partnershipId_users(
     partnership_id: string,
     params?: UsersParams2
   ): Promise<User[]> {
@@ -152,7 +152,7 @@ export class UsersApi {
    * @param params
    * @returns Return all the users of the given Expertise
    */
-  public async expertises_expertiseId_users(
+  public async get_expertises_expertiseId_users(
     expertise_id: string,
     params?: UsersParams2
   ): Promise<User[]> {
@@ -176,7 +176,7 @@ export class UsersApi {
    * @param params
    * @returns Return all the users of the given Cursus
    */
-  public async cursus_cursusId_users(
+  public async get_cursus_cursusId_users(
     cursus_id: string,
     params?: UsersParams2
   ): Promise<User[]> {
@@ -190,7 +190,7 @@ export class UsersApi {
    * @param params
    * @returns Return all the users of the given Campus
    */
-  public async campus_campusId_users(
+  public async get_campus_campusId_users(
     campus_id: string,
     params?: UsersParams2
   ): Promise<User[]> {
@@ -204,7 +204,7 @@ export class UsersApi {
    * @param params
    * @returns Return all the users of the given Achievement
    */
-  public async achievements_achievementId_users(
+  public async get_achievements_achievementId_users(
     achievement_id: string,
     params?: UsersParams2
   ): Promise<User[]> {
@@ -221,7 +221,7 @@ export class UsersApi {
    * @param params
    * @returns Return all the users of the given Title
    */
-  public async titles_titleId_users(
+  public async get_titles_titleId_users(
     title_id: string,
     params?: UsersParams2
   ): Promise<User[]> {
@@ -235,7 +235,7 @@ export class UsersApi {
    * @param params
    * @returns Return all the users of the given Quest
    */
-  public async quests_questId_users(
+  public async get_quests_questId_users(
     quest_id: string,
     params?: UsersParams2
   ): Promise<User[]> {
@@ -249,7 +249,7 @@ export class UsersApi {
    * @param params
    * @returns Return all the users of the given Group
    */
-  public async groups_groupId_users(
+  public async get_groups_groupId_users(
     group_id: string,
     params?: UsersParams2
   ): Promise<User[]> {
@@ -262,7 +262,7 @@ export class UsersApi {
    * @param id
    * @returns Get a user
    */
-  public async get_users_user(id: string): Promise<User> {
+  public async get_users_id(id: string): Promise<User> {
     return await this.base.get(`/v2/users/${id}`);
   }
 
@@ -271,7 +271,7 @@ export class UsersApi {
    *
    * @returns Show the current resource owner
    */
-  public async get_users_me(): Promise<User> {
+  public async get_me(): Promise<User> {
     return await this.base.get(`/v2/me`);
   }
 }
