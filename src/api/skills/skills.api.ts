@@ -14,7 +14,7 @@ export class SkillsApi {
      * @param params any object or default {}
      * @returns Skill array
      */
-    public async get_skills(params: SkillsParams): Promise<Skill[]> {
+    public async get_skills(params?: SkillsParams): Promise<Skill[]> {
         const route = "/v2/skills";
         return await this.base.get(route, params);
     }
@@ -25,7 +25,7 @@ export class SkillsApi {
      * @param params any object or default {}
      * @returns Skill array
      */
-    public async get_cursus_cursusId_skills(cursus_id: number | string, params: SkillsParams): Promise<Skill[]> {
+    public async get_cursus_cursusId_skills(cursus_id: number | string, params?: SkillsParams): Promise<Skill[]> {
         const route = `/v2/cursus/${cursus_id}/skills`;
         return await this.base.get(route, params);
     }

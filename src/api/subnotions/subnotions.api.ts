@@ -15,7 +15,7 @@ export class SubnotionsApi {
      * @param params any object or default {}
      * @returns Subnotion array
      */
-    public async get_notions_notionId_subnotions(notion_id: number | string, params: SubnotionsParams): Promise<Subnotion[]> {
+    public async get_notions_notionId_subnotions(notion_id: number | string, params?: SubnotionsParams): Promise<Subnotion[]> {
         const route = `/v2/notions/${notion_id}/subnotions`;
         return await this.base.get(route, params);
     }
@@ -25,7 +25,7 @@ export class SubnotionsApi {
      * @param params any object or default {}
      * @returns Subnotion array
      */
-    public async get_subnotions(params: SubnotionsParams): Promise<Subnotion[]> {
+    public async get_subnotions(params?: SubnotionsParams): Promise<Subnotion[]> {
         const route = "/v2/subnotions";
         return await this.base.get(route, params);
     }

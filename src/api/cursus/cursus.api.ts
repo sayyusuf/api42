@@ -14,7 +14,7 @@ export class CursusApi {
      * @param params any object or default {}
      * @returns Cursus array
      */
-    public async get_cursus(params: CursusParams): Promise<Cursus[]> {
+    public async get_cursus(params?: CursusParams): Promise<Cursus[]> {
         const route = "/v2/cursus";
         return await this.base.get(route, params);
     }

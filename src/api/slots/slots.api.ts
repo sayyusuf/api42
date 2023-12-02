@@ -52,7 +52,7 @@ export class SlotsApi {
      * @param params any object or default {}
      * @returns Slot array
      */
-    public async get_slots(params: SlotsParams): Promise<Slot[]> {
+    public async get_slots(params?: SlotsParams): Promise<Slot[]> {
         const route = "/v2/slots";
         return await this.base.get(route, params);
     }
@@ -63,7 +63,7 @@ export class SlotsApi {
      * @param params any object or default {}
      * @returns Slot array
      */
-    public async get_projects_projectId_slots(project_id: number | string, params: SlotsParams): Promise<Slot[]> {
+    public async get_projects_projectId_slots(project_id: number | string, params?: SlotsParams): Promise<Slot[]> {
         const route = `/v2/projects/${project_id}/slots`;
         return await this.base.get(route, params);
     }
@@ -74,7 +74,7 @@ export class SlotsApi {
      * @param params any object or default {}
      * @returns Slot array
      */
-    public async get_users_userId_slots(user_id: number | string, params: SlotsParams): Promise<Slot[]> {
+    public async get_users_userId_slots(user_id: number | string, params?: SlotsParams): Promise<Slot[]> {
         const route = `/v2/users/${user_id}/slots`;
         return await this.base.get(route, params);
     }
@@ -84,7 +84,7 @@ export class SlotsApi {
      * @param params any object or default {}
      * @returns Slot array
      */
-    public async get_me_slots(params: SlotsParams): Promise<Slot[]> {
+    public async get_me_slots(params?: SlotsParams): Promise<Slot[]> {
         const route = "/v2/me/slots";
         return await this.base.get(route, params);
     }

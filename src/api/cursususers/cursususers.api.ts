@@ -16,7 +16,7 @@ export class CursusUsersApi {
      * @param params any object or default {}
      * @returns CursusUser array
      */
-    public async get_cursusUsers_graph(field: string, interval: string, params: CursusUsersParams): Promise<any> {
+    public async get_cursusUsers_graph(field: string, interval: string, params?: CursusUsersParams): Promise<any> {
         const route = "/v2/cursus_users/graph" +  (field ? ("/on/" + field): "") + ((field && interval)?("/by/" + interval): "");
         return await this.base.get(route, params);
     }
@@ -26,7 +26,7 @@ export class CursusUsersApi {
      * @param params any object or default {}
      * @returns CursusUser array
      */
-    public async get_cursusUsers(params: CursusUsersParams): Promise<CursusUser[]> {
+    public async get_cursusUsers(params?: CursusUsersParams): Promise<CursusUser[]> {
         const route = "/v2/cursus_users";
         return await this.base.get(route, params);
     }
@@ -37,7 +37,7 @@ export class CursusUsersApi {
      * @param params any object or default {}
      * @returns CursusUser array
      */
-    public async get_users_userId_cursusUsers(user_id: number | string, params: CursusUsersParams): Promise<CursusUser[]> {
+    public async get_users_userId_cursusUsers(user_id: number | string, params?: CursusUsersParams): Promise<CursusUser[]> {
         const route = `/v2/users/${user_id}/cursus_users`;
         return await this.base.get(route, params);
     }
@@ -48,7 +48,7 @@ export class CursusUsersApi {
      * @param params any object or default {}
      * @returns CursusUser array
      */
-    public async get_cursus_cursusId_cursusUsers(cursus_id: number | string, params: CursusUsersParams): Promise<CursusUser[]> {
+    public async get_cursus_cursusId_cursusUsers(cursus_id: number | string, params?: CursusUsersParams): Promise<CursusUser[]> {
         const route = `/v2/cursus/${cursus_id}/cursus_users`;
         return await this.base.get(route, params);
     }

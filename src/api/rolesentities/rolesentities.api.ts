@@ -16,7 +16,7 @@ export class RolesEntitiesApi {
      * @param params any object or default {}
      * @returns RolesEntity array
      */
-    public async get_rolesEntities_graph(field: string, interval: string, params: RolesEntitiesParams): Promise<RolesEntity[]> {
+    public async get_rolesEntities_graph(field: string, interval: string, params?: RolesEntitiesParams): Promise<RolesEntity[]> {
         const route = "/v2/roles_entities/graph" +  (field ? ("/on/" + field): "") + ((field && interval)?("/by/" + interval): "");
         return await this.base.get(route, params);
     }
@@ -27,7 +27,7 @@ export class RolesEntitiesApi {
      * @param params any object or default {}
      * @returns RolesEntity array
      */
-    public async get_roles_roleId_rolesEntities(role_id: number | string, params: RolesEntitiesParams): Promise<RolesEntity[]> {
+    public async get_roles_roleId_rolesEntities(role_id: number | string, params?: RolesEntitiesParams): Promise<RolesEntity[]> {
         const route = `/v2/roles/${role_id}/roles_entities`;
         return await this.base.get(route, params);
     }
@@ -37,7 +37,7 @@ export class RolesEntitiesApi {
      * @param params any object or default {}
      * @returns RolesEntity array
      */
-    public async get_rolesEntities(params: RolesEntitiesParams): Promise<RolesEntity[]> {
+    public async get_rolesEntities(params?: RolesEntitiesParams): Promise<RolesEntity[]> {
         const route = "/v2/roles_entities";
         return await this.base.get(route, params);
     }
