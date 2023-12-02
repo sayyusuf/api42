@@ -27,6 +27,6 @@ let data: CampusUser[];
   };
   const baseapi = await BaseApi42.new(apiData);
   const testapi = new CampusUsersApi(baseapi);
-  data = await testapi.get_campusUsers();
+  data = await testapi.get_campusUsers({  });
   //writeFileSync("./res.json", JSON.stringify(data));
 })();

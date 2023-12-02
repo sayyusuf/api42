@@ -26,7 +26,7 @@ export class DashesUsersApi {
      * @param params any object or default {}
      * @returns DashesUser array
      */
-    public async get_dashesUsers(params: DashesUsersParams): Promise<DashesUser[]> {
+    public async get_dashesUsers(params?: DashesUsersParams): Promise<DashesUser[]> {
         const route = "/v2/dashes_users";
         return await this.base.get(route, params);
     }
@@ -37,7 +37,7 @@ export class DashesUsersApi {
      * @param params any object or default {}
      * @returns DashesUser array
      */
-    public async get_dashes_dashId_dashesUsers(dash_id: number | string, params: DashesUsersParams): Promise<DashesUser[]> {
+    public async get_dashes_dashId_dashesUsers(dash_id: number | string, params?: DashesUsersParams): Promise<DashesUser[]> {
         const route = `/v2/dashes/${dash_id}/dashes_users`;
         return await this.base.get(route, params);
     }
