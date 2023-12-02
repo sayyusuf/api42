@@ -1,7 +1,5 @@
 
 import axios from "axios";
-import { trace } from "console";
-import { AnyTxtRecord } from "dns";
 import { ApiData } from "./types";
 
 type Auth42 = {
@@ -83,7 +81,6 @@ export class BaseApi42
 				if (res.data.length == 0)
 					return data;
 				data.push(...res.data);
-				console.error(res.data)
 				pack.params.page = 1 + Number(res.headers['x-page']);
 			}
 			else
