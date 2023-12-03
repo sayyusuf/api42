@@ -1,0 +1,33 @@
+export type CursusUsersParams = {
+	user_id?: string;
+  cursus_id?: string;
+  sort?: "id" | "cursus_id" | "user_id" | "created_at" | "updated_at" | "end_at" | "begin_at" | "has_coalition" | "blackholed_at" | "level";
+  "filter[id]"?: number[];
+  "filter[cursus_id]"?: string[];
+  "filter[user_id]"?: string[];
+  "filter[created_at]"?: string[];
+  "filter[updated_at]"?: string[];
+  "filter[end_at]"?: string[];
+  "filter[begin_at]"?: string[];
+  "filter[has_coalition]"?: boolean[];
+  "filter[blackholed_at]"?: string[];
+  "filter[level]"?: number[];
+  "filter[active]"?: boolean[];
+  "filter[campus_id]"?: string[];
+  "filter[end]"?: boolean[];
+  "filter[future]"?: boolean[];
+  "filter[blackholed]"?: boolean[];
+  "range[id]"?: string;
+  "range[cursus_id]"?: string;
+  "range[user_id]"?: string;
+  "range[created_at]"?: string;
+  "range[updated_at]"?: string;
+  "range[end_at]"?: string;
+  "range[begin_at]"?: string;
+  "range[has_coalition]"?: boolean;
+  "range[blackholed_at]"?: string;
+  "range[level]"?: number;
+  page?: number;
+  "page[number]"?: number;
+  "page[size]"?: number;
+}
