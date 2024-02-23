@@ -1,6 +1,4 @@
 import axios from "axios";
-import { trace } from "console";
-import { AnyTxtRecord } from "dns";
 import { ApiData } from "./types";
 
 type Auth42 = {
@@ -64,7 +62,6 @@ export class BaseApi42
 			responseType: 'json', 
 			responseEncoding: 'utf8',
 		};
-		if (params[params])
 		let res: any;
 		do {
 			try{
@@ -79,7 +76,6 @@ export class BaseApi42
 				else throw err;
 			}
 			if (res.headers['x-per-page'] && res.headers['x-page']){
-				console.table(res.headers)
 				if (res.data.length == 0)
 					return data;
 				data.push(...res.data);
@@ -87,7 +83,7 @@ export class BaseApi42
 			}
 			else
 				return res.data;
-		} while (res.headers['x-total'] && res.headers['x-per-page'] && res.headers['x-page'] && res.headers['x-per-page'] * res.headers['x-page'] < Number(res.headers['x-total']))
+		} while (0)
 		
 		return data;
 	}
